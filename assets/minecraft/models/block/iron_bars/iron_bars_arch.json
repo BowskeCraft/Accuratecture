@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/iron_bars_arch",
+		"particle": "block/dark_steel"
+	},
+	"elements": [
+		{
+			"from": [8, 4, -8],
+			"to": [8, 20, 8],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1","cullface":"down"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#1","cullface":"down"}
+			}
+		}
+	]
+}

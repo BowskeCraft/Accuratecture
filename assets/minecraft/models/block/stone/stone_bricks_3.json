@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/parents/cube_bricks",
+    "textures":{
+        "top":"minecraft:block/stone_bricks_top_3",
+        "d":"minecraft:block/stone_bricks_top_3",
+        "ns":"minecraft:block/stone_bricks_ns",
+        "ew":"minecraft:block/stone_bricks_ew"
+    }
+}

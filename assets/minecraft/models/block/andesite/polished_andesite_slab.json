@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/parents/slab_bricks",
+    "textures":{
+        "top":"minecraft:block/polished_andesite",
+        "d":"minecraft:block/polished_andesite",
+        "ns":"minecraft:block/polished_andesite_slab",
+        "ew":"minecraft:block/polished_andesite_slab"
+    }
+}

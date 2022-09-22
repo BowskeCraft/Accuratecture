@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "stone_bricks_top_ne",
+	"elements": [
+		{
+			"from": [8, 0, 0],
+			"to": [16, 8, 8],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#ns","cullface":"north"},
+				"east": {"uv": [8, 8, 16, 16], "texture": "#ew","cullface":"east"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#ns"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#ew"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#missing","cullface":"up"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#top_1","cullface":"down"}
+			}
+		},
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#ns","cullface":"north"},
+				"east": {"uv": [8, 0, 16, 8], "texture": "#ew","cullface":"east"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#ns","cullface":"south"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#ew","cullface":"west"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#top_0","cullface":"up"},
+				"down": {"uv": [0, 8, 16, 16], "texture": "#top_3"}
+			}
+		},
+		{
+			"from": [0, 8, 8],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#ns","cullface":"north"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#ew","cullface":"east"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#ns","cullface":"south"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#ew","cullface":"west"},
+				"up": {"uv": [0, 8, 16, 16], "texture": "#top_0","cullface":"up"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#top_1"}
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "stone_bricks_wall_n.json",
+	"textures": {
+		"particle": "block/stone_pillar",
+		"ew": "block/stone_pillar",
+		"ns": "block/stone_bricks_ns"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 16], "texture": "#ew"},
+				"east": {"uv": [9, 0, 15, 16], "texture": "#ew"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#ew"},
+				"west": {"uv": [1, 0, 7, 16], "texture": "#ew"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#ns"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#ns"}
+			}
+		}
+	]
+}

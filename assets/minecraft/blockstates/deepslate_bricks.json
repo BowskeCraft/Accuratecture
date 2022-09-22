@@ -1,0 +1,10 @@
+{
+    "variants":{
+        "":[
+            {"model":"minecraft:block/deepslate/deepslate_bricks_0"},
+            {"model":"minecraft:block/deepslate/deepslate_bricks_1"},
+            {"model":"minecraft:block/deepslate/deepslate_bricks_2"},
+            {"model":"minecraft:block/deepslate/deepslate_bricks_3"}
+        ]
+    }
+}

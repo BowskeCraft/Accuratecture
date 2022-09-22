@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/parents/cube_bricks",
+    "textures":{
+        "top":"minecraft:block/deepslate_bricks_top_2",
+        "d":"minecraft:block/deepslate_bricks_top_2",
+        "ns":"minecraft:block/deepslate_bricks_ns",
+        "ew":"minecraft:block/deepslate_bricks_ew"
+    }
+}

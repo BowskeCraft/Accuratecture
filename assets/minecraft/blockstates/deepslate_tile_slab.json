@@ -1,0 +1,19 @@
+{
+    "variants": {
+      "type=bottom": [
+        {"model":"minecraft:block/deepslate/deepslate_tile_slab_0"},
+        {"model":"minecraft:block/deepslate/deepslate_tile_slab_1"},
+        {"model":"minecraft:block/deepslate/deepslate_tile_slab_2"},
+        {"model":"minecraft:block/deepslate/deepslate_tile_slab_3"}
+      ],
+      "type=double": {
+        "model": "minecraft:block/deepslate_tiles"
+      },
+      "type=top": [
+        {"model": "minecraft:block/deepslate/deepslate_tile_slab_top_0"},
+        {"model": "minecraft:block/deepslate/deepslate_tile_slab_top_1"},
+        {"model": "minecraft:block/deepslate/deepslate_tile_slab_top_2"},
+        {"model": "minecraft:block/deepslate/deepslate_tile_slab_top_3"}
+      ]
+    }
+  }

@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"ew": "block/bricks_ew",
+		"ns": "block/bricks_ns",
+		"ew_s": "block/bricks_ew_end",
+		"top_s_st": "block/bricks_top_s_st",
+		"particle": "block/bricks_ew"
+	},
+	"elements": [
+		{
+			"from": [8, -0.1, 5],
+			"to": [16, 9.9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 6, 8, 16], "texture": "#ns"},
+				"east": {"uv": [0, 6, 6, 16], "texture": "#ew","cullface":"east"},
+				"south": {"uv": [8, 6, 16, 16], "texture": "#ns"},
+				"west": {"uv": [8, 6, 14, 16], "texture": "#ew","cullface":"west"},
+				"up": {"uv": [0, 0, 6, 8], "rotation": 270, "texture": "#top_s_st"},
+				"down": {"uv": [0, 0, 8, 6], "texture": "#top_s_st","cullface":"down"}
+			}
+		},
+		{
+			"from": [8, 9.9, 4.5],
+			"to": [16, 13.9, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 4], "texture": "#ew_s"},
+				"east": {"uv": [4, 4, 11, 8], "texture": "#ew"},
+				"south": {"uv": [8, 0, 16, 4], "texture": "#ew_s"},
+				"west": {"uv": [4, 0, 11, 4], "texture": "#ns","cullface":"west"},
+				"up": {"uv": [8, 0, 16, 7], "rotation": 180, "texture": "#top_s_st"},
+				"down": {"uv": [0, 0, 8, 7], "texture": "#top_s_st"}
+			}
+		}
+	]
+}

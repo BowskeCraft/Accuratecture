@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_stairs_bol_sw",
+	"textures": {
+		"ns": "block/mossy_stone_bricks_ns",
+		"ew": "block/mossy_stone_bricks_ew",
+		"particle": "block/mossy_stone_bricks_top_3",
+		"top_0": "block/mossy_stone_bricks_top_0",
+		"top_3": "block/mossy_stone_bricks_top_3"
+	}
+}

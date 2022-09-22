@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/wall_ew_tall",
+	"textures": {
+		"ew": "block/stone_bricks_ew",
+		"ns": "block/stone_bricks_ns",
+		"top": "block/stone_bricks_top_wall",
+		"particle": "block/stone_bricks_ew"
+	}
+}

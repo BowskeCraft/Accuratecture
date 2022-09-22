@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/bricks_ew",
+		"1": "block/bricks_ns",
+		"5": "block/bricks_top_s_st",
+		"particle": "block/bricks_ew"
+	},
+	"elements": [
+		{
+			"from": [8, -0.1, 5],
+			"to": [16, 15.9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"east": {"uv": [8, 0, 14, 16], "texture": "#0","cullface":"east"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 6, 16], "texture": "#0","cullface":"west"},
+				"up": {"uv": [8, 0, 16, 6], "rotation": 180, "texture": "#5", "cullface": "up"},
+				"down": {"uv": [0, 0, 6, 8], "rotation": 90, "texture": "#5", "cullface": "down"}
+			}
+		}
+	]
+}

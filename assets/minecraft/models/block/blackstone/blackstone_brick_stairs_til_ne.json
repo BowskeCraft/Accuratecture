@@ -1,0 +1,12 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_stairs_til_ne",
+	"textures": {
+		"particle": "block/blackstone_bricks_top_1",
+		"ns": "block/blackstone_bricks_ns",
+		"ew": "block/blackstone_bricks_ew",
+		"top_1": "block/blackstone_bricks_top_1",
+		"top_2": "block/blackstone_bricks_top_2",
+		"top_3": "block/blackstone_bricks_top_3"
+	}
+}

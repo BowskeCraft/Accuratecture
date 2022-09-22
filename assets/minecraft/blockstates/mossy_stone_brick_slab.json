@@ -1,0 +1,19 @@
+{
+    "variants": {
+      "type=bottom": [
+        {"model":"minecraft:block/stone/mossy_stone_brick_slab_0"},
+        {"model":"minecraft:block/stone/mossy_stone_brick_slab_1"},
+        {"model":"minecraft:block/stone/mossy_stone_brick_slab_2"},
+        {"model":"minecraft:block/stone/mossy_stone_brick_slab_3"}
+      ],
+      "type=double": {
+        "model": "minecraft:block/mossy_stone_bricks"
+      },
+      "type=top": [
+        {"model": "minecraft:block/stone/mossy_stone_brick_slab_top_0"},
+        {"model": "minecraft:block/stone/mossy_stone_brick_slab_top_1"},
+        {"model": "minecraft:block/stone/mossy_stone_brick_slab_top_2"},
+        {"model": "minecraft:block/stone/mossy_stone_brick_slab_top_3"}
+      ]
+    }
+  }

@@ -1,0 +1,7 @@
+{
+    "variants":{
+        "":{
+            "model":"minecraft:block/pot/potted_oak_sapling"
+        }
+    }
+}

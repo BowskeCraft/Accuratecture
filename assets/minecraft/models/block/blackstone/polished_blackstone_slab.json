@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/parents/slab_bricks",
+    "textures":{
+        "top":"minecraft:block/polished_blackstone",
+        "d":"minecraft:block/polished_blackstone",
+        "ns":"minecraft:block/polished_blackstone_slab",
+        "ew":"minecraft:block/polished_blackstone_slab"
+    }
+}

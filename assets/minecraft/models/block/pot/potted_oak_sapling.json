@@ -1,0 +1,6 @@
+{
+	"parent":"block/pot/large_pot",
+	"textures": {
+		"plant": "block/oak_sapling"
+	}
+}

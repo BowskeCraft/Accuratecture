@@ -1,0 +1,13 @@
+{
+    "variants":{
+        "":[
+            {"model":"minecraft:block/potted_cactus","weight":2},
+            {"model":"minecraft:block/pot/potted_succulents_echeveria","weight":2},
+            {"model":"minecraft:block/pot/potted_cactus_1","weight":1},
+            {"model":"minecraft:block/pot/potted_cactus_2","weight":3},
+            {"model":"minecraft:block/pot/potted_cactus_3","weight":3},
+            {"model":"minecraft:block/pot/potted_cactus_4","weight":3}
+
+        ]
+    }
+}
