@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_stairs_bst_s",
+	"textures": {
+		"ns": "block/end_stone_bricks_ns",
+		"ew": "block/end_stone_bricks_ew",
+		"particle": "block/end_stone_bricks_top_0",
+		"top_0": "block/end_stone_bricks_top_0",
+		"top_1":"block/end_stone_bricks_top_1"
+	}
+}

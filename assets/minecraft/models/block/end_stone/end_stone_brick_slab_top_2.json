@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/parents/slab_top_bricks",
+    "textures":{
+        "ns":"minecraft:block/end_stone_bricks_ns",
+        "ew":"minecraft:block/end_stone_bricks_ew",
+        "top":"minecraft:block/end_stone_bricks_top_2",
+        "d":"#top"
+    }
+}
