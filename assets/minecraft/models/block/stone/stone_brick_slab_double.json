@@ -1,9 +1,0 @@
-{
-    "parent":"minecraft:block/parents/cube_bricks",
-    "textures":{
-        "top":"minecraft:block/stone_bricks",
-        "d":"minecraft:block/stone_rosette",
-        "ns":"minecraft:block/stone_corinthian_capital",
-        "ew":"#ns"
-    }
-}

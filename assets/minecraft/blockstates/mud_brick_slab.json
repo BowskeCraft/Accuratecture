@@ -4,7 +4,7 @@
         "model": "minecraft:block/mud/mud_brick_slab"
       },
       "type=double": {
-        "model": "minecraft:block/mud_bricks"
+        "model": "minecraft:block/mud/mud_brick_pillar"
       },
       "type=top": {
         "model": "minecraft:block/mud/mud_brick_slab_top"
