@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/template_wall_side",
 	"textures": {
-		"3": "block/bricks_ns_s",
-		"4": "block/bricks_ew_s",
+		"3": "block/bricks_ns_end",
+		"4": "block/bricks_ew_end",
 		"ns": "block/bricks_ns",
 		"ew": "block/bricks_ew",
 		"particle": "block/bricks_top_s_st",

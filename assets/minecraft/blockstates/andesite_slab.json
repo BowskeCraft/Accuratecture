@@ -4,7 +4,7 @@
         "model": "minecraft:block/andesite_slab"
       },
       "type=double": {
-        "model": "minecraft:block/andesite/andesite_slab_double"
+        "model": "minecraft:block/andesite/andesite_pillar"
       },
       "type=top": {
         "model": "minecraft:block/andesite_slab_top"

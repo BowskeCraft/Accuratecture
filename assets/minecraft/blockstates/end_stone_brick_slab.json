@@ -7,7 +7,7 @@
         {"model":"minecraft:block/end_stone/end_stone_brick_slab_3"}
       ],
       "type=double": {
-        "model": "minecraft:block/end_stone_bricks"
+        "model": "minecraft:block/end_stone/end_stone_brick_pillar"
       },
       "type=top": [
         {"model": "minecraft:block/end_stone/end_stone_brick_slab_top_0"},

@@ -7,7 +7,7 @@
         {"model":"minecraft:block/stone/stone_brick_slab_3"}
       ],
       "type=double": {
-        "model": "minecraft:block/stone/stone_brick_pillar"
+        "model": "minecraft:block/stone/stone_brick_slab_double"
       },
       "type=top": [
         {"model": "minecraft:block/stone/stone_brick_slab_top_0"},
