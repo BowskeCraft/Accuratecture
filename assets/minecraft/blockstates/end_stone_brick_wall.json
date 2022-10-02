@@ -13,7 +13,7 @@
           "model": "minecraft:block/end_stone/end_stone_brick_wall_post_low"
         },
         "when": {
-          "north":"low","south":"low","east":"low","west":"low"
+          "north":"low","south":"low","east":"low","west":"low","up":"false"
         }
      },
      {
@@ -21,7 +21,7 @@
         "model": "minecraft:block/end_stone/end_stone_brick_wall_post"
       },
       "when": {
-        "north":"tall","south":"tall","east":"tall","west":"tall"
+        "north":"tall","south":"tall","east":"tall","west":"tall","up":"false"
       }
      },
       {
