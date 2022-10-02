@@ -1,37 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "stone_bricks_wall_n.json",
+	"parent": "minecraft:block/parents/large_brick_wall_ew",
 	"textures": {
 		"ew": "block/stone_bricks_ew",
 		"ns": "block/stone_bricks_ns",
-		"top": "block/stone_bricks_top_wall",
+		"top_wall": "block/stone_bricks_top_wall",
 		"particle": "block/stone_bricks_ew"
-	},
-	"elements": [
-		{
-			"from": [8, -0.1, 5],
-			"to": [16, 7.9, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
-			"faces": {
-				"north": {"uv": [0, 8, 8, 16], "texture": "#ns"},
-				"east": {"uv": [1, 8, 7, 16], "texture": "#ew","cullface":"east"},
-				"south": {"uv": [8, 8, 16, 16], "texture": "#ns"},
-				"west": {"uv": [9, 8, 15, 16], "texture": "#ew","cullface":"west"},
-				"up": {"uv": [0, 1, 8, 7], "rotation": 180, "texture": "#top","cullface":"up"},
-				"down": {"uv": [0, 1, 8, 7], "rotation": 180, "texture": "#top","cullface":"down"}
-			}
-		},
-		{
-			"from": [8, 7.9, 4.3],
-			"to": [16, 13.9, 11.7],
-			"faces": {
-				"north": {"uv": [0, 2, 8, 8], "texture": "#ns"},
-				"east": {"uv": [9, 1, 16, 7], "texture": "#ew"},
-				"south": {"uv": [8, 2, 16, 8], "texture": "#ns"},
-				"west": {"uv": [0, 1, 7, 7], "texture": "#ew","cullface":"west"},
-				"up": {"uv": [8, 8, 16, 16], "texture": "#top"},
-				"down": {"uv": [8, 8, 16, 16], "texture": "#ns"}
-			}
-		}
-	]
+	}
 }

@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent":"minecraft:block/templete_wall_side_tall",
+	"textures": {
+		"side": "block/mud_bricks",
+		"top": "block/mud_bricks_top",
+		"particle": "#top"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 0],
+			"to": [11, 16, 8],
+			"faces": {
+				"north": {"uv": [1, 0, 7, 16], "texture": "#top","cullface":"north"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [1, 0, 7, 16], "texture": "#top","cullface":"south"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#side"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#top","cullface":"up"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#top","cullface":"down"}
+			}
+		}
+	]
+}

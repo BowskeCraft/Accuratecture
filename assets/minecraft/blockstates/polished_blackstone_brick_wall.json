@@ -2,26 +2,15 @@
   "multipart": [
      {
     "apply":{
-      "model":"minecraft:block/stone/stone_brick_wall_post"
+      "model":"minecraft:block/blackstone/blackstone_brick_wall_post"
        },
     "when" : {
-      "up":"true","north":"none","south":"none","east":"none","west":"none"
+      "up":"true"
        }
      },
      {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_post"
-        },
-        "when": {"OR":[
-          {"up": "true","north":"low|tall"},
-          {"up": "true","south":"low|tall"},
-          {"up": "true","east":"low|tall"},
-          {"up": "true","west":"low|tall"}
-        ]}
-     },
-     {
-        "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_post_low"
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_post_low"
         },
         "when": {
           "north":"low","south":"low","east":"low","west":"low"
@@ -29,7 +18,7 @@
      },
      {
       "apply": {
-        "model": "minecraft:block/stone/stone_brick_wall_post"
+        "model": "minecraft:block/blackstone/blackstone_brick_wall_post"
       },
       "when": {
         "north":"tall","south":"tall","east":"tall","west":"tall"
@@ -37,7 +26,7 @@
      },
       {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_ns",
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_ns",
           "uvlock": true
         },
         "when": {
@@ -46,7 +35,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_ns",
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_ns",
           "uvlock": true,
           "y": 180
         },
@@ -56,7 +45,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_ew",
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_ew",
           "uvlock": true
         },
         "when": {
@@ -65,7 +54,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_ew",
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_ew",
           "uvlock": true,
           "y": 180
         },
@@ -75,7 +64,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_ns_tall",
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_ns_tall",
           "uvlock": true
         },
         "when": {
@@ -84,7 +73,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_ns_tall",
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_ns_tall",
           "uvlock": true,
           "y": 180
         },
@@ -94,7 +83,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_ew_tall",
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_ew_tall",
           "uvlock": true,
           "y":0
         },
@@ -104,7 +93,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/stone/stone_brick_wall_ew_tall",
+          "model": "minecraft:block/blackstone/blackstone_brick_wall_ew_tall",
           "uvlock": true,
           "y": 180
         },

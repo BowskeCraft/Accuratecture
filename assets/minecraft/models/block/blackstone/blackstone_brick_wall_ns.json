@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_wall_ns",
+	"textures": {
+		"particle": "block/blackstone_bricks_ew",
+		"ew": "block/blackstone_bricks_ew",
+		"ns": "block/blackstone_bricks_ns",
+		"top_wall": "block/blackstone_bricks_top_wall"
+	}
+}

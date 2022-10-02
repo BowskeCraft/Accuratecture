@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent":"minecraft:block/templete_wall_post",
+	"textures": {
+		"top": "block/mud_bricks_top",
+		"particle": "#top"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#top"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#top"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#top"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#top"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#top","cullface":"up"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#top","cullface":"down"}
+			}
+		}
+	]
+}

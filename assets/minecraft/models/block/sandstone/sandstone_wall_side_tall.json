@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"top":"minecraft:block/sandstone_top",
+		"bottom":"minecraft:block/sandstone_bottom",
+		"particle":"minecraft:block/sandstone"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 0],
+			"to": [11, 16, 8],
+			"faces": {
+				"north": {"uv": [5, 0, 11, 16], "texture": "#bottom","cullface":"north"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [5, 0, 11, 16], "texture": "#bottom","cullface":"south"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#bottom"},
+				"up": {"uv": [5, 0, 11, 8], "texture": "#top","cullface":"up"},
+				"down": {"uv": [5, 0, 11, 8], "texture": "#bottom","cullface":"down"}
+			}
+		}
+	]
+}

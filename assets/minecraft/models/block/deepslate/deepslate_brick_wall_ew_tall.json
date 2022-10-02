@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/parents/wall_ew_tall",
+    "textures":{
+        "ns":"minecraft:block/deepslate_bricks_ns",
+        "ew":"minecraft:block/deepslate_bricks_ew",
+        "top":"minecraft:block/deepslate_bricks_top_wall"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent":"minecraft:block/parents/wall_post_column",
+    "textures":{
+        "side":"minecraft:block/blackstone_pillar",
+        "end":"minecraft:block/blackstone"
+    }
+}

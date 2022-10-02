@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/templete_wall_post",
+	"textures": {
+		"particle":"#top_wall"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#top_2"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#top_3"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#top_2"},
+				"west": {"uv": [8, 0, 16, 16], "texture": "#top_3"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#top_wall","cullface":"up"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#top_wall","cullface":"down"}
+			}
+		}
+	]
+}

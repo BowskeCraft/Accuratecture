@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_wall_post_low",
+	"textures": {
+		"top_wall": "block/end_stone_bricks_top_wall",
+		"particle": "block/end_stone_bricks_ew",
+		"ew": "block/end_stone_bricks_ew",
+		"ns": "block/end_stone_bricks_ns"
+	}
+}
