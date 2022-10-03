@@ -1,7 +1,7 @@
 {
     "parent":"minecraft:block/cube_bottom_top",
     "textures":{
-        "top":"minecraft:block/stone_bricks",
+        "top":"minecraft:block/stone_bricks_top_tile",
         "bottom":"minecraft:block/stone_rosette",
         "side":"minecraft:block/stone_corinthian_capital"
     }
