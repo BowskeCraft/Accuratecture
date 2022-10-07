@@ -1,5 +1,5 @@
 {
-    "parent":"minecraft:block/parents/stairs_til_ne",
+    "parent":"minecraft:block/parents/stairs_til_sw",
 	"textures": {
 		"ns": "block/bricks_ns",
 		"ew": "block/bricks_ew",
