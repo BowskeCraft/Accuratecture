@@ -1,0 +1,200 @@
+{
+    "multipart": [
+      {
+        "apply": {
+          "model": "minecraft:block/deepslate_tile_wall_post"
+        },
+        "when": {
+          "up": "true"
+        }
+      },
+      {
+        "apply": [
+          {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_0",
+          "uvlock": true
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_1",
+          "uvlock": true
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_2",
+          "uvlock": true
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_3",
+          "uvlock": true
+        }
+      ],
+        "when": {
+          "north": "low"
+        }
+      },
+      {
+        "apply": [
+          {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_0",
+          
+          "y": 90
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_1",
+          
+          "y": 90
+        },{
+
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_2",
+          
+          "y": 90
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_3",
+          
+          "y": 90
+        }
+      ],
+        "when": {
+          "east": "low"
+        }
+      },
+      {
+        "apply": [
+          {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_0",
+          
+          "y": 180
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_1",
+          
+          "y": 180
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_2",
+          
+          "y": 180
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_3",
+          
+          "y": 180
+        }
+      ],
+        "when": {
+          "south": "low"
+        }
+      },
+      {
+        "apply": [
+          {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_0",
+          
+          "y": 270
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_1",
+          
+          "y": 270
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_2",
+          
+          "y": 270
+        },
+        {
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_3",
+          
+          "y": 270
+        }
+      ],
+        "when": {
+          "west": "low"
+        }
+      },
+      {
+        "apply": [{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_0",
+          "uvlock": true
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_1",
+          "uvlock": true
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_2",
+          "uvlock": true
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_3",
+          "uvlock": true
+        }],
+        "when": {
+          "north": "tall"
+        }
+      },
+      {
+        "apply": [{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_0",
+          "uvlock": true,
+          "y": 90
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_1",
+          "uvlock": true,
+          "y": 90
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_2",
+          "uvlock": true,
+          "y": 90
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_3",
+          "uvlock": true,
+          "y": 90
+        }],
+        "when": {
+          "east": "tall"
+        }
+      },
+      {
+        "apply": [{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_0",
+          "uvlock": true,
+          "y": 180
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_1",
+          "uvlock": true,
+          "y": 180
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_2",
+          "uvlock": true,
+          "y": 180
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_3",
+          "uvlock": true,
+          "y": 180
+        }],
+        "when": {
+          "south": "tall"
+        }
+      },
+      {
+        "apply": [{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_0",
+          "uvlock": true,
+          "y": 270
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_1",
+          "uvlock": true,
+          "y": 270
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_2",
+          "uvlock": true,
+          "y": 270
+        },{
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_3",
+          "uvlock": true,
+          "y": 270
+        }],
+        "when": {
+          "west": "tall"
+        }
+      }
+    ]
+  }

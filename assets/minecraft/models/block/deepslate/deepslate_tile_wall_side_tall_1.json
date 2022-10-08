@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/parents/wall_ns_tall",
+    "textures":{
+        "ew":"block/deepslate_tiles_side_1",
+        "ns":"#ew",
+        "top":"block/deepslate_tiles_top_1"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/deepslate/deepslate_tile_wall_side_base",
+    "textures":{
+        "side":"minecraft:block/deepslate_tiles_side_2",
+        "top":"minecraft:block/deepslate_tiles_top_2"
+    }
+
+}
