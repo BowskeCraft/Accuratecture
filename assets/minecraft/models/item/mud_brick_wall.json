@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/wall_column_inventory",
+	"textures": {
+		"side": "block/mud_bricks",
+		"top": "block/mud_bricks_top",
+		"bottom": "#top",
+		"pillar": "#top"
+	}
+}

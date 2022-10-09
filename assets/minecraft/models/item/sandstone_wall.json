@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/wall_column_inventory",
+	"textures": {
+		"side": "block/sandstone",
+		"top": "block/sandstone_top",
+		"bottom": "block/sandstone_bottom",
+		"pillar": "block/sandstone_pillar"
+	}
+}

@@ -26,8 +26,7 @@
     },
       {
         "apply": {
-          "model": "minecraft:block/bricks/brick_wall_ns",
-          "uvlock": true
+          "model": "minecraft:block/bricks/brick_wall_n"
         },
         "when": {
           "north": "low"
@@ -35,9 +34,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/bricks/brick_wall_ns",
-          "uvlock": true,
-          "y": 180
+          "model": "minecraft:block/bricks/brick_wall_s"
         },
         "when": {
           "south": "low"
@@ -45,8 +42,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/bricks/brick_wall_ew",
-          "uvlock": true
+          "model": "minecraft:block/bricks/brick_wall_e"
         },
         "when": {
           "east": "low"
@@ -54,9 +50,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/bricks/brick_wall_ew",
-          "uvlock": true,
-          "y": 180
+          "model": "minecraft:block/bricks/brick_wall_w"
         },
         "when": {
           "west": "low"

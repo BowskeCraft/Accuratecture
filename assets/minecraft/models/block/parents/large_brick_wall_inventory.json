@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"parent":"minecraft:block/wall_inventory",
+	"textures": {
+		"particle": "#top_wall"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 0],
+			"to": [11, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 6, 16], "texture": "#ns"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#ew"},
+				"south": {"uv": [0, 8, 6, 16], "texture": "#ns"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#ew"},
+				"down": {"uv": [0, 0, 6, 16], "texture": "#top_2"}
+			}
+		},
+		{
+			"from": [4.3, 8, 0],
+			"to": [11.7, 13, 8],
+			"faces": {
+				"north": {"uv": [1, 2, 8, 6], "texture": "#top_wall"},
+				"east": {"uv": [8, 3, 16, 8], "texture": "#ew"},
+				"west": {"uv": [0, 3, 8, 8], "texture": "#ew"},
+				"up": {"uv": [0, 8, 7, 16], "texture": "#top_wall"},
+				"down": {"uv": [0, 8, 7, 16], "texture": "#top_3"}
+			}
+		},
+		{
+			"from": [4.3, 8, 8],
+			"to": [11.7, 13, 16],
+			"faces": {
+				"east": {"uv": [0, 3, 8, 8], "texture": "#ew"},
+				"south": {"uv": [0, 0, 7, 4], "texture": "#top_wall"},
+				"west": {"uv": [8, 3, 16, 8], "texture": "#ew"},
+				"up": {"uv": [9, 0, 16, 8], "texture": "#top_wall"},
+				"down": {"uv": [0, 0, 7, 8], "texture": "#top_3"}
+			}
+		},
+		{
+			"from": [4, -0.1, 4],
+			"to": [12, 15.9, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#top_2"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#top_3"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#top_2"},
+				"west": {"uv": [8, 0, 16, 16], "texture": "#top_3"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#top_wall"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#top_wall"}
+			}
+		}
+	]
+}

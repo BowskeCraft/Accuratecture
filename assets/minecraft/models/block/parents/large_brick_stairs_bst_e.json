@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:block/parents/stairs_bst_n",
+	"parent": "minecraft:block/parents/stairs_bst_e",
 	"elements": [
 		{
 			"from": [0, 0, 0],

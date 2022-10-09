@@ -1,0 +1,10 @@
+{
+    "parent":"minecraft:block/parents/large_brick_wall_inventory",
+    "textures"  : {
+        "ns":"minecraft:block/blackstone_bricks_ns",
+        "ew":"minecraft:block/blackstone_bricks_ew",
+        "top_wall":"minecraft:block/blackstone_bricks_top_wall",
+        "top_2":"#ns",
+        "top_3":"#ew"
+    }
+}

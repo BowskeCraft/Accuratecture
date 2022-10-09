@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
 	"textures": {
 		"particle": "#top"
 	},
