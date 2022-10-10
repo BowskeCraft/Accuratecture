@@ -25,7 +25,6 @@
 				"east": {"uv": [8, 8, 16, 16], "texture": "#ew", "cullface": "east"},
 				"south": {"uv": [8, 8, 16, 16], "texture": "#ns_s"},
 				"west": {"uv": [0, 8, 8, 16], "texture": "#ew_s"},
-				"up": {"uv": [8, 8, 16, 16], "rotation": 270, "texture": "#top_s_lr", "cullface": "up"},
 				"down": {"uv": [0, 8, 8, 0], "rotation": 90, "texture": "#top_s_lr", "cullface": "down"}
 			}
 		}
