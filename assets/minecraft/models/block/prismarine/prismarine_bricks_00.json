@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/parents/cube_bricks",
+    "textures":{
+        "top":"minecraft:block/prismarine_bricks_06",
+        "d":"minecraft:block/prismarine_bricks_07",
+        "ns":"minecraft:block/prismarine_bricks_01",
+        "ew":"minecraft:block/prismarine_bricks_00"
+    }
+}
