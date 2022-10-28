@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "nether_brick_fence_post",
+	"textures": {
+		"particle": "block/nether_brick_fence",
+		"fence": "block/nether_brick_fence"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 0],
+			"to": [9, 2, 6],
+			"faces": {
+				"north": {"uv": [14, 10, 16, 13], "texture": "#fence", "cullface": "north"},
+				"east": {"uv": [8, 0, 16, 2], "texture": "#fence"},
+				"west": {"uv": [8, 8, 16, 10], "texture": "#fence"},
+				"up": {"uv": [8, 0, 16, 2], "rotation": 90, "texture": "#fence"},
+				"down": {"uv": [8, 8, 16, 10], "rotation": 90, "texture": "#fence"}
+			}
+		},
+		{
+			"from": [7, 14, 0],
+			"to": [9, 16, 6],
+			"faces": {
+				"north": {"uv": [14, 13, 16, 16], "texture": "#fence", "cullface": "north"},
+				"east": {"uv": [10, 8, 16, 10], "texture": "#fence"},
+				"west": {"uv": [10, 0, 16, 2], "texture": "#fence"},
+				"up": {"uv": [10, 0, 16, 2], "rotation": 90, "texture": "#fence"},
+				"down": {"uv": [10, 8, 16, 10], "rotation": 90, "texture": "#fence"}
+			}
+		},
+		{
+			"from": [7, 6.5, 0],
+			"to": [9, 9, 6],
+			"faces": {
+				"north": {"uv": [14, 13, 16, 16], "texture": "#fence", "cullface": "north"},
+				"east": {"uv": [10, 5, 16, 8], "texture": "#fence"},
+				"west": {"uv": [10, 2, 16, 5], "texture": "#fence"},
+				"up": {"uv": [10, 8, 16, 10], "rotation": 90, "texture": "#fence"},
+				"down": {"uv": [10, 0, 16, 2], "rotation": 90, "texture": "#fence"}
+			}
+		}
+	]
+}

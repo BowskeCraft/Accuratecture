@@ -4,7 +4,7 @@
 		"particle": "block/bricks_ew",
 		"ew": "block/bricks_ew",
 		"ns": "block/bricks_ns",
-		"ew_s": "block/bricks_ew_end",
+		"ew_end": "block/bricks_ew_end",
 		"top_s_st": "block/bricks_top_s_st"
 	},
 	"elements": [
@@ -20,11 +20,11 @@
 		},
 		{
 			"from": [4.5, 9.9, 0],
-			"to": [11.5, 13.9, 8],
+			"to": [11.5, 13.99, 8],
 			"faces": {
 				"north": {"uv": [4, 0, 11, 4], "texture": "#ns"},
-				"east": {"uv": [16, 0, 8, 4], "texture": "#ew_s"},
-				"west": {"uv": [0, 0, 8, 4], "texture": "#ew_s"},
+				"east": {"uv": [16, 0, 8, 4], "texture": "#ew_end"},
+				"west": {"uv": [0, 0, 8, 4], "texture": "#ew_end"},
 				"up": {"uv": [8, 0, 16, 7], "rotation": 90, "texture": "#top_s_st"},
 				"down": {"uv": [0, 0, 8, 7], "rotation": 90, "texture": "#top_s_st"}
 			}

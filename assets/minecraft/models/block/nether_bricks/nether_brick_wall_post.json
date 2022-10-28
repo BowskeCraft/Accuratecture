@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/bricks/brick_wall_post",
+    "textures":{
+        "top":"minecraft:block/nether_bricks_top_s_st",
+        "ns":"minecraft:block/nether_bricks_ns",
+        "ew":"minecraft:block/nether_bricks_ew"
+    }
+}

@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/parents/wall_ns_tall",
 	"textures": {
-		"ns": "block/bricks_ns",
-		"ew": "block/bricks_ew",
+		"ns": "block/nether_bricks_ns",
+		"ew": "block/nether_bricks_ew",
 		"particle": "#top",
-		"top": "block/bricks_top_s_st"
+		"top": "block/nether_bricks_top_s_st"
 	}
 }
