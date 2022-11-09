@@ -5,6 +5,7 @@
         "ns":"minecraft:block/nether_bricks_ns",
         "ew":"minecraft:block/nether_bricks_ew",
         "ns_end":"minecraft:block/nether_bricks_ns_end",
-        "ew_end":"minecraft:block/nether_bricks_ew_end"
+        "ew_end":"minecraft:block/nether_bricks_ew_end",
+        "particle":"#top_s_st"
     }
 }

@@ -4,7 +4,7 @@
 	"textures": {
 		"ns": "block/bricks_ns",
 		"ew": "block/bricks_ew",
-		"particle": "#top",
+		"particle": "block/bricks_top_s_st",
 		"top": "block/bricks_top_s_st"
 	},
 	"elements": [
@@ -17,8 +17,8 @@
 				"east": {"uv": [3, 0, 11, 16], "texture": "#ew"},
 				"south": {"uv": [3, 0, 11, 16], "texture": "#ns"},
 				"west": {"uv": [4, 0, 12, 16], "texture": "#ew"},
-				"up": {"uv": [4, 0, 12, 8], "rotation": 90, "texture": "#top", "cullface": "up"},
-				"down": {"uv": [4, 0, 12, 8], "rotation": 180, "texture": "#top", "cullface": "down"}
+				"up": {"uv": [6, 0, 14, 8], "rotation": 90, "texture": "#top", "cullface": "up"},
+				"down": {"uv": [6, 0, 14, 8], "rotation": 180, "texture": "#top", "cullface": "down"}
 			}
 		}
 	]
