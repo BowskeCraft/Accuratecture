@@ -7,7 +7,7 @@
         {"model":"minecraft:block/deepslate/deepslate_brick_slab_3"}
       ],
       "type=double": {
-        "model": "minecraft:block/deepslate_bricks"
+        "model": "minecraft:block/deepslate/deepslate_brick_slab_double"
       },
       "type=top": [
         {"model": "minecraft:block/deepslate/deepslate_brick_slab_top_0"},

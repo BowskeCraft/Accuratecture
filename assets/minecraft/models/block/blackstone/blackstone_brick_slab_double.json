@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/cube_column",
+    "textures":{
+        "end":"minecraft:block/blackstone_bricks_top_tile",
+        "side":"minecraft:block/blackstone_corinthian_capital",
+        "particle":"#side"
+    }
+}
