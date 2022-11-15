@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/parents/large_brick_wall_post",
 	"textures": {
-		"top_2": "block/blackstone_bricks_ns",
-		"top_3": "block/blackstone_bricks_ew",
+		"top_2": "block/blackstone_bricks_top_2",
+		"top_3": "block/blackstone_bricks_top_3",
 		"top_wall": "block/blackstone_bricks_top_wall"
 	}
 }
