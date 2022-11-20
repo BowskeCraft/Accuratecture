@@ -1,9 +1,44 @@
 {
-    "parent":"minecraft:block/parents/cube_bricks",
-    "textures":{
-        "top":"minecraft:block/bricks_top_diagonal",
-        "d":"minecraft:block/bricks_top_diagonal",
-        "ns":"minecraft:block/bricks_top_s_st",
-        "ew":"minecraft:block/bricks_top_s_st"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/cube_column",
+	"textures": {
+		"particle": "block/bricks_top_diagonal",
+		"bottom": "block/bricks_top_diagonal",
+		"ew": "block/bricks_ns",
+		"st": "block/bricks_top_s_st"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": { "texture": "#missing", "cullface": "north"},
+				"east": { "texture": "#ew", "cullface": "east"},
+				"south": { "texture": "#missing", "cullface": "south"},
+				"west": { "texture": "#ew", "cullface": "west"},
+				"up": { "texture": "#missing", "cullface": "up"},
+				"down": { "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [-0.01, 0, -0.01],
+			"to": [16.01, 8, 16.01],
+			"faces": {
+				"north": { "texture": "#st", "cullface": "down"},
+				"east": { "texture": "#st", "cullface": "down"},
+				"south": { "texture": "#st", "cullface": "down"},
+				"west": { "texture": "#st", "cullface": "down"}
+			}
+		},
+		{
+			"from": [-0.01, 8, -0.01],
+			"to": [16.01, 16, 16.01],
+			"faces": {
+				"north": { "texture": "#st", "cullface": "up"},
+				"east": { "texture": "#st", "cullface": "up"},
+				"south": { "texture": "#st", "cullface": "up"},
+				"west": { "texture": "#st", "cullface": "up"}
+			}
+		}
+	]
 }
