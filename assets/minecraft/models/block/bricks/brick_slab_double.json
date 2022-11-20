@@ -4,7 +4,9 @@
 	"textures": {
 		"particle": "block/bricks_top_diagonal",
 		"bottom": "block/bricks_top_diagonal",
-		"ew": "block/bricks_ns",
+		"top":"#bottom",
+		"ew": "block/bricks_ew",
+		"ns":"block/bricks_ns",
 		"st": "block/bricks_top_s_st"
 	},
 	"elements": [
@@ -12,11 +14,11 @@
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": { "texture": "#missing", "cullface": "north"},
+				"north": { "texture": "#ns", "cullface": "north"},
 				"east": { "texture": "#ew", "cullface": "east"},
-				"south": { "texture": "#missing", "cullface": "south"},
+				"south": { "texture": "#ns", "cullface": "south"},
 				"west": { "texture": "#ew", "cullface": "west"},
-				"up": { "texture": "#missing", "cullface": "up"},
+				"up": { "texture": "#top", "cullface": "up"},
 				"down": { "texture": "#bottom", "cullface": "down"}
 			}
 		},
