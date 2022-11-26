@@ -114,17 +114,13 @@
       },
       {
         "apply": [{
-          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_0",
-          "uvlock": true
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_0"
         },{
-          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_1",
-          "uvlock": true
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_1"
         },{
-          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_2",
-          "uvlock": true
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_2"
         },{
-          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_3",
-          "uvlock": true
+          "model": "minecraft:block/deepslate/deepslate_tile_wall_side_tall_3"
         }],
         "when": {
           "north": "tall"
