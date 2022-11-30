@@ -3,15 +3,15 @@
 	"parent": "block/parents/cube_bricks",
 	"elements": [
 		{
-			"from": [8, -0.1, 5],
-			"to": [16, 15.9, 11],
+			"from": [8, -0.01, 5],
+			"to": [16, 15.99, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 8, 16], "texture": "#ns"},
 				"east": {"uv": [1, 0, 7, 16], "texture": "#ew","cullface":"east"},
 				"south": {"uv": [8, 0, 16, 16], "texture": "#ns"},
 				"up": {"uv": [0, 1, 8, 7], "rotation": 180, "texture": "#top","cullface":"up"},
-				"down": {"uv": [0, 1, 8, 7], "rotation": 180, "texture": "#top","cullface":"down"}
+				"down": {"uv": [0, 1, 8, 7], "texture": "#top","cullface":"down"}
 			}
 		}
 	]

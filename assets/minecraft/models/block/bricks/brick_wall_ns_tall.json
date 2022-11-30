@@ -4,7 +4,32 @@
 	"textures": {
 		"ns": "block/bricks_ns",
 		"ew": "block/bricks_ew",
+		"ns_end":"block/bricks_ns_end",
+		"ew_end":"block/bricks_ew_end",
 		"particle": "#top",
 		"top": "block/bricks_top_s_st"
-	}
+	},
+	"elements": [
+		{
+			"from": [5, -0.02, 0],
+			"to": [11, 15.98, 8],
+			"faces": {
+				"north": {"uv": [1, 0, 7, 16], "texture": "#ns", "cullface": "north"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#ew"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#ew"},
+				"down": {"uv": [0, 1, 8, 7], "rotation": 90, "texture": "#top", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4.5, 11.99, -0.01],
+			"to": [11.5, 15.99, 8],
+			"faces": {
+				"north": {"uv": [4, 0, 11, 4], "texture": "#ns","cullface":"up"},
+				"east": {"uv": [16, 0, 8, 4], "texture": "#ew_end","cullface":"up"},
+				"west": {"uv": [0, 0, 8, 4], "texture": "#ew_end","cullface":"up"},
+				"up": {"uv": [8, 0, 16, 7], "rotation": 90, "texture": "#top","cullface":"up"},
+				"down": {"uv": [0, 0, 8, 7], "rotation": 90, "texture": "#top","cullface":"up"}
+			}
+		}
+	]
 }
