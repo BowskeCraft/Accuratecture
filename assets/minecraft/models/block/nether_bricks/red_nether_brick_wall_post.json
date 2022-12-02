@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/bricks/brick_wall_post",
+    "textures":{
+        "top":"minecraft:block/red_nether_bricks_top_s_st",
+        "ns":"minecraft:block/red_nether_bricks_ns",
+        "ew":"minecraft:block/red_nether_bricks_ew",
+        "particle":"#top"
+    }
+}

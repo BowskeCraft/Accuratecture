@@ -1,0 +1,13 @@
+{
+    "parent":"minecraft:block/parents/stairs_tol_se",
+	"textures": {
+		"ns": "block/red_nether_bricks_ns",
+		"ew": "block/red_nether_bricks_ew",
+		"particle": "block/red_nether_bricks_top",
+		"top": "block/red_nether_bricks_top",
+		"ns_s": "block/red_nether_bricks_ns_end",
+		"ew_s": "block/red_nether_bricks_ew_end",
+		"top_s_st": "block/red_nether_bricks_top_s_st",
+        "top_s_lr":"block/red_nether_bricks_top_s_outer"
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "parent":"minecraft:block/bricks/brick_wall_w",
+    "textures":{
+        "top_s_st":"minecraft:block/red_nether_bricks_top_s_st",
+        "ns":"minecraft:block/red_nether_bricks_ns",
+        "ew":"minecraft:block/red_nether_bricks_ew",
+        "ns_end":"minecraft:block/red_nether_bricks_ns_end",
+        "ew_end":"minecraft:block/red_nether_bricks_ew_end",
+        "particle":"#top_s_st"
+    }
+}

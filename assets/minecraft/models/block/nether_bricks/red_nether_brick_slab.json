@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/slab_bricks",
+	"textures": {
+		"top": "block/red_nether_bricks_top",
+		"ns": "block/red_nether_bricks_ns_end",
+		"ew": "block/red_nether_bricks_ew_end"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#ns","cullafce":"north"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#ew","cullface":"east"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#ns","cullface":"south"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#ew","cullface":"west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top","cullface":"down"}
+			}
+		}
+	]
+}

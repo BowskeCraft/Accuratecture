@@ -1,0 +1,10 @@
+{
+    "parent":"minecraft:block/bricks/brick_wall_post_low",
+    "textures":{
+        "top":"minecraft:block/red_nether_bricks_top",
+        "ns":"minecraft:block/red_nether_bricks_ns",
+        "ew":"minecraft:block/red_nether_bricks_ew",
+        "ns_end":"minecraft:block/red_nether_bricks_ns_end",
+        "ew_end":"minecraft:block/red_nether_bricks_ew_end"
+    }
+}
