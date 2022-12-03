@@ -2,9 +2,21 @@
     "variants":{
         "":[
             {"model":"minecraft:block/deepslate/deepslate_tiles_0"},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_0","y":90},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_0","y":180},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_0","y":270},
             {"model":"minecraft:block/deepslate/deepslate_tiles_1"},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_1","y":90},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_1","y":180},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_1","y":270},
             {"model":"minecraft:block/deepslate/deepslate_tiles_2"},
-            {"model":"minecraft:block/deepslate/deepslate_tiles_3"}
+            {"model":"minecraft:block/deepslate/deepslate_tiles_2","y":90},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_2","y":180},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_2","y":270},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_3"},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_3","y":90},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_3","y":180},
+            {"model":"minecraft:block/deepslate/deepslate_tiles_3","y":270}
     ]
     }
 }

@@ -1,8 +1,23 @@
 {
 "pack":{
 "pack_format":9,
+"MinecraftVersion":"Java edition 1.19.x",
+
+"pack_name":"Bowkse's Vanilla Expansion",
+"pack_version":"0.1.0-Beta",
 "description":
-"made by §2§lβowske's CraftRoom
-§r§7All textures are not copied fron vanila data"
+		[	{"text":"Bowske's Vanilla Expansion\n"},
+			{"text":"by "},
+			{"text":"βøɯșke's CraftRoom\n","color":"#DBD6A7","bold":true},
+			{"text":"\u26a0use it with vanilla(not programmer art)"}
+		],
+"readme":"
+This is a minecraft resourcepack for Minecraft:Java edition 1.19~\n
+Minecraft:Java Edition の1.19 以上を想定したリソースパックです。\n
+All of image in this pack are original.\n
+含まれる全ての画像ファイルはオリジナルです。\n
+This pack don't assumes another resourcepacks that changes vanilla blocks.\n
+このパックはブロックの見た目を変える他のリソースパックの導入を想定していません。
+"
 	}
 }
