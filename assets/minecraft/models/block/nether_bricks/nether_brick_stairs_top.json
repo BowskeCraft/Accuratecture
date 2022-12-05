@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:block/parents/stairs_top",
+    "textures":{
+        "top":"minecraft:block/nether_bricks_top"
+    }
+}

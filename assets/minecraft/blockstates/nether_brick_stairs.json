@@ -1,180 +1,162 @@
 {
-    "variants":{
-
-        "half=bottom,facing=north,shape=straight":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bst_n",
-            "y":0
+    "multipart":[
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bottom"},
+            "when":{"half":"bottom"}
         },
-        "half=bottom,facing=south,shape=straight":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bst_s",
-            
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bst_n","y":0},
+            "when":{"half":"bottom","facing":"north","shape":"straight"}
         },
-        "half=bottom,facing=west,shape=straight":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bst_w",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bst_n","y":180},
+            "when":{"half":"bottom","facing":"south","shape":"straight"}
         },
-        "half=bottom,facing=east,shape=straight":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bst_e",
-            
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bst_e","y":0},
+            "when":{"half":"bottom","facing":"east","shape":"straight"}
         },
-
-
-        "half=bottom,facing=north,shape=inner_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_nw",
-            "y":0
-        },
-        "half=bottom,facing=west,shape=inner_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_nw",
-            "y":0
-        },
-        "half=bottom,facing=west,shape=inner_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_sw",
-            "y":0
-        },
-        "half=bottom,facing=south,shape=inner_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_sw",
-            "y":0
-        },
-        "half=bottom,facing=south,shape=inner_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_se",
-            "y":0
-        },
-        "half=bottom,facing=east,shape=inner_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_se",
-            "y":0
-        },
-        "half=bottom,facing=east,shape=inner_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_ne",
-            "y":0
-        },
-        "half=bottom,facing=north,shape=inner_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_ne",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bst_e","y":180},
+            "when":{"half":"bottom","facing":"west","shape":"straight"}
         },
 
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_nw","y":0},
+            "when":{"OR":[
+                {"half":"bottom","facing":"north","shape":"inner_left"},
+                {"half":"bottom","facing":"west","shape":"inner_right"}
+            ]}
+        },
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_ne","y":180},
+            "when":{"OR":[
+                {"half":"bottom","facing":"west","shape":"inner_left"},
+                {"half":"bottom","facing":"south","shape":"inner_right"}
+            ]}
+        },
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_nw","y":180},
+            "when":{"OR":[
+                {"half":"bottom","facing":"south","shape":"inner_left"},
+                {"half":"bottom","facing":"east","shape":"inner_right"}
+            ]}
+        },
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bil_ne","y":0},
+            "when":{"OR":[
+                {"half":"bottom","facing":"east","shape":"inner_left"},
+                {"half":"bottom","facing":"north","shape":"inner_right"}
+            ]}
+        },
 
-        "half=bottom,facing=north,shape=outer_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_nw",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_nw","y":0},
+            "when":{"OR":[
+                {"half":"bottom","facing":"north","shape":"outer_left"},
+                {"half":"bottom","facing":"west","shape":"outer_right"}
+            ]}
         },
-        "half=bottom,facing=west,shape=outer_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_nw",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_ne","y":180},
+            "when":{"OR":[
+                {"half":"bottom","facing":"west","shape":"outer_left"},
+                {"half":"bottom","facing":"south","shape":"outer_right"}
+            ]}
         },
-        "half=bottom,facing=west,shape=outer_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_sw",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_nw","y":180},
+            "when":{"OR":[
+                {"half":"bottom","facing":"south","shape":"outer_left"},
+                {"half":"bottom","facing":"east","shape":"outer_right"}
+            ]}
         },
-        "half=bottom,facing=south,shape=outer_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_sw",
-            "y":0
-        },
-        "half=bottom,facing=south,shape=outer_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_se",
-            "y":0
-        },
-        "half=bottom,facing=east,shape=outer_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_se",
-            "y":0
-        },
-        "half=bottom,facing=east,shape=outer_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_ne",
-            "y":0
-        },
-        "half=bottom,facing=north,shape=outer_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_ne",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_bol_ne","y":0},
+            "when":{"OR":[
+                {"half":"bottom","facing":"east","shape":"outer_left"},
+                {"half":"bottom","facing":"north","shape":"outer_right"}
+            ]}
         },
 
         
-        "half=top,facing=north,shape=straight":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tst_n",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_top"},
+            "when":{"half":"top"}
         },
-        "half=top,facing=south,shape=straight":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tst_s",
-            
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_tst_n","y":0},
+            "when":{"half":"top","facing":"north","shape":"straight"}
         },
-        "half=top,facing=west,shape=straight":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tst_w",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_tst_n","y":180},
+            "when":{"half":"top","facing":"south","shape":"straight"}
         },
-        "half=top,facing=east,shape=straight":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tst_e",
-            
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_tst_e","y":0},
+            "when":{"half":"top","facing":"east","shape":"straight"}
         },
-
-
-        "half=top,facing=north,shape=inner_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_til_nw",
-            "y":0
-        },
-        "half=top,facing=west,shape=inner_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_til_nw",
-            "y":0
-        },
-        "half=top,facing=west,shape=inner_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_til_sw",
-            "y":0
-        },
-        "half=top,facing=south,shape=inner_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_til_sw",
-            "y":0
-        },
-        "half=top,facing=south,shape=inner_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_til_se",
-            "y":0
-        },
-        "half=top,facing=east,shape=inner_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_til_se",
-            "y":0
-        },
-        "half=top,facing=east,shape=inner_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_til_ne",
-            "y":0
-        },
-        "half=top,facing=north,shape=inner_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_til_ne",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_tst_e","y":180},
+            "when":{"half":"top","facing":"west","shape":"straight"}
         },
 
-        
-        "half=top,facing=north,shape=outer_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_nw",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_til_nw","y":0},
+            "when":{"OR":[
+                {"half":"top","facing":"north","shape":"inner_left"},
+                {"half":"top","facing":"west","shape":"inner_right"}
+            ]}
         },
-        "half=top,facing=west,shape=outer_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_nw",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_til_ne","y":180},
+            "when":{"OR":[
+                {"half":"top","facing":"west","shape":"inner_left"},
+                {"half":"top","facing":"south","shape":"inner_right"}
+            ]}
         },
-        "half=top,facing=west,shape=outer_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_sw",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_til_nw","y":180},
+            "when":{"OR":[
+                {"half":"top","facing":"south","shape":"inner_left"},
+                {"half":"top","facing":"east","shape":"inner_right"}
+            ]}
         },
-        "half=top,facing=south,shape=outer_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_sw",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_til_ne","y":0},
+            "when":{"OR":[
+                {"half":"top","facing":"east","shape":"inner_left"},
+                {"half":"top","facing":"north","shape":"inner_right"}
+            ]}
         },
-        "half=top,facing=south,shape=outer_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_se",
-            "y":0
+
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_nw","y":0},
+            "when":{"OR":[
+                {"half":"top","facing":"north","shape":"outer_left"},
+                {"half":"top","facing":"west","shape":"outer_right"}
+            ]}
         },
-        "half=top,facing=east,shape=outer_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_se",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_ne","y":180},
+            "when":{"OR":[
+                {"half":"top","facing":"west","shape":"outer_left"},
+                {"half":"top","facing":"south","shape":"outer_right"}
+            ]}
         },
-        "half=top,facing=east,shape=outer_left":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_ne",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_nw","y":180},
+            "when":{"OR":[
+                {"half":"top","facing":"south","shape":"outer_left"},
+                {"half":"top","facing":"east","shape":"outer_right"}
+            ]}
         },
-        "half=top,facing=north,shape=outer_right":{
-            "model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_ne",
-            "y":0
+        {
+            "apply":{"model":"minecraft:block/nether_bricks/nether_brick_stairs_tol_ne","y":0},
+            "when":{"OR":[
+                {"half":"top","facing":"east","shape":"outer_left"},
+                {"half":"top","facing":"north","shape":"outer_right"}
+            ]}
         }
-
-    }
+    ]
 }
