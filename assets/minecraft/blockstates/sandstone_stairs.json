@@ -16,9 +16,6 @@
       "facing=east,half=bottom,shape=outer_right": {
         "model": "minecraft:block/sandstone/sandstone_stairs_outer"
       },
-      "facing=east,half=bottom,shape=straight": {
-        "model": "minecraft:block/sandstone/sandstone_stairs"
-      },
       "facing=north,half=bottom,shape=inner_left": {
         "model": "minecraft:block/sandstone/sandstone_stairs_inner",
         "uvlock": true,
@@ -85,6 +82,14 @@
         "uvlock": true,
         "y": 270
       },
+      "facing=east,half=bottom,shape=straight": {
+        "model": "minecraft:block/sandstone/sandstone_stairs"
+      },
+      "facing=south,half=bottom,shape=straight": {
+        "model": "minecraft:block/sandstone/sandstone_stairs",
+        "uvlock": true,
+        "y": 90
+      },
 
       "facing=east,half=top,shape=inner_left": {
         "model": "minecraft:block/sandstone/sandstone_stairs_upper_inner",
@@ -130,11 +135,6 @@
         "model": "minecraft:block/sandstone/sandstone_stairs_upper",
         "uvlock": true,
         "y": 270
-      },
-      "facing=south,half=bottom,shape=straight": {
-        "model": "minecraft:block/sandstone/sandstone_stairs_upper",
-        "uvlock": true,
-        "y": 90
       },
       "facing=south,half=top,shape=inner_left": {
         "model": "minecraft:block/sandstone/sandstone_stairs_upper_inner",
