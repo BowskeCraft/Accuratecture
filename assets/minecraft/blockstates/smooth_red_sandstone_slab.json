@@ -4,7 +4,7 @@
         "model": "minecraft:block/smooth_red_sandstone_slab"
       },
       "type=double": {
-        "model": "minecraft:block/red_sandstone/red_sandstone_pillar"
+        "model": "minecraft:block/sandstone/red_sandstone_pillar"
       },
       "type=top": {
         "model": "minecraft:block/smooth_red_sandstone_slab_top"
