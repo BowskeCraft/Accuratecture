@@ -1,6 +1,6 @@
 # Bowske-s_Vanilla_Expansion
 A minecraft resourcepack for Minecraft:Java edition 1.19~
-Minecraft:Java Edition の1.19 以上を想定したリソースパックです。
+Minecraft:Java Edition のバージョン1.19 以上を想定したリソースパックです。
 
 All of image in this pack are original.
 含まれる全ての画像ファイルはオリジナルです。

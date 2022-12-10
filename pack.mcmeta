@@ -1,7 +1,7 @@
 {
 "pack":{
-"pack_format":9,
-"MinecraftVersion":"Java edition 1.19.x",
+"pack_format":12,
+"MinecraftVersion":"Java edition 1.19.3~",
 
 "pack_name":"Bowkse's Vanilla Expansion",
 "pack_version":"0.1.0-Beta",
