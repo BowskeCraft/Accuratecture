@@ -1,7 +1,7 @@
 {
     "parent":"minecraft:block/cube_column",
     "textures":{
-        "end":"minecraft:block/polished_andesite",
+        "end":"minecraft:block/polished_andesite_0",
         "side":"minecraft:block/polished_andesite_slab"
     }
 }

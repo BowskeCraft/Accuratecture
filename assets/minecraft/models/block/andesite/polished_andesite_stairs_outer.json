@@ -1,0 +1,7 @@
+{
+    "parent":"minecraft:block/parents/polished_stairs_outer",
+    "textures":{
+        "cube":"minecraft:block/polished_andesite_0",
+        "slab":"minecraft:block/polished_andesite_slab"
+    }
+}

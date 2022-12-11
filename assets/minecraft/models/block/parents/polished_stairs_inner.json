@@ -1,0 +1,44 @@
+{
+    "parent":"minecraft:block/inner_stairs",
+    "textures":{
+        "particle":"#cube"
+    },
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+                "up":{"texture":"#cube"},
+                "down":{"texture":"#cube","cullface":"down"},
+                "north":{"texture":"#cube","cullface":"north"},
+                "south":{"texture":"#cube","cullface":"south"},
+                "east":{"texture":"#cube","cullface":"east"},
+                "west":{"texture":"#cube","cullface":"west"}
+			}
+		},
+		{
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+                "up":{"texture":"#cube","cullface":"up"},
+                "down":{"texture":"#cube","cullface":"down"},
+                "north":{"texture":"#cube","cullface":"north"},
+                "south":{"texture":"#cube","cullface":"south"},
+                "east":{"texture":"#cube","cullface":"east"},
+                "west":{"texture":"#slab"}
+			}
+		},
+        {
+            "from": [0, 8, 8],
+            "to":[8,16,16],
+            "faces":{
+                "up":{"texture":"#cube","cullface":"up"},
+                "down":{"texture":"#cube","cullface":"down"},
+                "north":{"texture":"#slab"},
+                "south":{"texture":"#cube","cullface":"south"},
+                "east":{"texture":"#cube","cullface":"east"},
+                "west":{"texture":"#cube","cullface":"west"}
+            }
+        }
+	]
+}
