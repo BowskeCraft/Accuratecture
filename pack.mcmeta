@@ -10,16 +10,7 @@
 			{"text":"\u03b2\u00f8\u026f\u0219\u006b\u0065's Vanilla Expansion ","color":"#DBD6A7","bold":true},
 			{"text":"0.1.0-Beta","color":"dark_gray","italic":"true"},
 			{"text":"\nby ","bold":"false"},
-			{"text":"\u03b2\u00f8\u026f\u0219\u006b\u0065's CraftRoom\n","color":"#7E7664"},
-			{"text":"\u26a0use it with vanilla(not programmer art)"}
-		],
-"readme":"
-This is a minecraft resourcepack for Minecraft:Java edition 1.19~\n
-Minecraft:Java Edition の1.19 以上を想定したリソースパックです。\n
-All of image in this pack are original.\n
-含まれる全ての画像ファイルはオリジナルです。\n
-This pack don't assumes another resourcepacks that changes vanilla blocks.\n
-このパックはブロックの見た目を変える他のリソースパックの導入を想定していません。
-"
+			{"text":"\u03b2\u00f8\u026f\u0219\u006b\u0065's CraftRoom\n","color":"#7E7664"}
+		]
 	}
 }

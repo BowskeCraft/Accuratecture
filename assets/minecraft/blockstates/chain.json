@@ -1,0 +1,14 @@
+{
+    "variants": {
+      "axis=x": {
+        "model": "minecraft:block/chain/chain_horizontal",
+        "y": 90
+      },
+      "axis=y": {
+        "model": "minecraft:block/chain"
+      },
+      "axis=z": {
+        "model": "minecraft:block/chain/chain_horizontal"
+      }
+    }
+  }

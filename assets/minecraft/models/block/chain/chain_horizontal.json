@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/chain",
+	"textures": {
+		"particle": "block/chain",
+		"chain": "block/chain"
+	},
+	"elements": [
+		{
+			"from": [7, 8, 0],
+			"to": [9, 8, 16],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 16]},
+			"faces": {
+				"up": {"uv": [0, 0, 3, 16], "texture": "#chain"},
+				"down": {"uv": [0, 16, 3, 0], "texture": "#chain"}
+			}
+		},
+		{
+			"from": [8, 7, 0],
+			"to": [8, 9, 16],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 16]},
+			"faces": {
+				"east": {"uv": [3, 16, 6, 0], "rotation": 90, "texture": "#chain"},
+				"west": {"uv": [3, 0, 6, 16], "rotation": 90, "texture": "#chain"}
+			}
+		},
+		{
+			"from": [8, 7, 16],
+			"to": [8, 9, 24],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 16]},
+			"faces": {
+				"east": {"uv": [3, 0, 6, 8], "rotation": 90, "texture": "#chain", "cullface": "south"},
+				"west": {"uv": [6, 8, 3, 16], "rotation": 90, "texture": "#chain", "cullface": "south"}
+			}
+		},
+		{
+			"from": [7, 8, 16],
+			"to": [9, 8, 24],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 16]},
+			"faces": {
+				"up": {"uv": [0, 0, 3, 8], "texture": "#chain", "cullface": "south"},
+				"down": {"uv": [0, 8, 3, 16], "texture": "#chain", "cullface": "south"}
+			}
+		},
+		{
+			"from": [7, 8, -8],
+			"to": [9, 8, 0],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 0]},
+			"faces": {
+				"up": {"uv": [0, 8, 3, 16], "texture": "#chain", "cullface": "north"},
+				"down": {"uv": [0, 8, 3, 16], "texture": "#chain", "cullface": "north"}
+			}
+		},
+		{
+			"from": [8, 7, -8],
+			"to": [8, 9, 0],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 0]},
+			"faces": {
+				"east": {"uv": [3, 8, 6, 16], "rotation": 90, "texture": "#chain", "cullface": "north"},
+				"west": {"uv": [3, 0, 6, 8], "rotation": 90, "texture": "#chain", "cullface": "north"}
+			}
+		}
+	]
+}
