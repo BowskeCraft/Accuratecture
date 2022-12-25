@@ -1,14 +1,14 @@
 {
 "pack":{
 "pack_format":12,
-"MinecraftVersion":"Java edition 1.19.3~",
+"minecraft_version":"Java edition 1.19.3~",
 
-"pack_name":"Bowkse's Vanilla Expansion",
-"pack_version":"0.1.0-Beta",
+"pack_name":"Accuratecture",
+"pack_version":"release_1.0.0",
 "description":
 		[	{"text":"","color":"reset"},
-			{"text":"\u03b2\u00f8\u026f\u0219\u006b\u0065's Vanilla Expansion ","color":"#DBD6A7","bold":true},
-			{"text":"0.1.0-Beta","color":"dark_gray","italic":"true"},
+			{"text":"Accuratecture ","color":"#DBD6A7","bold":true},
+			{"text":"1.0.0","color":"dark_gray","italic":"true"},
 			{"text":"\nby ","bold":"false"},
 			{"text":"\u03b2\u00f8\u026f\u0219\u006b\u0065's CraftRoom\n","color":"#7E7664"}
 		]
