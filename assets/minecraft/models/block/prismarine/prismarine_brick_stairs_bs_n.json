@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"4": "block/prismarine_bricks_03",
+		"6": "block/prismarine_bricks_05",
+		"d": "block/prismarine_bricks_07",
+		"particle": "block/prismarine_brick_side_slab"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#d", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#6", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#d", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#6", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#d", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#d", "cullface": "north"},
+				"east": {"uv": [8, 0, 16, 8], "texture": "#6", "cullface": "east"},
+				"south": {"uv": [8, 0, 0, 16], "rotation": 90, "texture": "#4"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#6", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#d", "cullface": "up"}
+			}
+		}
+	]
+}

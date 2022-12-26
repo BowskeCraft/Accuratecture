@@ -1,4 +1,4 @@
-{   "parent": "block/block",
+{   "parent": "block/slab",
     "textures": {
         "particle": "#top"
     },

@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:item/brick_wall",
+    "textures":{
+        "ns":"minecraft:block/nether_bricks_ns",
+        "ew":"minecraft:block/nether_bricks_ew",
+        "top":"minecraft:block/nether_bricks_top_s_st",
+        "particle":"#ns"
+    }
+}

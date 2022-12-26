@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"side_slab": "block/prismarine_brick_side_slab",
+		"top": "block/prismarine_bricks_06",
+		"d": "block/prismarine_bricks_07",
+		"particle": "block/prismarine_brick_side_slab"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#side_slab", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#side_slab", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#side_slab", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#side_slab", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#d", "cullface": "down"}
+			}
+		}
+	]
+}

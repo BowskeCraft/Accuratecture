@@ -1,10 +1,10 @@
 {
     "variants":{
         "":[
-            {"model":"minecraft:block/prismarine/prismarine_bricks_00"},
-            {"model":"minecraft:block/prismarine/prismarine_bricks_01"},
-            {"model":"minecraft:block/prismarine/prismarine_bricks_02"},
-            {"model":"minecraft:block/prismarine/prismarine_bricks_03"}
+            {"model":"minecraft:block/prismarine/prismarine_bricks_0"},
+            {"model":"minecraft:block/prismarine/prismarine_bricks_1"},
+            {"model":"minecraft:block/prismarine/prismarine_bricks_2"},
+            {"model":"minecraft:block/prismarine/prismarine_bricks_3"}
         ]
     }
 }

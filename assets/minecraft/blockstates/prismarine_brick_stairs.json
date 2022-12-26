@@ -1,0 +1,176 @@
+{
+    "variants":{
+
+        "half=bottom,facing=north,shape=straight":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bs_n",
+            "y":0, "uvlock": true
+        },
+        "half=bottom,facing=south,shape=straight":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bs_n",
+            "y":180, "uvlock": true
+        },
+        "half=bottom,facing=west,shape=straight":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bs_e",
+            "y":180, "uvlock": true
+        },
+        "half=bottom,facing=east,shape=straight":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bs_e",
+            "y":0, "uvlock": true
+        },
+
+
+        "half=bottom,facing=east,shape=inner_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "y":0, "uvlock": true
+        },
+        "half=bottom,facing=north,shape=inner_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "y":0, "uvlock": true
+        },
+        "half=bottom,facing=north,shape=inner_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "y":270, "uvlock": true
+        },
+        "half=bottom,facing=west,shape=inner_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "y":270, "uvlock": true
+        },
+        "half=bottom,facing=west,shape=inner_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "y":180, "uvlock": true
+        },
+        "half=bottom,facing=south,shape=inner_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "y":180, "uvlock": true
+        },
+        "half=bottom,facing=south,shape=inner_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "y":90, "uvlock": true
+        },
+        "half=bottom,facing=east,shape=inner_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "y":90, "uvlock": true
+        },
+
+
+        "half=bottom,facing=east,shape=outer_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "y":0, "uvlock": true
+        },
+        "half=bottom,facing=north,shape=outer_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "y":0, "uvlock": true
+        },
+        "half=bottom,facing=north,shape=outer_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "y":270, "uvlock": true
+        },
+        "half=bottom,facing=west,shape=outer_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "y":270, "uvlock": true
+        },
+        "half=bottom,facing=west,shape=outer_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "y":180, "uvlock": true
+        },
+        "half=bottom,facing=south,shape=outer_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "y":180, "uvlock": true
+        },
+        "half=bottom,facing=south,shape=outer_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "y":90, "uvlock": true
+        },
+        "half=bottom,facing=east,shape=outer_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "y":90, "uvlock": true
+        },
+
+        
+        "half=top,facing=north,shape=straight":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bs_n",
+            "x":180,"y":180, "uvlock": true
+        },
+        "half=top,facing=south,shape=straight":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bs_n",
+            "x":180,"y":0, "uvlock": true
+        },
+        "half=top,facing=west,shape=straight":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bs_e",
+            "x":180,"y":180, "uvlock": true
+        },
+        "half=top,facing=east,shape=straight":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bs_e",
+            "x":180,"y":0, "uvlock": true
+        },
+
+
+        "half=top,facing=east,shape=inner_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "x":180,"y":270, "uvlock": true
+        },
+        "half=top,facing=north,shape=inner_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "x":180,"y":270, "uvlock": true
+        },
+        "half=top,facing=north,shape=inner_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "x":180,"y":180, "uvlock": true
+        },
+        "half=top,facing=west,shape=inner_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "x":180,"y":180, "uvlock": true
+        },
+        "half=top,facing=west,shape=inner_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "x":180,"y":90, "uvlock": true
+        },
+        "half=top,facing=south,shape=inner_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "x":180,"y":90, "uvlock": true
+        },
+        "half=top,facing=south,shape=inner_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "x":180,"y":0, "uvlock": true
+        },
+        "half=top,facing=east,shape=inner_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bi_ne",
+            "x":180,"y":0, "uvlock": true
+        },
+
+
+        "half=top,facing=east,shape=outer_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "x":180,"y":270, "uvlock": true
+        },
+        "half=top,facing=north,shape=outer_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "x":180,"y":270, "uvlock": true
+        },
+        "half=top,facing=north,shape=outer_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "x":180,"y":180, "uvlock": true
+        },
+        "half=top,facing=west,shape=outer_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "x":180,"y":180, "uvlock": true
+        },
+        "half=top,facing=west,shape=outer_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "x":180,"y":90, "uvlock": true
+        },
+        "half=top,facing=south,shape=outer_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "x":180,"y":90, "uvlock": true
+        },
+        "half=top,facing=south,shape=outer_left":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "x":180,"y":0, "uvlock": true
+        },
+        "half=top,facing=east,shape=outer_right":{
+            "model":"minecraft:block/prismarine/prismarine_brick_stairs_bo_ne",
+            "x":180,"y":0, "uvlock": true
+        }
+
+    }
+}
