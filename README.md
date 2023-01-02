@@ -1,6 +1,6 @@
 # Accuratecture
 
-version1.0.0
+version1.1.0
 
 A minecraft resourcepack for Minecraft:Java edition 1.19.3 .
 Minecraft:Java Edition のバージョン1.19.3向けのリソースパックです。
