@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "block/bricks_ew",
-		"ew": "block/bricks_ew",
-		"ns": "block/bricks_ns",
+		"particle": "block/bricks_ew_0",
+		"ew": "block/bricks_ew_0",
+		"ns": "block/bricks_ns_0",
 		"ew_end": "block/bricks_ew_end",
 		"top_s_st": "block/bricks_top_s_st"
 	},

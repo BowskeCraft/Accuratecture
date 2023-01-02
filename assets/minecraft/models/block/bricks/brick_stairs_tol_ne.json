@@ -1,10 +1,10 @@
 {
     "parent":"minecraft:block/parents/stairs_tol_ne",
 	"textures": {
-		"ns": "block/bricks_ns",
-		"ew": "block/bricks_ew",
-		"particle": "block/bricks_top",
-		"top": "block/bricks_top",
+		"ns": "block/bricks_ns_0",
+		"ew": "block/bricks_ew_0",
+		"particle": "block/bricks_top_0",
+		"top": "block/bricks_top_0",
 		"ns_s": "block/bricks_ns_end",
 		"ew_s": "block/bricks_ew_end",
 		"top_s_st": "block/bricks_top_s_st",

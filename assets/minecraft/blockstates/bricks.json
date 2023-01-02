@@ -1,5 +1,10 @@
 {
     "variants":{
-        "":{"model":"minecraft:block/bricks/bricks"}
+        "":[
+            {"model":"minecraft:block/bricks/bricks_0"},
+            {"model":"minecraft:block/bricks/bricks_1"},
+            {"model":"minecraft:block/bricks/bricks_2"},
+            {"model":"minecraft:block/bricks/bricks_3"}
+        ]
     }
 }

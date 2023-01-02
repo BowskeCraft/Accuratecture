@@ -4,8 +4,8 @@
 	"textures": {
 		"ns_end": "block/bricks_ns_end",
 		"ew_end": "block/bricks_ew_end",
-		"ns": "block/bricks_ns",
-		"ew": "block/bricks_ew",
+		"ns": "block/bricks_ns_0",
+		"ew": "block/bricks_ew_0",
 		"particle": "block/bricks_top_s_st",
 		"top": "block/bricks_top_s_st"
 	},

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/wall_inventory",
 	"textures": {
-		"ns": "block/bricks_ns",
-		"ew": "block/bricks_ew",
+		"ns": "block/bricks_ns_0",
+		"ew": "block/bricks_ew_0",
 		"top": "block/bricks_top_s_st",
 		"particle": "#ns"
 	},
