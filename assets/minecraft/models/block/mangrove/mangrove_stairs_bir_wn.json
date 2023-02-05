@@ -1,0 +1,7 @@
+{
+    "parent":"minecraft:block/parents/plank_stairs_bir_wn",
+	"textures": {
+		"horizontal": "block/mangrove_planks_h_0",
+		"vertical": "block/mangrove_planks_v_0"
+	}
+}

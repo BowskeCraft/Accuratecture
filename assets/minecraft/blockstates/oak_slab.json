@@ -1,0 +1,16 @@
+{
+    "variants":{
+        "type=bottom":[
+            {"model":"minecraft:block/oak/oak_slab_0"},
+            {"model":"minecraft:block/oak/oak_slab_1"}
+        ],
+        "type=top":[
+            {"model":"minecraft:block/oak/oak_slab_top_0"},
+            {"model":"minecraft:block/oak/oak_slab_top_1"}
+        ],
+        "type=double":[
+            {"model":"minecraft:block/oak/oak_slab_double_0"},
+            {"model":"minecraft:block/oak/oak_slab_double_1"}
+        ]
+    }
+}

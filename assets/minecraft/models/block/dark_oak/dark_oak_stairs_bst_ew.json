@@ -1,0 +1,7 @@
+{
+    "parent":"minecraft:block/parents/plank_stairs_bst_ew",
+	"textures": {
+		"horizontal": "block/dark_oak_planks_h_0",
+		"vertical": "block/dark_oak_planks_v_0"
+	}
+}

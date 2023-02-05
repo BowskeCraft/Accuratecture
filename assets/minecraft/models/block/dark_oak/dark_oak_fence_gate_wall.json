@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:block/parents/fence_gate_basic_wall",
+    "textures":{
+        "fence":"minecraft:block/dark_oak_fence"
+    }
+}

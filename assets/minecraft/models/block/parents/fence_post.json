@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/fence_post",
+	"textures": {
+		"particle": "#fence"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 16], "texture": "#fence"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#fence"},
+				"south": {"uv": [0, 0, 4, 16], "texture": "#fence"},
+				"west": {"uv": [0, 0, 4, 16], "texture": "#fence"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#fence", "cullface": "up"},
+				"down": {"uv": [4, 4, 8, 8], "texture": "#fence", "cullface": "down"}
+			}
+		}
+	]
+}

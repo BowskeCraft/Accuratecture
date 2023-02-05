@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/fence_side",
+	"textures": {
+		"particle": "#fence"
+	},
+	"elements": [
+		{
+			"from": [7, 12, 8],
+			"to": [9, 15, 16],
+			"faces": {
+				"east": {"uv": [8, 2, 16, 5], "texture": "#fence"},
+				"south": {"uv": [4, 8, 6, 11], "texture": "#fence", "cullface": "south"},
+				"west": {"uv": [8, 7, 16, 10], "texture": "#fence"},
+				"up": {"uv": [8, 5, 16, 7], "rotation": 270, "texture": "#fence"},
+				"down": {"uv": [8, 0, 16, 2], "rotation": 270, "texture": "#fence"}
+			}
+		},
+		{
+			"from": [7, 6, 8],
+			"to": [9, 9, 16],
+			"faces": {
+				"east": {"uv": [8, 2, 16, 5], "texture": "#fence"},
+				"south": {"uv": [4, 8, 6, 11], "texture": "#fence", "cullface": "south"},
+				"west": {"uv": [8, 7, 16, 10], "texture": "#fence"},
+				"up": {"uv": [8, 5, 16, 7], "rotation": 270, "texture": "#fence"},
+				"down": {"uv": [8, 0, 16, 2], "rotation": 270, "texture": "#fence"}
+			}
+		}
+	]
+}

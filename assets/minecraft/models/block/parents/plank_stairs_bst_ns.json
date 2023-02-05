@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/stairs",
+    "textures":{
+        "bottom":"#horizontal",
+        "top":"#horizontal",
+        "side":"#horizontal",
+        "particle":"#horizontal"
+    }
+}
