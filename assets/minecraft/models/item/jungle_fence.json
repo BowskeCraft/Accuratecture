@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:block/parents/fence_inventory_basic",
+    "textures":{
+        "fence":"minecraft:block/jungle_fence"
+    }
+}

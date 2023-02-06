@@ -1,0 +1,18 @@
+{
+    "multipart": [
+        {   "apply": { "model": "block/crimson/crimson_fence_post" }},
+
+        {   "when": { "north": "true" },
+            "apply": { "model": "block/crimson/crimson_fence_side_n"}
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "block/crimson/crimson_fence_side_n", "y": 90}
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "block/crimson/crimson_fence_side_s"}
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "block/crimson/crimson_fence_side_s", "y": 90}
+        }
+    ]
+}

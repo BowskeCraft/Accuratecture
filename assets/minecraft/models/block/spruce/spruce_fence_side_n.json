@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:block/parents/fence_side_basic_n",
+    "textures":{
+        "fence":"minecraft:block/spruce_fence"
+    }
+}

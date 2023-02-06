@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:block/parents/fence_gate_basic_open",
+    "textures":{
+        "fence":"minecraft:block/birch_fence"
+    }
+}
