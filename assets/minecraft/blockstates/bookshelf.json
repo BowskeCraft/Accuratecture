@@ -1,10 +1,10 @@
 {
     "variants":{
         "":[
-            {"model":"minecraft:block/bookshelf/bookshelf_0"},
-            {"model":"minecraft:block/bookshelf/bookshelf_1"},
-            {"model":"minecraft:block/bookshelf/bookshelf_2"},
-            {"model":"minecraft:block/bookshelf/bookshelf_3"}
+            {"model":"minecraft:block/bookshelf/bookshelf","y":  0, "uvlock": false},
+            {"model":"minecraft:block/bookshelf/bookshelf","y": 90, "uvlock": false},
+            {"model":"minecraft:block/bookshelf/bookshelf","y":180, "uvlock": false},
+            {"model":"minecraft:block/bookshelf/bookshelf","y":270, "uvlock": false}
         ]
     }
 }
