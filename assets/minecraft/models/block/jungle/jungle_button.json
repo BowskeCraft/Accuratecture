@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/button",
+    "parent": "minecraft:block/parents/button",
     "textures": {
       "texture": "minecraft:block/jungle_button"
     }
