@@ -1,8 +1,0 @@
-{
-    "parent":"minecraft:block/parents/reversed_slabs",
-    "textures":{
-        "side":"minecraft:block/bookshelf_0",
-        "top":"minecraft:block/bookshelf_top",
-        "bottom":"#top"
-    }
-}
