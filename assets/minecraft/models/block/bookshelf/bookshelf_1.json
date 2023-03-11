@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/cube_column",
+    "textures":{
+        "side":"minecraft:block/bookshelf_1",
+        "end":"minecraft:block/bookshelf_top",
+        "particle":"#side"
+    }
+}
