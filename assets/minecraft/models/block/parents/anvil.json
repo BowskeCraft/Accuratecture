@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:block/templete_anvil",
+	"parent": "minecraft:block/template_anvil",
 	"textures": {
 		"body": "block/anvil",
 		"top": "block/anvil_top",
