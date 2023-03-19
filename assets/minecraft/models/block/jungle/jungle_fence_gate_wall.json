@@ -1,6 +1,6 @@
 {
     "parent":"minecraft:block/parents/fence_gate_basic_wall",
     "textures":{
-        "fence":"minecraft:block/oak_fence"
+        "fence":"minecraft:block/jungle_fence"
     }
 }
