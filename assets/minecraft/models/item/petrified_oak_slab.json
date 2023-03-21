@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/slab",
+    "textures":{
+        "side":"minecraft:block/petrified_oak_slab_side",
+        "top":"minecraft:block/petrified_oak_slab_end",
+        "bottom":"minecraft:block/petrified_oak_slab_end",
+        "particle":"minecraft:block/oak_planks_h_0"
+    }
+}
