@@ -1,13 +1,23 @@
 {
   "variants": {
-    "level=1": {
-      "model": "minecraft:block/cauldron/water_cauldron_level1"
-    },
-    "level=2": {
-      "model": "minecraft:block/cauldron/water_cauldron_level2"
-    },
-    "level=3": {
-      "model": "minecraft:block/cauldron/water_cauldron_full"
-    }
+    "level=1": [
+      {"model": "minecraft:block/cauldron/water_cauldron_level1"},
+      {"model": "minecraft:block/cauldron/water_cauldron_level1","y":90},
+      {"model": "minecraft:block/cauldron/water_cauldron_level1","y":180},
+      {"model": "minecraft:block/cauldron/water_cauldron_level1","y":270}
+    ],
+    "level=2": [
+      {"model": "minecraft:block/cauldron/water_cauldron_level2"},
+      {"model": "minecraft:block/cauldron/water_cauldron_level2","y":90},
+      {"model": "minecraft:block/cauldron/water_cauldron_level2","y":180},
+      {"model": "minecraft:block/cauldron/water_cauldron_level2","y":270}
+    ],
+    "level=3": [
+      {"model": "minecraft:block/cauldron/water_cauldron_full"},
+      {"model": "minecraft:block/cauldron/water_cauldron_full","y":90},
+      {"model": "minecraft:block/cauldron/water_cauldron_full","y":180},
+      {"model": "minecraft:block/cauldron/water_cauldron_full","y":270}
+    
+    ]
   }
 }
