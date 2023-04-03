@@ -1,0 +1,7 @@
+{
+    "parent":"minecraft:block/hopper_side",
+    "textures":{
+        "top":"block/hopper_top_side",
+        "inside": "block/hopper_inside_side"
+    }
+}
