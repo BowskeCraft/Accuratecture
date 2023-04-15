@@ -1,0 +1,11 @@
+{
+    "parent":"minecraft:block/parents/bordered_cube",
+    "textures":{
+        "north":"#ns",
+        "south":"#ns",
+        "east":"#ew",
+        "west":"#ew",
+        "up":"#top",
+        "down":"#bottom"
+    }
+}

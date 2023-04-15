@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:block/parents/bordered_cube_all",
+    "textures":{
+        "all":"minecraft:block/cobblestone"
+    }
+}

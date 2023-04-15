@@ -1,9 +1,9 @@
 {
-    "parent":"block/parents/cube_bricks",
+    "parent":"block/parents/bordered_cube_bricks",
     "textures":{
-        "top":"minecraft:block/infested_cracked_stone_bricks_top",
-        "d":"#top",
-        "ns":"minecraft:block/infested_cracked_stone_bricks_ns",
-        "ew":"minecraft:block/infested_cracked_stone_bricks_ew"
+        "top":"minecraft:block/cracked_stone_bricks_top_0",
+        "bottom":"#top",
+        "ns":"minecraft:block/cracked_stone_bricks_ns",
+        "ew":"minecraft:block/cracked_stone_bricks_ew"
     }
 }
