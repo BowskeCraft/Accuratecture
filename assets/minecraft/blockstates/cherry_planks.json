@@ -1,0 +1,8 @@
+{
+    "variants":{
+        "":[
+            {"model":"minecraft:block/sakura/sakura_planks_0"},
+            {"model":"minecraft:block/sakura/sakura_planks_1"}
+        ]
+    }
+}
