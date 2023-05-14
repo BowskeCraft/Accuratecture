@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/slab",
 	"textures": {
 		"border_cube": "block/border_cube",
@@ -19,16 +20,64 @@
 			}
 		},
 		{
-			"from": [-1, -0.5, -1],
-			"to": [17, 8.5, 17],
+			"from": [-0.5, -0.5, -0.5],
+			"to": [16.5, -0.5, 16.5],
 			"faces": {
-				"north": {"uv": [0, 8, 16, 16], "texture": "#border_slab"},
-				"east": {"uv": [0, 0, 16, 8], "texture": "#border_slab"},
-				"south": {"uv": [0, 8, 16, 16], "texture": "#border_slab"},
-				"west": {"uv": [0, 0, 16, 8], "texture": "#border_slab"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#border_cube"},
+				"up": {"uv": [16, 0, 0, 16], "texture": "#border_cube"}
+			}
+		},
+		{
+			"from": [-0.5, -0.5, -0.5],
+			"to": [16.5, 8.5, -0.5],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 8], "texture": "#border_slab"}
+			}
+		},
+		{
+			"from": [-0.5, -0.5, -0.5],
+			"to": [-0.5, 8.5, 16.5],
+			"faces": {
+				"east": {"uv": [0, 8, 16, 16], "texture": "#border_slab"}
+			}
+		},
+		{
+			"from": [-0.5, 8.5, -0.5],
+			"to": [16.5, 8.5, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
 				"down": {"uv": [0, 0, 16, 16], "texture": "#border_cube"}
 			}
+		},
+		{
+			"from": [-0.5, -0.5, 16.5],
+			"to": [16.5, 8.5, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 0], "texture": "#border_slab"}
+			}
+		},
+		{
+			"from": [16.5, -0.5, -0.5],
+			"to": [16.5, 8.5, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
+				"west": {"uv": [0, 16, 16, 8], "texture": "#border_slab"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3]
+		},
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [4, 5, 6]
 		}
 	]
 }

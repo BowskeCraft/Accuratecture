@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"parent":"minecraft:block/cube",
+	"parent": "minecraft:block/cube",
 	"textures": {
-		"border": "block/border_cube",
-		"particle": "block/border_cube"
+		"particle": "block/border_cube",
+		"border": "block/border_cube"
 	},
 	"elements": [
 		{
@@ -19,16 +19,65 @@
 			}
 		},
 		{
-			"from": [-1, -1, -1],
-			"to": [17, 17, 17],
+			"from": [-0.5, -0.5, -0.5],
+			"to": [16.5, -0.5, 16.5],
 			"faces": {
-				"north": {"uv": [16, 0, 0, 16], "texture": "#border"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#border"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#border"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#border"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#border"},
+				"up": {"uv": [16, 0, 0, 16], "texture": "#border"}
+			}
+		},
+		{
+			"from": [-0.5, -0.5, -0.5],
+			"to": [16.5, 16.5, -0.5],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#border"}
+			}
+		},
+		{
+			"from": [-0.5, -0.5, -0.5],
+			"to": [-0.5, 16.5, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#border"}
+			}
+		},
+		{
+			"from": [-0.5, 16.5, -0.5],
+			"to": [16.5, 16.5, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
 				"down": {"uv": [0, 0, 16, 16], "texture": "#border"}
 			}
+		},
+		{
+			"from": [-0.5, -0.5, 16.5],
+			"to": [16.5, 16.5, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "texture": "#border"}
+			}
+		},
+		{
+			"from": [16.5, -0.5, -0.5],
+			"to": [16.5, 16.5, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 16]},
+			"faces": {
+				"west": {"uv": [16, 16, 0, 0], "texture": "#border"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3]
+		},
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [4, 5, 6]
 		}
 	]
 }
