@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/wall_torch",
+	"textures":{
+		"torch": "block/soul_torch"
+	}
+}

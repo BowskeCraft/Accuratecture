@@ -1,0 +1,83 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:models/block/template_torch_wall",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#torch"
+	},
+	"elements": [
+		{
+			"from": [-1, 4, 7],
+			"to": [1, 14, 9],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [0, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 6, 16, 16], "texture": "#torch"},
+				"east": {"uv": [0, 6, 16, 16], "texture": "#torch"},
+				"south": {"uv": [0, 6, 16, 16], "texture": "#torch"},
+				"west": {"uv": [0, 6, 16, 16], "texture": "#torch"},
+				"up": {"uv": [0, 4, 16, 6], "texture": "#torch"},
+				"down": {"uv": [0, 14, 16, 16], "texture": "#torch"}
+			}
+		},
+		{
+			"from": [4, 12, 7],
+			"to": [4, 16, 9],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 13, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 4], "texture": "#torch"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#torch"}
+			}
+		},
+		{
+			"from": [2.5, 13, 8],
+			"to": [4.5, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 13, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#torch"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#torch"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 25],
+			"translation": [0, 4.5, -2.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -25],
+			"translation": [0, 4.5, -2.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [1, 91, -4],
+			"translation": [-0.5, 0.5, -1],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [1, -91, 4],
+			"translation": [-0.5, 0.5, -1],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"rotation": [0, 0, 18],
+			"translation": [2.75, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, -90, 22.5]
+		},
+		"head": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 9.25, 14.25]
+		},
+		"fixed": {
+			"rotation": [0, 90, 20],
+			"translation": [0, -1.5, -6.5]
+		}
+	}
+}
