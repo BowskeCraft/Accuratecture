@@ -1,14 +1,14 @@
 {
 "pack":{
-"pack_format":13,
-"minecraft_version":"Java edition 1.19.4",
+"pack_format":15,
+"minecraft_version":"Java edition 1.20.1",
 
 "pack_name":"Accuratecture",
-"pack_version":"release_2.0.1",
+"pack_version":"release_3.0.0",
 "description":
 		[	{"text":"","color":"reset"},
 			{"text":"Accuratecture ","color":"#DBD6A7","bold":true},
-			{"text":"2.0.1","color":"dark_gray","italic":"true"},
+			{"text":"3.0.0","color":"dark_gray","italic":"true"},
 			{"text":"\nby ","bold":"false"},
 			{"text":"\u03b2\u00f8\u026f\u0219\u006b\u0065's CraftRoom\n","color":"#7E7664"}
 		]

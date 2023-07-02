@@ -1,9 +1,9 @@
 # Accuratecture
 
-version2.0.1
+version3.0.0
 
-A minecraft resourcepack for Minecraft:Java edition 1.19.4 .
-Minecraft:Java Edition のバージョン1.19.4向けのリソースパックです。
+A minecraft resourcepack for Minecraft:Java edition 1.20.1 .
+Minecraft:Java Edition のバージョン1.20.1向けのリソースパックです。
 
 All of image in this pack are original.
 含まれる全ての画像ファイルはオリジナルです。
