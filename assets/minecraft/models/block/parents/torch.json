@@ -48,17 +48,7 @@
 			"translation": [0, 4.25, 1],
 			"scale": [0.75, 0.75, 0.75]
 		},
-		"thirdperson_lefthand": {
-			"rotation": [10, 0, 0],
-			"translation": [0, 4.25, 1],
-			"scale": [0.75, 0.75, 0.75]
-		},
 		"firstperson_righthand": {
-			"rotation": [-13, 18, 0],
-			"translation": [4.25, 1.5, -0.75],
-			"scale": [0.8, 0.8, 0.8]
-		},
-		"firstperson_lefthand": {
 			"rotation": [-13, 18, 0],
 			"translation": [4.25, 1.5, -0.75],
 			"scale": [0.8, 0.8, 0.8]
