@@ -1,0 +1,172 @@
+{
+    "multipart":[
+        {   "when" :{"facing":"north","powered":false},
+            "apply":{"model":"block/redstone/repeater_board_off","y":180}
+        },
+        {   "when" :{"facing":"north","powered":false,"locked":false,"delay":1},
+            "apply":{"model":"block/redstone/repeater_torch_off_1tick","y":180}
+        },
+        {   "when" :{"facing":"north","powered":false,"locked":false,"delay":2},
+            "apply":{"model":"block/redstone/repeater_torch_off_2tick","y":180}
+        },
+        {   "when" :{"facing":"north","powered":false,"locked":false,"delay":3},
+            "apply":{"model":"block/redstone/repeater_torch_off_3tick","y":180}
+        },
+        {   "when" :{"facing":"north","powered":false,"locked":false,"delay":4},
+            "apply":{"model":"block/redstone/repeater_torch_off_4tick","y":180}
+        },
+        {   "when" :{"facing":"north","powered":true},
+            "apply":{"model":"block/redstone/repeater_board_on","y":180}
+        },
+        {   "when" :{"facing":"north","powered":true,"locked":false,"delay":1},
+            "apply":{"model":"block/redstone/repeater_torch_on_1tick","y":180}
+        },
+        {   "when" :{"facing":"north","powered":true,"locked":false,"delay":2},
+            "apply":{"model":"block/redstone/repeater_torch_on_2tick","y":180}
+        },
+        {   "when" :{"facing":"north","powered":true,"locked":false,"delay":3},
+            "apply":{"model":"block/redstone/repeater_torch_on_3tick","y":180}
+        },
+        {   "when" :{"facing":"north","powered":true,"locked":false,"delay":4},
+            "apply":{"model":"block/redstone/repeater_torch_on_4tick","y":180}
+        },
+        {   "when" :{"facing":"north","locked":true,"delay":1},
+            "apply":{"model":"block/redstone/repeater_lock_1tick","y":180}
+        },
+        {   "when" :{"facing":"north","locked":true,"delay":2},
+            "apply":{"model":"block/redstone/repeater_lock_2tick","y":180}
+        },
+        {   "when" :{"facing":"north","locked":true,"delay":3},
+            "apply":{"model":"block/redstone/repeater_lock_3tick","y":180}
+        },
+        {   "when" :{"facing":"north","locked":true,"delay":4},
+            "apply":{"model":"block/redstone/repeater_lock_4tick","y":180}
+        },
+        {   "when" :{"facing":"east","powered":false},
+            "apply":{"model":"block/redstone/repeater_board_off","y":270}
+        },
+        {   "when" :{"facing":"east","powered":false,"locked":false,"delay":1},
+            "apply":{"model":"block/redstone/repeater_torch_off_1tick","y":270}
+        },
+        {   "when" :{"facing":"east","powered":false,"locked":false,"delay":2},
+            "apply":{"model":"block/redstone/repeater_torch_off_2tick","y":270}
+        },
+        {   "when" :{"facing":"east","powered":false,"locked":false,"delay":3},
+            "apply":{"model":"block/redstone/repeater_torch_off_3tick","y":270}
+        },
+        {   "when" :{"facing":"east","powered":false,"locked":false,"delay":4},
+            "apply":{"model":"block/redstone/repeater_torch_off_4tick","y":270}
+        },
+        {   "when" :{"facing":"east","powered":true},
+            "apply":{"model":"block/redstone/repeater_board_on","y":270}
+        },
+        {   "when" :{"facing":"east","powered":true,"locked":false,"delay":1},
+            "apply":{"model":"block/redstone/repeater_torch_on_1tick","y":270}
+        },
+        {   "when" :{"facing":"east","powered":true,"locked":false,"delay":2},
+            "apply":{"model":"block/redstone/repeater_torch_on_2tick","y":270}
+        },
+        {   "when" :{"facing":"east","powered":true,"locked":false,"delay":3},
+            "apply":{"model":"block/redstone/repeater_torch_on_3tick","y":270}
+        },
+        {   "when" :{"facing":"east","powered":true,"locked":false,"delay":4},
+            "apply":{"model":"block/redstone/repeater_torch_on_4tick","y":270}
+        },
+        {   "when" :{"facing":"east","locked":true,"delay":1},
+            "apply":{"model":"block/redstone/repeater_lock_1tick","y":270}
+        },
+        {   "when" :{"facing":"east","locked":true,"delay":2},
+            "apply":{"model":"block/redstone/repeater_lock_2tick","y":270}
+        },
+        {   "when" :{"facing":"east","locked":true,"delay":3},
+            "apply":{"model":"block/redstone/repeater_lock_3tick","y":270}
+        },
+        {   "when" :{"facing":"east","locked":true,"delay":4},
+            "apply":{"model":"block/redstone/repeater_lock_4tick","y":270}
+        },
+        {   "when" :{"facing":"south","powered":false},
+            "apply":{"model":"block/redstone/repeater_board_off","y":0}
+        },
+        {   "when" :{"facing":"south","powered":false,"locked":false,"delay":1},
+            "apply":{"model":"block/redstone/repeater_torch_off_1tick","y":0}
+        },
+        {   "when" :{"facing":"south","powered":false,"locked":false,"delay":2},
+            "apply":{"model":"block/redstone/repeater_torch_off_2tick","y":0}
+        },
+        {   "when" :{"facing":"south","powered":false,"locked":false,"delay":3},
+            "apply":{"model":"block/redstone/repeater_torch_off_3tick","y":0}
+        },
+        {   "when" :{"facing":"south","powered":false,"locked":false,"delay":4},
+            "apply":{"model":"block/redstone/repeater_torch_off_4tick","y":0}
+        },
+        {   "when" :{"facing":"south","powered":true},
+            "apply":{"model":"block/redstone/repeater_board_on","y":0}
+        },
+        {   "when" :{"facing":"south","powered":true,"locked":false,"delay":1},
+            "apply":{"model":"block/redstone/repeater_torch_on_1tick","y":0}
+        },
+        {   "when" :{"facing":"south","powered":true,"locked":false,"delay":2},
+            "apply":{"model":"block/redstone/repeater_torch_on_2tick","y":0}
+        },
+        {   "when" :{"facing":"south","powered":true,"locked":false,"delay":3},
+            "apply":{"model":"block/redstone/repeater_torch_on_3tick","y":0}
+        },
+        {   "when" :{"facing":"south","powered":true,"locked":false,"delay":4},
+            "apply":{"model":"block/redstone/repeater_torch_on_4tick","y":0}
+        },
+        {   "when" :{"facing":"south","locked":true,"delay":1},
+            "apply":{"model":"block/redstone/repeater_lock_1tick","y":0}
+        },
+        {   "when" :{"facing":"south","locked":true,"delay":2},
+            "apply":{"model":"block/redstone/repeater_lock_2tick","y":0}
+        },
+        {   "when" :{"facing":"south","locked":true,"delay":3},
+            "apply":{"model":"block/redstone/repeater_lock_3tick","y":0}
+        },
+        {   "when" :{"facing":"south","locked":true,"delay":4},
+            "apply":{"model":"block/redstone/repeater_lock_4tick","y":0}
+        },
+        {   "when" :{"facing":"west","powered":false},
+            "apply":{"model":"block/redstone/repeater_board_off","y":90}
+        },
+        {   "when" :{"facing":"west","powered":false,"locked":false,"delay":1},
+            "apply":{"model":"block/redstone/repeater_torch_off_1tick","y":90}
+        },
+        {   "when" :{"facing":"west","powered":false,"locked":false,"delay":2},
+            "apply":{"model":"block/redstone/repeater_torch_off_2tick","y":90}
+        },
+        {   "when" :{"facing":"west","powered":false,"locked":false,"delay":3},
+            "apply":{"model":"block/redstone/repeater_torch_off_3tick","y":90}
+        },
+        {   "when" :{"facing":"west","powered":false,"locked":false,"delay":4},
+            "apply":{"model":"block/redstone/repeater_torch_off_4tick","y":90}
+        },
+        {   "when" :{"facing":"west","powered":true},
+            "apply":{"model":"block/redstone/repeater_board_on","y":90}
+        },
+        {   "when" :{"facing":"west","powered":true,"locked":false,"delay":1},
+            "apply":{"model":"block/redstone/repeater_torch_on_1tick","y":90}
+        },
+        {   "when" :{"facing":"west","powered":true,"locked":false,"delay":2},
+            "apply":{"model":"block/redstone/repeater_torch_on_2tick","y":90}
+        },
+        {   "when" :{"facing":"west","powered":true,"locked":false,"delay":3},
+            "apply":{"model":"block/redstone/repeater_torch_on_3tick","y":90}
+        },
+        {   "when" :{"facing":"west","powered":true,"locked":false,"delay":4},
+            "apply":{"model":"block/redstone/repeater_torch_on_4tick","y":90}
+        },
+        {   "when" :{"facing":"west","locked":true,"delay":1},
+            "apply":{"model":"block/redstone/repeater_lock_1tick","y":90}
+        },
+        {   "when" :{"facing":"west","locked":true,"delay":2},
+            "apply":{"model":"block/redstone/repeater_lock_2tick","y":90}
+        },
+        {   "when" :{"facing":"west","locked":true,"delay":3},
+            "apply":{"model":"block/redstone/repeater_lock_3tick","y":90}
+        },
+        {   "when" :{"facing":"west","locked":true,"delay":4},
+            "apply":{"model":"block/redstone/repeater_lock_4tick","y":90}
+        }
+    ]
+}

@@ -1,6 +1,12 @@
 {
     "sources": [
         {
+            "type": "directory",
+            "source": "block",
+            "path":"minecraft/block/torch.png",
+            "prefix": "block/"
+        },
+        {
             "type": "single",
             "resource":"entity/chest/trapped"
         }
