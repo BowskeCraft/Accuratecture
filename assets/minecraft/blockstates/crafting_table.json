@@ -1,10 +1,10 @@
 {
     "variants":{
         "":[
-            {"model":"minecraft:block/crafting_table/crafting_table","y":  0, "uvlock": true},
-            {"model":"minecraft:block/crafting_table/crafting_table","y": 90, "uvlock": true},
-            {"model":"minecraft:block/crafting_table/crafting_table","y":180, "uvlock": true},
-            {"model":"minecraft:block/crafting_table/crafting_table","y":270, "uvlock": true}
+            {"model":"minecraft:block/crafting_table/crafting_table","y":  0, "uvlock": false},
+            {"model":"minecraft:block/crafting_table/crafting_table","y": 90, "uvlock": false},
+            {"model":"minecraft:block/crafting_table/crafting_table","y":180, "uvlock": false},
+            {"model":"minecraft:block/crafting_table/crafting_table","y":270, "uvlock": false}
         ]
     }
 }
