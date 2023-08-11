@@ -1,3 +1,6 @@
 {
-    "parent":"block/enchanting_table/enchanting_table"
+    "parent":"item/generated",
+    "textures":{
+        "layer0":"minecraft:item/enchanting_table"
+    }
 }

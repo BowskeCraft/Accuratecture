@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/parents/cube_all_lighting",
+    "textures": {
+      "all": "minecraft:block/sea_lantern"
+    }
+  }
