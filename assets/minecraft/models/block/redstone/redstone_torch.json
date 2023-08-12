@@ -91,7 +91,7 @@
 			"translation": [0, 14, 0]
 		},
 		"fixed": {
-			"translation": [0, 0, -1.25]
+			"translation": [0, 0, -0.125]
 		}
 	}
 }
