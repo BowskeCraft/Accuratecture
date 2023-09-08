@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+      "particle":"#top",
+      "bottom": "minecraft:block/furnace_top",
+      "side": "minecraft:block/dropper_top",
+      "top": "minecraft:block/dropper_front_vertical"
+    }
+  }

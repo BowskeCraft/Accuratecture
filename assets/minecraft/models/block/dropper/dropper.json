@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle":"#north",
+    "north" :"minecraft:block/dropper_front",
+    "south" :"minecraft:block/furnace_side",
+    "east"  :"minecraft:block/dropper_side_right",
+    "west"  :"minecraft:block/dropper_side_left",
+    "up"    :"minecraft:block/dropper_top",
+    "down"  :"minecraft:block/dropper_bottom"
+  }
+}
