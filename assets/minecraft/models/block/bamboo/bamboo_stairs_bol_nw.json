@@ -1,0 +1,7 @@
+{
+    "parent":"minecraft:block/parents/plank_stairs_bol_nw",
+	"textures": {
+		"horizontal": "block/bamboo_planks",
+		"vertical": "block/stripped_bamboo_block"
+	}
+}
