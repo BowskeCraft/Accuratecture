@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/parents/bordered_slab",
+  "textures": {
+    "bottom": "minecraft:block/oxidized_cut_copper",
+    "side": "minecraft:block/oxidized_cut_copper",
+    "top": "minecraft:block/oxidized_cut_copper",
+    "border_cube": "minecraft:block/border_waxed",
+    "border_slab": "#border_cube"
+  }
+}
