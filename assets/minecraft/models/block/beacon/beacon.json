@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/glass",
+		"glass": "block/glass",
+		"shell": "block/beacon_frame",
+		"obsidian": "block/obsidian",
+		"beacon": "block/beacon"
+	},
+	"elements": [
+		{
+			"name": "Glass shell",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#shell"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#shell"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#shell"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#shell"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#glass"}
+			}
+		},
+		{
+			"name": "Obsidian base",
+			"from": [2, 0.1, 2],
+			"to": [14, 3, 14],
+			"faces": {
+				"north": {"uv": [2, 13, 14, 16], "texture": "#obsidian"},
+				"east": {"uv": [2, 13, 14, 16], "texture": "#obsidian"},
+				"south": {"uv": [2, 13, 14, 16], "texture": "#obsidian"},
+				"west": {"uv": [2, 13, 14, 16], "texture": "#obsidian"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#obsidian"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#obsidian"}
+			}
+		},
+		{
+			"name": "Inner beacon texture",
+			"from": [3, 3, 3],
+			"to": [13, 14, 13],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [3, 2, 13, 13], "texture": "#beacon"},
+				"east": {"uv": [3, 2, 13, 13], "texture": "#beacon"},
+				"south": {"uv": [3, 2, 13, 13], "texture": "#beacon"},
+				"west": {"uv": [3, 2, 13, 13], "texture": "#beacon"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#beacon"}
+			}
+		}
+	]
+}
