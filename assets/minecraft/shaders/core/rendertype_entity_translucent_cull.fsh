@@ -25,8 +25,9 @@ void main() {
         discard;
     }
     float emission = (color.a == 1.0 || color.a < 0.9) ? EMITLESS : 10.0 * (color.a - 0.9);//EMITLESS = -1.0
-    color *= (emission == EMITLESS) ? (vertexColor) : vec4(1.0);
-    color *= max(ColorModulator,emission);
+    color.a = (emission == EMITLESS)? color.a : 1.0;
+
+    color *= mix( vertexColor, vec4(1.0), max( 0.0, emission ))* ColorModulator;
 
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }
