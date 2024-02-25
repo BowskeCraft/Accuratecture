@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
 	"textures": {
 		"particle": "#top"
 	},
@@ -11,22 +12,22 @@
 			"faces": {
 				"north": {"uv": [0, 8, 16, 16], "texture": "#ns", "cullface": "north"},
 				"east": {"uv": [0, 0, 16, 8], "texture": "#ew_s", "cullface": "east"},
-				"south": {"uv": [0, 0, 16, 8], "texture": "#ns_s", "cullface": "south"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#ns", "cullface": "south"},
 				"west": {"uv": [0, 8, 16, 16], "texture": "#ew", "cullface": "west"},
-				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#top_s_lr"},
+				"up": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#top_s_st"},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "down"}
 			}
 		},
 		{
 			"from": [0, 8, 0],
-			"to": [8, 16, 8],
+			"to": [8, 16, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [8, 0, 16, 8], "texture": "#ns", "cullface": "north"},
-				"east": {"uv": [0, 0, 8, 8], "texture": "#ew_s"},
-				"south": {"uv": [0, 0, 8, 8], "texture": "#ns_s"},
-				"west": {"uv": [0, 0, 8, 8], "texture": "#ew", "cullface": "west"},
-				"up": {"uv": [8, 8, 16, 16], "rotation": 180, "texture": "#top_s_lr", "cullface": "up"}
+				"east": {"uv": [0, 0, 16, 8], "texture": "#ew_s"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#ns", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#ew", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 8], "rotation": 270, "texture": "#top_s_st", "cullface": "up"}
 			}
 		}
 	]
