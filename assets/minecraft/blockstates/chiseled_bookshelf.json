@@ -11,11 +11,11 @@
             "when"  :{"facing":"north","slot_0_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_0"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_4"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_1"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_2"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_3"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_4"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_5"   ,"y":0}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_5"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_3"   ,"y":0}
             ]
         },
         {
@@ -23,20 +23,20 @@
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_1"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_2"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_3"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_4"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_5"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_0"   ,"y":0}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_3"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_0"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_4"   ,"y":0}
             ]
         },
         {
             "when"  :{"facing":"north","slot_2_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_2"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_2_3"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_2_4"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_5"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_2_3"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_0"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_2_4"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_1"   ,"y":0}
             ]
         },
@@ -44,33 +44,33 @@
             "when"  :{"facing":"north","slot_3_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_3"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_4"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_5"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_0"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_4"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_1"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_2"   ,"y":0}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_2"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_5"   ,"y":0}
             ]
         },
         {
             "when"  :{"facing":"north","slot_4_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_4"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_5"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_0"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_1"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_2"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_3"   ,"y":0}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_5"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_3"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_0"   ,"y":0}
             ]
         },
         {
             "when"  :{"facing":"north","slot_5_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_5_5"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_0"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_1"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_2"   ,"y":0},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_5_3"   ,"y":0},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_4"   ,"y":0}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_0"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_4"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_1"   ,"y":0},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_2"   ,"y":0}
             ]
         },
 
@@ -86,11 +86,11 @@
             "when"  :{"facing":"east","slot_0_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_0"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_4"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_1"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_2"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_3"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_4"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_5"   ,"y":90}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_5"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_3"   ,"y":90}
             ]
         },
         {
@@ -98,20 +98,20 @@
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_1"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_2"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_3"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_4"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_5"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_0"   ,"y":90}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_3"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_0"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_4"   ,"y":90}
             ]
         },
         {
             "when"  :{"facing":"east","slot_2_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_2"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_2_3"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_2_4"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_5"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_2_3"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_0"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_2_4"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_1"   ,"y":90}
             ]
         },
@@ -119,33 +119,33 @@
             "when"  :{"facing":"east","slot_3_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_3"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_4"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_5"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_0"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_4"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_1"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_2"   ,"y":90}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_2"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_5"   ,"y":90}
             ]
         },
         {
             "when"  :{"facing":"east","slot_4_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_4"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_5"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_0"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_1"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_2"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_3"   ,"y":90}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_5"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_3"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_0"   ,"y":90}
             ]
         },
         {
             "when"  :{"facing":"east","slot_5_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_5_5"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_0"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_1"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_2"   ,"y":90},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_5_3"   ,"y":90},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_4"   ,"y":90}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_0"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_4"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_1"   ,"y":90},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_2"   ,"y":90}
             ]
         },
 
@@ -161,11 +161,11 @@
             "when"  :{"facing":"south","slot_0_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_0"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_4"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_1"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_2"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_3"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_4"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_5"   ,"y":180}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_5"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_3"   ,"y":180}
             ]
         },
         {
@@ -173,20 +173,20 @@
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_1"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_2"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_3"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_4"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_5"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_0"   ,"y":180}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_3"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_0"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_4"   ,"y":180}
             ]
         },
         {
             "when"  :{"facing":"south","slot_2_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_2"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_2_3"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_2_4"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_5"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_2_3"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_0"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_2_4"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_1"   ,"y":180}
             ]
         },
@@ -194,33 +194,33 @@
             "when"  :{"facing":"south","slot_3_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_3"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_4"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_5"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_0"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_4"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_1"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_2"   ,"y":180}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_2"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_5"   ,"y":180}
             ]
         },
         {
             "when"  :{"facing":"south","slot_4_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_4"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_5"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_0"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_1"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_2"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_3"   ,"y":180}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_5"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_3"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_0"   ,"y":180}
             ]
         },
         {
             "when"  :{"facing":"south","slot_5_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_5_5"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_0"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_1"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_2"   ,"y":180},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_5_3"   ,"y":180},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_4"   ,"y":180}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_0"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_4"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_1"   ,"y":180},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_2"   ,"y":180}
             ]
         },
 
@@ -236,11 +236,11 @@
             "when"  :{"facing":"west","slot_0_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_0"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_4"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_1"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_0_2"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_3"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_4"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_0_5"   ,"y":270}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_5"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_0_3"   ,"y":270}
             ]
         },
         {
@@ -248,20 +248,20 @@
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_1"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_2"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_3"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_4"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_1_5"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_1_0"   ,"y":270}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_3"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_0"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_1_4"   ,"y":270}
             ]
         },
         {
             "when"  :{"facing":"west","slot_2_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_2"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_2_3"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_2_4"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_5"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_2_3"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_0"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_2_4"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_2_1"   ,"y":270}
             ]
         },
@@ -269,33 +269,33 @@
             "when"  :{"facing":"west","slot_3_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_3"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_4"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_5"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_0"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_4"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_3_1"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_3_2"   ,"y":270}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_2"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_3_5"   ,"y":270}
             ]
         },
         {
             "when"  :{"facing":"west","slot_4_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_4"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_5"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_0"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_1"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_4_2"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_4_3"   ,"y":270}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_5"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_3"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_4_0"   ,"y":270}
             ]
         },
         {
             "when"  :{"facing":"west","slot_5_occupied":true},
             "apply" :[
                 {"model":"block/bookshelf/chiseled_bookshelf_book_5_5"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_0"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_1"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_2"   ,"y":270},
                 {"model":"block/bookshelf/chiseled_bookshelf_book_5_3"   ,"y":270},
-                {"model":"block/bookshelf/chiseled_bookshelf_book_5_4"   ,"y":270}
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_0"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_4"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_1"   ,"y":270},
+                {"model":"block/bookshelf/chiseled_bookshelf_book_5_2"   ,"y":270}
             ]
         }
     ]
