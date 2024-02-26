@@ -2,12 +2,8 @@
     "sources": [
         {
             "type": "directory",
-            "source": "block",
-            "prefix": "block/"
-        },
-        {
-            "type": "single",
-            "resource": "minecraft:entity/chest/trapped"
+            "source": "entity/chest",
+            "prefix": "entity/chest/"
         },
         {
             "type": "filter",
