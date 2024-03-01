@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/dark_oak_door_top",
+		"top": "block/dark_oak_door_top",
+		"knob": "block/door_knobs"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [3, 0, 0, 16], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#top"},
+				"south": {"uv": [3, 0, 0, 16], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 3], "rotation": 90, "texture": "#top", "cullface": "up"}
+			}
+		},
+		{
+			"from": [-0.5, -1, 11],
+			"to": [3.5, 1, 14],
+			"faces": {
+				"east": {"uv": [3, 2, 0, 4], "texture": "#knob"},
+				"west": {"uv": [0, 2, 3, 4], "texture": "#knob", "cullface": "west"}
+			}
+		},
+		{
+			"from": [-0.25, -1, 11],
+			"to": [3.25, 1, 14],
+			"faces": {
+				"east": {"uv": [3, 2, 0, 4], "texture": "#knob"},
+				"west": {"uv": [0, 2, 3, 4], "texture": "#knob", "cullface": "west"}
+			}
+		}
+	]
+}
