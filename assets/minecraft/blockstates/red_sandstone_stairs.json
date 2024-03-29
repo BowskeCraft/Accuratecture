@@ -53,7 +53,7 @@
       "y": 90
     },
     "facing=west,half=bottom,shape=inner_left": {
-      "model": "minecraft:block/sandstone/red_sandstone_stairs_nner",
+      "model": "minecraft:block/sandstone/red_sandstone_stairs_inner",
       "uvlock": true,
       "y": 90
     },
