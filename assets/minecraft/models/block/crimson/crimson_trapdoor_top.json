@@ -6,6 +6,7 @@
 		"texture": "block/crimson_trapdoor",
 		"inner": "block/crimson_trapdoor_close"
 	},
+	"ambientocclusion":false,
 	"elements": [
 		{
 			"from": [0, 13, 0],

@@ -6,6 +6,7 @@
 		"particle": "block/sakura_trapdoor",
 		"inner": "block/sakura_trapdoor"
 	},
+	"ambientocclusion":false,
 	"elements": [
 		{
 			"from": [0, 0, 13],

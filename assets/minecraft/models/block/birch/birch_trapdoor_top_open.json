@@ -6,6 +6,7 @@
 		"particle": "block/birch_trapdoor",
 		"inner": "block/birch_trapdoor"
 	},
+	"ambientocclusion":false,
 	"elements": [
 		{
 			"from": [0, 0, 13],

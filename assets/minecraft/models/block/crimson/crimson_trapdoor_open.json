@@ -6,6 +6,7 @@
 		"particle": "block/crimson_trapdoor",
 		"inner": "block/crimson_trapdoor"
 	},
+	"ambientocclusion":false,
 	"elements": [
 		{
 			"from": [0, 0, 13],

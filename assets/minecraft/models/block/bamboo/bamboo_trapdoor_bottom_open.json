@@ -6,6 +6,7 @@
 		"particle": "block/bamboo_trapdoor",
 		"inner": "block/bamboo_trapdoor"
 	},
+	"ambientocclusion":false,
 	"elements": [
 		{
 			"from": [0, 0, 13],

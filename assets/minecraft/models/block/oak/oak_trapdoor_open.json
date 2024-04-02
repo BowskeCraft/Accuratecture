@@ -6,6 +6,7 @@
 		"texture": "block/oak_trapdoor",
 		"frame": "block/oak_trapdoor_frame"
 	},
+	"ambientocclusion":false,
 	"elements": [
 		{
 			"from": [0, 0, 13],

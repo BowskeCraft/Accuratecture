@@ -5,6 +5,7 @@
 		"bottom": "block/bamboo_door_bottom",
 		"knob": "block/door_knobs"
 	},
+	"ambientocclusion":false,
 	"elements": [
 		{
 			"from": [0, 0, 0],

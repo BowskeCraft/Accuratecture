@@ -7,6 +7,7 @@
 		"inner": "block/birch_trapdoor_close",
 		"bottom": "block/birch_trapdoor_bottom"
 	},
+	"ambientocclusion":false,
 	"elements": [
 		{
 			"from": [0, 0, 0],

@@ -2,7 +2,6 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/door_top_left_open",
 	"textures": {
-		"knobs": "block/door_knobs",
 		"particle": "block/iron_door_top",
 		"top": "block/iron_door_top"
 	},
@@ -70,24 +69,6 @@
 				"west": {"uv": [3, 6, 13, 8], "texture": "#top", "cullface": "west"},
 				"up": {"uv": [3, 8, 13, 6], "rotation": 90, "texture": "#top"},
 				"down": {"uv": [3, 8, 13, 6], "rotation": 270, "texture": "#top"}
-			}
-		},
-		{
-			"from": [-0.25, 0, 2],
-			"to": [3.25, 2, 5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
-			"faces": {
-				"east": {"uv": [0, 6, 3, 8], "texture": "#knobs"},
-				"west": {"uv": [3, 6, 0, 8], "texture": "#knobs", "cullface": "west"}
-			}
-		},
-		{
-			"from": [-0.5, 0, 2],
-			"to": [3.5, 2, 5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
-			"faces": {
-				"east": {"uv": [0, 6, 3, 8], "texture": "#knobs"},
-				"west": {"uv": [3, 6, 0, 8], "texture": "#knobs", "cullface": "west"}
 			}
 		}
 	]
