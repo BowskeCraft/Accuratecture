@@ -22,18 +22,18 @@ All of images in this pack are original, made by @BowskeCraft .<br/>
 
 ## Recommended Settings 推奨設定
 
-- Optifine
+- **Optifine**
   
-  - *Enable*: Options > Video settings > Details > Alternate Blocks
+  - **Enable**: *Options > Video settings > Details > Alternate Blocks*
 
-  - Since Optifine is having a issues with CTM rendering,do *NOT* enable CTM with them.
+  - Since we couldn't confirm normal operation with optifine, do *NOT* enable CTM with them.
 
-- Sodium <sub>with</sub> Iris, Rubidium <sub>with</sub> Oculus
+- **Sodium** with **Iris**, **Rubidium** with **Oculus**
   
-  - *Disable*: Options > Video settings > Performance > Use Block Face Culling
+  - **Disable**: *Options > Video settings > Performance > Use Block Face Culling*
 
 - Shader settings
   
-  - Recommend Activating PBR(labPBR) or Normal maps.
+  - Recommend Activating *PBR*(*labPBR*) or *Normal maps*.
   
-  - If possible, activate Parallax Occlusion Mapping ,Parallax ,or POM.
+  - If possible, activate *Parallax Occlusion Mapping*, *Parallax*, or *POM*.
