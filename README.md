@@ -2,8 +2,8 @@
 
 ## *version3.0.0*
 
-A minecraft resourcepack for Minecraft:Java edition **1.20.1**~**1.20.6**.
-Minecraft:Java Edition のバージョン1.20.1~1.20.6向けのリソースパックです。
+A minecraft resourcepack for Minecraft:Java edition **1.20.1** ~ **1.20.6**.
+Minecraft:Java Edition のバージョン**1.20.1** ~ **1.20.6**向けのリソースパックです。
 
 All of image in this pack are original, made by @BowskeCraft .
 含まれる全ての画像ファイルは @BowskeCraft によるオリジナルです。
