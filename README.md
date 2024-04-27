@@ -26,7 +26,7 @@ All of images in this pack are original, made by @BowskeCraft .<br/>
   
   - **Enable**: *Options > Video settings > Details > Alternate Blocks*
 
-  - Since we couldn't confirm normal operation with optifine, do *NOT* enable CTM with them.
+  - Since we couldn't confirm normal rendering with optifine, do *NOT* enable CTM with them.
 
 - **Sodium** with **Iris**, **Rubidium** with **Oculus**
   
