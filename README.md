@@ -28,7 +28,7 @@ All of images in this pack are original, made by @BowskeCraft .<br/>
 
   - Since Optifine is having a issues with CTM rendering,do *NOT* enable CTM with them.
 
-- Sodium with Iris, Rubidium with Oculus
+- Sodium <sub>with</sub> Iris, Rubidium <sub>with</sub> Oculus
   
   - *Disable*: Options > Video settings > Performance > Use Block Face Culling
 
