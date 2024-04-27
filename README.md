@@ -23,18 +23,18 @@ All of images in this pack are original, made by @BowskeCraft .<br/>
 ## Features / パックの特徴
 
 - Better block Appearance
-    This resourcepack make some blocks more accurately/conveniently while keeping vanilla resolution.For example,the top face of bricks are changed into fishbone pattern to remove direction dependency.<br/>
-    このリソースパックは，バニラの解像度を維持しつつもいくつかのブロックの見た目を改良します．例えば，レンガブロックの上下面はフィッシュボーンの並び方になって，方向依存性がなくなります．
+  - This resourcepack make some blocks more accurately/conveniently while keeping vanilla resolution.For example,the top face of bricks are changed into fishbone pattern to remove direction dependency.<br/>
+  このリソースパックは，バニラの解像度を維持しつつもいくつかのブロックの見た目を改良します．例えば，レンガブロックの上下面はフィッシュボーンの並び方になって，方向依存性がなくなります．
 
 - Deformable Blocks
-    Some gets new appearance,some are stacked/connected more accuratery.<br/>
+  - Some gets new appearance,some are stacked/connected more accuratery.<br/>
     いくつかのブロックは新たな見た目を与えられ，またより正確に接続するようになります．
 
-- PBR support <sub>*\*beta*</sub>
-    Almost all original textures in this pack have 16x normal maps and specular maps that besed on LabPBR standard.Some vanilla textures also have them.<br/>
-    このパックに入っているほとんどのテクスチャにlabPBR準拠のマテリアルテクスチャが追加されます．いくつかのバニラのテクスチャにも同様に追加されます．
+- PBR support <sub>(*beta*)</sub>
+  - Almost all original textures in this pack have 16x normal maps and specular maps that besed on LabPBR standard.Some vanilla textures also have them.<br/>
+  このパックに入っているほとんどのテクスチャにlabPBR準拠のマテリアルテクスチャが追加されます．いくつかのバニラのテクスチャにも同様に追加されます．
 
-- CTM support <sub>*\*beta*</sub>
+- CTM support <sub>(*beta*)</sub>
 
 ***
 
