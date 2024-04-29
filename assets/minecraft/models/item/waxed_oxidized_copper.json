@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/parents/bordered_cube_all",
+  "textures": {
+    "all": "minecraft:block/oxidized_copper",
+    "border": "minecraft:block/border_waxed"
+  }
+}

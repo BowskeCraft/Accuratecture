@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_orientable_trapdoor_top",
+	"textures": {
+		"particle": "block/acacia_trapdoor",
+		"texture": "block/acacia_trapdoor",
+		"inner": "block/acacia_trapdoor_close",
+		"top": "block/acacia_trapdoor_top"
+	},
+	"ambientocclusion":false,
+	"elements": [
+		{
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#top", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 0], "texture": "#inner", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#inner"}
+			}
+		},
+		{
+			"from": [0, 14, 0],
+			"to": [16, 15, 16],
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [9, 14, 3],
+			"to": [12, 15, 13],
+			"faces": {
+				"east": {"uv": [4, 3, 5, 13], "rotation": 270, "texture": "#texture"},
+				"west": {"uv": [6, 3, 7, 13], "rotation": 270, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [4, 14, 3],
+			"to": [7, 15, 13],
+			"faces": {
+				"east": {"uv": [9, 3, 10, 13], "rotation": 270, "texture": "#texture"},
+				"west": {"uv": [11, 3, 12, 13], "rotation": 270, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [14, 13, 2],
+			"to": [14, 16, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"west": {"uv": [2, 3, 14, 0], "texture": "#inner"}
+			}
+		},
+		{
+			"from": [2, 13, 13],
+			"to": [14, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [2, 3, 14, 0], "texture": "#inner"}
+			}
+		},
+		{
+			"from": [2, 13, 2],
+			"to": [2, 16, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [2, 3, 14, 0], "texture": "#inner"}
+			}
+		},
+		{
+			"from": [2, 13, 3],
+			"to": [14, 16, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"south": {"uv": [2, 3, 14, 0], "texture": "#inner"}
+			}
+		}
+	]
+}

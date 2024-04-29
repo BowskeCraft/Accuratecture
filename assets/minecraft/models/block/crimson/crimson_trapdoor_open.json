@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_orientable_trapdoor_open",
+	"textures": {
+		"texture": "block/crimson_trapdoor_close",
+		"particle": "block/crimson_trapdoor",
+		"inner": "block/crimson_trapdoor"
+	},
+	"ambientocclusion":false,
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#texture", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [13, 0, 16, 16], "texture": "#texture", "cullface": "west"},
+				"up": {"uv": [0, 3, 16, 0], "texture": "#inner", "cullface": "up"},
+				"down": {"uv": [0, 3, 16, 0], "rotation": 180, "texture": "#inner", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 14],
+			"to": [16, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "texture": "#inner"},
+				"south": {"uv": [0, 16, 16, 0], "texture": "#inner", "cullface": "south"}
+			}
+		},
+		{
+			"from": [3, 4, 14],
+			"to": [13, 7, 15],
+			"faces": {
+				"up": {"uv": [13, 6, 3, 7], "rotation": 180, "texture": "#inner"},
+				"down": {"uv": [13, 4, 3, 5], "texture": "#inner"}
+			}
+		},
+		{
+			"from": [3, 9, 14],
+			"to": [13, 12, 15],
+			"faces": {
+				"up": {"uv": [13, 11, 3, 12], "rotation": 180, "texture": "#inner"},
+				"down": {"uv": [13, 9, 3, 10], "texture": "#inner"}
+			}
+		},
+		{
+			"from": [13, 3, 13],
+			"to": [13, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 0]},
+			"faces": {
+				"west": {"uv": [3, 0, 13, 3], "rotation": 90, "texture": "#inner"}
+			}
+		},
+		{
+			"from": [3, 3, 13],
+			"to": [13, 3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 0]},
+			"faces": {
+				"up": {"uv": [3, 0, 13, 3], "rotation": 180, "texture": "#inner"}
+			}
+		},
+		{
+			"from": [3, 3, 13],
+			"to": [3, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 0]},
+			"faces": {
+				"east": {"uv": [3, 0, 13, 3], "rotation": 270, "texture": "#inner"}
+			}
+		},
+		{
+			"from": [3, 13, 13],
+			"to": [13, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 0]},
+			"faces": {
+				"down": {"uv": [3, 0, 13, 3], "texture": "#inner"}
+			}
+		}
+	]
+}

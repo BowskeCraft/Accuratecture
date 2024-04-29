@@ -1,6 +1,0 @@
-{
-    "parent":"minecraft:block/parents/stairs_top",
-    "textures":{
-        "top":"minecraft:block/bricks_top_0"
-    }
-}

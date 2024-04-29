@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/frontfaced",
+  "textures": {
+    "layer0": "minecraft:item/light_05"
+  }
+}

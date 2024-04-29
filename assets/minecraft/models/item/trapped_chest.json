@@ -3,7 +3,7 @@
 	"parent": "block/parents/bordered_cube",
 	"textures": {
 		"chest": "minecraft:entity/chest/trapped",
-		"border": "minecraft:block/border_cube",
+		"border": "minecraft:block/border_trapped",
 		"particle": "#chest"
 	},
 	"elements": [

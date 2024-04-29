@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/parents/bordered_stairs",
+  "textures": {
+    "bottom": "minecraft:block/weathered_cut_copper",
+    "side": "minecraft:block/weathered_cut_copper",
+    "top": "minecraft:block/weathered_cut_copper",
+    "border": "minecraft:block/border_waxed"
+  }
+}

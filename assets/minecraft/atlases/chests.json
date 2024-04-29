@@ -1,0 +1,15 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "entity/chest",
+            "prefix": "entity/chest/"
+        },
+        {
+            "type": "filter",
+            "pattern": {
+                "path": ".*_(n|s)$"
+            }
+        }
+    ]
+}

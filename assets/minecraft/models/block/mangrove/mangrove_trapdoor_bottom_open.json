@@ -1,0 +1,61 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_orientable_trapdoor_open",
+	"ambientocclusion": false,
+	"textures": {
+		"frame": "block/mangrove_trapdoor_frame",
+		"particle": "block/mangrove_trapdoor",
+		"inner": "block/mangrove_trapdoor"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#frame"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#frame", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#frame", "cullface": "south"},
+				"west": {"uv": [13, 0, 16, 16], "texture": "#frame", "cullface": "west"},
+				"up": {"uv": [0, 3, 16, 0], "texture": "#frame", "cullface": "up"},
+				"down": {"uv": [0, 3, 16, 0], "rotation": 180, "texture": "#frame", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 15],
+			"to": [16, 16, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "texture": "#inner"},
+				"south": {"uv": [0, 16, 16, 0], "texture": "#inner", "cullface": "south"}
+			}
+		},
+		{
+			"from": [0, 0, 14.5],
+			"to": [16, 16, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "texture": "#inner"},
+				"south": {"uv": [0, 16, 16, 0], "texture": "#inner", "cullface": "south"}
+			}
+		},
+		{
+			"from": [0, 0, 14],
+			"to": [16, 16, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "texture": "#inner"},
+				"south": {"uv": [0, 16, 16, 0], "texture": "#inner", "cullface": "south"}
+			}
+		},
+		{
+			"from": [0, 0, 13.5],
+			"to": [16, 16, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#frame"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#frame", "cullface": "south"}
+			}
+		}
+	]
+}

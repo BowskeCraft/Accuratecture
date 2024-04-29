@@ -3,12 +3,17 @@
         {
             "type": "directory",
             "source": "block",
-            "path":"minecraft/block/torch.png",
             "prefix": "block/"
         },
         {
             "type": "single",
-            "resource":"entity/chest/trapped"
+            "resource": "minecraft:entity/chest/trapped"
+        },
+        {
+            "type": "filter",
+            "pattern": {
+                "path": ".*_(n|s)$"
+            }
         }
     ]
 }

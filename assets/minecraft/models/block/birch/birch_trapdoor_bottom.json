@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_orientable_trapdoor_bottom",
+	"textures": {
+		"particle": "block/birch_trapdoor",
+		"texture": "block/birch_trapdoor",
+		"inner": "block/birch_trapdoor_close",
+		"bottom": "block/birch_trapdoor_bottom"
+	},
+	"ambientocclusion":false,
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [0, 0, 3, 16], "rotation": 90, "texture": "#inner", "cullface": "east"},
+				"south": {"uv": [0, 13, 16, 16], "texture": "#bottom", "cullface": "south"},
+				"west": {"uv": [13, 0, 16, 16], "rotation": 270, "texture": "#inner", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 0], "texture": "#inner"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#inner", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0.5, 0],
+			"to": [16, 2.5, 16],
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "down"}
+			}
+		}
+	]
+}

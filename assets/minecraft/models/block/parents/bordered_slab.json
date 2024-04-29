@@ -3,7 +3,6 @@
 	"parent": "minecraft:block/slab",
 	"textures": {
 		"border_cube": "block/border_cube",
-		"border_slab": "block/border_slab_side",
 		"particle": "#side"
 	},
 	"elements": [
@@ -30,14 +29,14 @@
 			"from": [-0.5, -0.5, -0.5],
 			"to": [16.5, 8.5, -0.5],
 			"faces": {
-				"south": {"uv": [0, 0, 16, 8], "texture": "#border_slab"}
+				"south": {"uv": [0, 0, 16, 8], "texture": "#border_cube"}
 			}
 		},
 		{
 			"from": [-0.5, -0.5, -0.5],
 			"to": [-0.5, 8.5, 16.5],
 			"faces": {
-				"east": {"uv": [0, 8, 16, 16], "texture": "#border_slab"}
+				"east": {"uv": [16, 8, 0, 16], "texture": "#border_cube"}
 			}
 		},
 		{
@@ -53,7 +52,7 @@
 			"to": [16.5, 8.5, 16.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
 			"faces": {
-				"north": {"uv": [0, 8, 16, 0], "texture": "#border_slab"}
+				"north": {"uv": [16, 16, 0, 8], "texture": "#border_cube"}
 			}
 		},
 		{
@@ -61,7 +60,7 @@
 			"to": [16.5, 8.5, 16.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
 			"faces": {
-				"west": {"uv": [0, 16, 16, 8], "texture": "#border_slab"}
+				"west": {"uv": [0, 16, 16, 8], "texture": "#border_cube"}
 			}
 		}
 	],

@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "power=0": {
+      "model": "minecraft:block/iron/iron_pressure_plate"
+    },
+    "power=1": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    },
+    "power=2": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    },
+    "power=3": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    },
+    "power=4": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    },
+    "power=5": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    },
+    "power=6": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    },
+    "power=7": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    },
+    "power=8": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    },
+    "power=9": {
+      "model": "minecraft:block/iron/iron_pressure_plate_down"
+    }
+  }
+}

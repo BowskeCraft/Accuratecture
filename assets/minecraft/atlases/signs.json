@@ -1,0 +1,15 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "entity/signs",
+            "prefix": "entity/signs/"
+        },
+        {
+            "type": "filter",
+            "pattern": {
+                "path": ".*_(n|s)$"
+            }
+        }
+    ]
+}

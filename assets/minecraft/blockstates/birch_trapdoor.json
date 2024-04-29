@@ -1,7 +1,7 @@
 {
   "variants": {
     "facing=east,half=bottom,open=false": {
-      "model": "minecraft:block/birch_trapdoor_bottom",
+      "model": "minecraft:block/birch/birch_trapdoor_bottom",
       "y": 90
     },
     "facing=east,half=bottom,open=true": {
@@ -10,7 +10,7 @@
       "y": 90
     },
     "facing=east,half=top,open=false": {
-      "model": "minecraft:block/birch_trapdoor_top",
+      "model": "minecraft:block/birch/birch_trapdoor_top",
       "y": 90
     },
     "facing=east,half=top,open=true": {
@@ -19,7 +19,7 @@
       "y": 90
     },
     "facing=north,half=bottom,open=false": {
-      "model": "minecraft:block/birch_trapdoor_bottom"
+      "model": "minecraft:block/birch/birch_trapdoor_bottom"
     },
     "facing=north,half=bottom,open=true": {
       "model": "minecraft:block/birch/birch_trapdoor_bottom_open",
@@ -27,7 +27,7 @@
       "y": 0
     },
     "facing=north,half=top,open=false": {
-      "model": "minecraft:block/birch_trapdoor_top"
+      "model": "minecraft:block/birch/birch_trapdoor_top"
     },
     "facing=north,half=top,open=true": {
       "model": "minecraft:block/birch/birch_trapdoor_top_open",
@@ -35,7 +35,7 @@
       "y": 0
     },
     "facing=south,half=bottom,open=false": {
-      "model": "minecraft:block/birch_trapdoor_bottom",
+      "model": "minecraft:block/birch/birch_trapdoor_bottom",
       "y": 180
     },
     "facing=south,half=bottom,open=true": {
@@ -44,7 +44,7 @@
       "y": 180
     },
     "facing=south,half=top,open=false": {
-      "model": "minecraft:block/birch_trapdoor_top",
+      "model": "minecraft:block/birch/birch_trapdoor_top",
       "y": 180
     },
     "facing=south,half=top,open=true": {
@@ -53,7 +53,7 @@
       "y": 180
     },
     "facing=west,half=bottom,open=false": {
-      "model": "minecraft:block/birch_trapdoor_bottom",
+      "model": "minecraft:block/birch/birch_trapdoor_bottom",
       "y": 270
     },
     "facing=west,half=bottom,open=true": {
@@ -62,7 +62,7 @@
       "y": 270
     },
     "facing=west,half=top,open=false": {
-      "model": "minecraft:block/birch_trapdoor_top",
+      "model": "minecraft:block/birch/birch_trapdoor_top",
       "y": 270
     },
     "facing=west,half=top,open=true": {
