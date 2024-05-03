@@ -5,7 +5,7 @@
 		"min_inclusive":12,
 		"max_inclusive":32
 	},
-	"minecraft_version":"Java edition 1.20.1",
+	"minecraft_version":"Java edition 1.20.1 ~ 1.20.6",
 
 	"pack_name":"Accuratecture",
 	"pack_version":"release_3.0.0",

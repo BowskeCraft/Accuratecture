@@ -18,8 +18,6 @@ All of images in this pack are original.<br/>
 > This pack is not for Bedrock edition.For technical reasons, **NO** future supports are planned either.<br/>
 > このパックは統合版用ではありません．技術的な理由により，将来的なサポートも予定しておりません．
 
-***
-
 ## Features / パックの特徴
 
 - Better block Appearance
@@ -38,8 +36,6 @@ All of images in this pack are original.<br/>
   このパックに入っているほとんどのテクスチャにlabPBR準拠のマテリアルテクスチャが追加されます．いくつかのバニラのテクスチャにも同様に追加されます．
 
 - CTM support <sub>(*beta*)</sub>
-
-***
 
 ## Recommended Settings / 推奨設定
 
