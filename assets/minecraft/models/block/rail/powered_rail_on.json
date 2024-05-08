@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/rail/powered_rail",
+	"textures": {
+		"sleeper": "block/rail_sleeper_redstone_on",
+		"rail": "block/rail"
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/rail_flat",
+	"textures": {
+		"sleeper": "block/rail_sleeper",
+		"rail": "block/rail",
+		"particle": "block/rail_corner"
+	},
+	"elements": [
+		{
+			"from": [12, 0.5, 0],
+			"to": [14, 1.5, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [15, 4, 16, 6], "rotation": 90, "texture": "#rail", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#rail"},
+				"south": {"uv": [0, 4, 1, 6], "rotation": 270, "texture": "#rail", "cullface": "south"},
+				"west": {"uv": [0, 3, 16, 4], "texture": "#rail"},
+				"up": {"uv": [0, 1, 16, 3], "rotation": 90, "texture": "#rail"},
+				"down": {"uv": [0, 4, 16, 6], "rotation": 90, "texture": "#rail", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2, 0.5, 0],
+			"to": [4, 1.5, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 4, 1, 6], "rotation": 270, "texture": "#rail", "cullface": "north"},
+				"east": {"uv": [0, 3, 16, 4], "texture": "#rail"},
+				"south": {"uv": [15, 4, 16, 6], "rotation": 90, "texture": "#rail", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#rail"},
+				"up": {"uv": [0, 1, 16, 3], "rotation": 270, "texture": "#rail"},
+				"down": {"uv": [0, 4, 16, 6], "rotation": 270, "texture": "#rail", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1, 0, 1],
+			"to": [15, 0.075, 15],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#sleeper"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#sleeper", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1, 0.25, 1],
+			"to": [15, 0.25, 15],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#sleeper"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#sleeper", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1, 0.475, 1],
+			"to": [15, 0.5, 15],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#sleeper"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#sleeper", "cullface": "down"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 1.25, 4],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [86, 1, 31],
+			"translation": [1, 2, 3],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0],
+			"scale": [0.5, 0.75, 0.5]
+		},
+		"gui": {
+			"rotation": [90, 0, 0]
+		},
+		"head": {
+			"translation": [0, 12.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -8]
+		}
+	}
+}

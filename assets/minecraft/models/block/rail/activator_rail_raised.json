@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/rail_raised",
+	"textures": {
+		"sleeper": "block/rail_sleeper_redstone",
+		"particle": "block/activator_rail",
+		"rail": "block/rail"
+	}
+}
