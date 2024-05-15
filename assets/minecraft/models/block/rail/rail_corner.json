@@ -14,7 +14,7 @@
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side"}
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side", "cullface": "down"}
 			}
 		},
 		{
@@ -23,7 +23,7 @@
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#side"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side"}
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side", "cullface": "down"}
 			}
 		},
 		{
@@ -32,7 +32,7 @@
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#side"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side"}
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side", "cullface": "down"}
 			}
 		},
 		{
@@ -41,7 +41,7 @@
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#side"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side"}
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side", "cullface": "down"}
 			}
 		},
 		{
@@ -50,7 +50,7 @@
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#side"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side"}
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#side", "cullface": "down"}
 			}
 		},
 		{
@@ -59,7 +59,7 @@
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#sleeper"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#sleeper"}
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#sleeper", "cullface": "down"}
 			}
 		},
 		{
@@ -68,7 +68,7 @@
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#sleeper"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#sleeper"}
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#sleeper", "cullface": "down"}
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#sleeper"},
-				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#sleeper"}
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#sleeper", "cullface": "down"}
 			}
 		}
 	]
