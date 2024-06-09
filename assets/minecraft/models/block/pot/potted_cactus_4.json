@@ -4,8 +4,8 @@
 	"ambientocclusion": false,
 	"textures": {
 		"3": "block/cactus_top",
-		"plant": "block/cactus_side",
-		"particle": "block/plant_echeveria_top"
+		"particle": "block/cactus_top",
+		"plant": "block/cactus_side"
 	},
 	"elements": [
 		{
