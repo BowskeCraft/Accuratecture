@@ -3,7 +3,7 @@
 	"parent": "block/flower_pot_cross",
 	"ambientocclusion": false,
 	"textures": {
-		"plant": "block/plant_cactus"
+		"plant": "block/plant_succulent_0"
 	},
 	"elements": [
 		{
@@ -59,21 +59,15 @@
 			}
 		},
 		{
-			"from": [4, 4, 8],
-			"to": [12, 21, 8],
-			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, -2, 8]},
+			"from": [6, 6, 6],
+			"to": [10, 13, 10],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [8, 0, 16, 16], "texture": "#plant", "tintindex": 0},
-				"south": {"uv": [8, 0, 16, 16], "texture": "#plant", "tintindex": 0}
-			}
-		},
-		{
-			"from": [4, 4, 8],
-			"to": [12, 21, 8],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, -2, 8]},
-			"faces": {
-				"north": {"uv": [8, 0, 16, 16], "texture": "#plant", "tintindex": 0},
-				"south": {"uv": [8, 0, 16, 16], "texture": "#plant", "tintindex": 0}
+				"north": {"uv": [12, 4, 16, 11], "texture": "#plant"},
+				"east": {"uv": [8, 4, 12, 11], "texture": "#plant"},
+				"south": {"uv": [12, 4, 16, 11], "texture": "#plant"},
+				"west": {"uv": [8, 4, 12, 11], "texture": "#plant"},
+				"up": {"uv": [8, 0, 12, 4], "rotation": 270, "texture": "#plant"}
 			}
 		}
 	]

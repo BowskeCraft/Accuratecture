@@ -3,9 +3,7 @@
 	"parent": "block/flower_pot_cross",
 	"ambientocclusion": false,
 	"textures": {
-		"3": "block/cactus_top",
-		"particle": "block/cactus_top",
-		"plant": "block/cactus_side"
+		"plant": "block/plant_succulent_0"
 	},
 	"elements": [
 		{
@@ -61,16 +59,39 @@
 			}
 		},
 		{
-			"from": [6, 5, 6],
-			"to": [10, 10, 10],
-			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8]},
+			"from": [8, 4, 5],
+			"to": [8, 10, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2, 8]},
 			"faces": {
-				"north": {"uv": [8, 6, 14, 11], "texture": "#plant"},
-				"east": {"uv": [5, 3, 11, 8], "texture": "#plant"},
-				"south": {"uv": [5, 6, 11, 11], "texture": "#plant"},
-				"west": {"uv": [5, 4, 11, 9], "texture": "#plant"},
-				"up": {"uv": [5, 5, 11, 11], "texture": "#3"},
-				"down": {"uv": [4, 7, 10, 13], "texture": "#plant"}
+				"east": {"uv": [0, 8, 8, 16], "texture": "#plant", "tintindex": 0},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#plant", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 4, 5],
+			"to": [8, 10, 11],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"east": {"uv": [0, 8, 8, 16], "texture": "#plant", "tintindex": 0},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#plant", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5, 4, 8],
+			"to": [11, 10, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#plant", "tintindex": 0},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#plant", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5, 4, 8],
+			"to": [11, 10, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#plant", "tintindex": 0},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#plant", "tintindex": 0}
 			}
 		}
 	]

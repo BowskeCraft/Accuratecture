@@ -3,8 +3,8 @@
 	"parent": "block/flower_pot_cross",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/plant_echeveria",
-		"plant": "block/plant_echeveria"
+		"particle": "block/plant_succulent_1",
+		"plant": "block/plant_succulent_1"
 	},
 	"elements": [
 		{
