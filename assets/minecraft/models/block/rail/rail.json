@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/rail_flat",
+	"textures": {
+		"sleeper": "block/rail_sleeper",
+		"rail": "block/rail",
+		"particle": "block/rail_corner"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/wall_torch",
+	"textures": {
+		"particle": "block/lever",
+		"texture": "block/lever"
+	},
+	"elements": [
+		{
+			"from": [-1, 3.5, 7],
+			"to": [1, 13.5, 9],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [0, 3.5, 8]},
+			"faces": {
+				"north": {"uv": [14, 0, 16, 10], "texture": "#texture"},
+				"east": {"uv": [14, 0, 16, 10], "texture": "#texture"},
+				"south": {"uv": [14, 0, 16, 10], "texture": "#texture"},
+				"west": {"uv": [14, 0, 16, 10], "texture": "#texture"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#texture"},
+				"down": {"uv": [14, 8, 16, 10], "texture": "#texture"}
+			}
+		}
+	]
+}
