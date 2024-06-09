@@ -8,10 +8,10 @@
 	"minecraft_version":"Java edition 1.20.1 ~ 1.20.6",
 
 	"pack_name":"Accuratecture",
-	"pack_version":"release_3.0.0",
+	"pack_version":"release_3.1.0",
 	"description":[
 			{"text":"Accuratecture ","color":"#DBD6A7","bold":true},
-			{"text":"3.0.0","color":"dark_gray","italic":true},
+			{"text":"3.1.0","color":"dark_gray","italic":true},
 			{"text":"\nby ","color":"dark_gray","bold":true},
 			{"text":"\u03b2\u00f8\u026f\u0219\u006b\u0065's CraftRoom\n","color":"#7E7664"}
 		]
