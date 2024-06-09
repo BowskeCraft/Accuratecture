@@ -1,5 +1,5 @@
 {
-	"parent":"block/pot/large_pot",
+	"parent":"block/parents/pot_large",
 	"textures": {
 		"plant": "block/dead_bush"
 	}
