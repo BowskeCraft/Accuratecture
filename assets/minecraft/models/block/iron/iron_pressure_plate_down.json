@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/pressure_plate_down",
+    "parent": "minecraft:block/parents/pressure_plate_down",
     "textures": {
       "texture": "minecraft:block/iron_pressure_plate"
     }
