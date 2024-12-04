@@ -1,7 +1,3 @@
 {
-  "parent": "minecraft:block/parents/bordered_trapdoor",
-  "textures": {
-    "texture": "minecraft:block/copper_trapdoor",
-    "border": "minecraft:block/border_waxed"
-  }
+  "parent": "minecraft:block/copper/waxed_copper_trapdoor"
 }
