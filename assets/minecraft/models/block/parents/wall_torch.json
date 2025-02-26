@@ -18,7 +18,8 @@
 				"west": {"uv": [0, 6, 16, 16], "texture": "#torch"},
 				"up": {"uv": [0, 4, 16, 6], "texture": "#torch"},
 				"down": {"uv": [0, 14, 16, 16], "texture": "#torch"}
-			}
+			},
+			"light_emission":10
 		},
 		{
 			"from": [4, 11.5, 7],
@@ -28,7 +29,8 @@
 			"faces": {
 				"east": {"uv": [0, 0, 16, 5], "texture": "#torch"},
 				"west": {"uv": [0, 0, 16, 5], "texture": "#torch"}
-			}
+			},
+			"light_emission":10
 		},
 		{
 			"from": [2.5, 12.5, 8],
@@ -38,7 +40,8 @@
 			"faces": {
 				"north": {"uv": [0, 0, 16, 4], "texture": "#torch"},
 				"south": {"uv": [0, 0, 16, 4], "texture": "#torch"}
-			}
+			},
+			"light_emission":10
 		}
 	],
 	"gui_light": "front",

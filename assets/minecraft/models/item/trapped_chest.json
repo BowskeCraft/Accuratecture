@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/parents/bordered_cube",
+	"parent":"minecraft:item/chest",
 	"textures": {
 		"chest": "minecraft:entity/chest/trapped",
 		"border": "minecraft:block/border_trapped",

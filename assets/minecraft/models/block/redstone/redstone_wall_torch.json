@@ -19,7 +19,8 @@
 				"west": {"uv": [4, 6, 12, 16], "texture": "#torch"},
 				"up": {"uv": [4, 2, 12, 4], "texture": "#torch"},
 				"down": {"uv": [4, 14, 12, 16], "texture": "#torch"}
-			}
+			},
+			"light_emission":7
 		},
 		{
 			"from": [-1, 13.5, 6],
@@ -33,7 +34,8 @@
 				"west": {"uv": [0, 6, 16, 8], "texture": "#torch"},
 				"up": {"uv": [0, 6, 16, 8], "rotation": 90, "texture": "#torch"},
 				"down": {"uv": [0, 6, 16, 8], "rotation": 90, "texture": "#torch"}
-			}
+			},
+			"light_emission":7
 		},
 		{
 			"from": [-2, 13.5, 7],
@@ -47,7 +49,8 @@
 				"west": {"uv": [4, 0, 12, 2], "texture": "#torch"},
 				"up": {"uv": [0, 6, 16, 8], "texture": "#torch"},
 				"down": {"uv": [0, 6, 16, 8], "texture": "#torch"}
-			}
+			},
+			"light_emission":7
 		},
 		{
 			"from": [-1, 14.5, 7],
@@ -60,7 +63,8 @@
 				"south": {"uv": [4, 5, 12, 6], "texture": "#torch"},
 				"west": {"uv": [4, 5, 12, 6], "texture": "#torch"},
 				"down": {"uv": [4, 0, 12, 2], "texture": "#torch"}
-			}
+			},
+			"light_emission":7
 		}
 	]
 }

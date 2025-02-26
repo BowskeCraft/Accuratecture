@@ -1,8 +1,10 @@
 {
     "sources": [
         {
-            "type": "single",
-            "resource": "minecraft:entity/chest/trapped"
+            "type": "filter",
+            "pattern": {
+                "namespace": "minecraft:entity/chest/trapped"
+            }
         },
         {
             "type": "filter",
