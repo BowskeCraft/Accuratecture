@@ -1,12 +1,12 @@
 {
-	"minecraft_version": "Java edition 1.20.1 ~ 1.21.4",
+	"minecraft_version": "Java edition 1.20.1 ~ 1.21.5",
 	"pack_name": "Accuratecture",
 	"pack_version": "release_3.2.0",
 	"pack": {
 		"pack_format": 15,
 		"supported_formats": {
 			"min_inclusive": 12,
-			"max_inclusive": 46
+			"max_inclusive": 55
 		},
 		"description": [
 			{
