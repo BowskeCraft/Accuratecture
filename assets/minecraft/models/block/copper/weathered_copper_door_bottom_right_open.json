@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/copper/copper_door_bottom_right_open",
+	"textures": {
+		"knob": "block/door_knobs",
+		"bottom": "block/weathered_copper_door_bottom",
+		"top": "block/weathered_copper_door_top"
+	}
+}
