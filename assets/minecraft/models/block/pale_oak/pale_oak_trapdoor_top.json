@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_orientable_trapdoor_top",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/pale_oak_trapdoor",
+		"inner": "block/pale_oak_trapdoor",
+		"close": "block/pale_oak_trapdoor_close",
+		"top": "block/pale_oak_trapdoor_top"
+	},
+	"elements": [
+		{
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#top", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 0], "texture": "#close", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#close"}
+			}
+		},
+		{
+			"from": [0, 13.5, 0],
+			"to": [16, 15.5, 16],
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "texture": "#inner", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#inner"}
+			}
+		}
+	]
+}
