@@ -1,9 +1,9 @@
 # Accuratecture
 
-*version3.1.0*
+*version3.2.0*
 
-This is a minecraft resource pack for Minecraft:Java edition **1.20.1** ~ **1.20.6** .<br/>
-これはMinecraft:Java Edition のバージョン **1.20.1** ~ **1.20.6** 向けのリソースパックです。
+This is a minecraft resource pack for Minecraft:Java edition **1.20.1** ~ **1.21.5** .<br/>
+これはMinecraft:Java Edition のバージョン **1.20.1** ~ **1.21.5** 向けのリソースパックです。
 
 All of images in this pack are original.<br/>
 含まれる全ての画像ファイルはオリジナルです。
