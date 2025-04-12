@@ -33,10 +33,10 @@
 	"overlays": {
 		"entries": [
 			{
-				"directory": "44_and_more",
+				"directory": "overlay_35-and-more",
 				"formats": {
-					"min_inclusive": 44,
-					"max_inclusive": 46
+					"min_inclusive": 35,
+					"max_inclusive": 55
 				}
 			}
 		]
