@@ -48,7 +48,8 @@
 				"west": {"uv": [3, 2, 13, 13], "texture": "#beacon"},
 				"up": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
 				"down": {"uv": [3, 3, 13, 13], "texture": "#beacon"}
-			}
+			},
+			"light_emission":15
 		}
 	]
 }

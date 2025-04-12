@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_trapdoor_bottom",
+	"textures": {
+		"particle": "block/copper_trapdoor",
+		"texture": "block/copper_trapdoor",
+		"frame": "block/copper_trapdoor_back"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#frame"},
+				"east": {"uv": [16, 0, 13, 16], "texture": "#frame", "cullface": "east"},
+				"west": {"uv": [3, 0, 0, 16], "texture": "#frame", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 13], "rotation": 180, "texture": "#frame", "cullface": "up"},
+				"down": {"uv": [0, 16, 16, 13], "texture": "#frame", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3, 3, 13],
+			"to": [3, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [3, 16, 13, 13], "rotation": 270, "texture": "#frame"}
+			}
+		},
+		{
+			"from": [3, 13, 13],
+			"to": [13, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"down": {"uv": [3, 16, 13, 13], "texture": "#frame"}
+			}
+		},
+		{
+			"from": [13, 3, 13],
+			"to": [13, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"west": {"uv": [3, 16, 13, 13], "rotation": 90, "texture": "#frame"}
+			}
+		},
+		{
+			"from": [3, 3, 13],
+			"to": [13, 3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [3, 16, 13, 13], "rotation": 180, "texture": "#frame"}
+			}
+		},
+		{
+			"from": [0, 0, 15.5],
+			"to": [16, 16, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 16]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#texture"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "south"}
+			}
+		},
+		{
+			"from": [0, 0, 15.75],
+			"to": [16, 16, 15.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 16]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#texture"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "south"}
+			}
+		},
+		{
+			"from": [0, 0, 16],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 16]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#texture"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "south"}
+			}
+		}
+	]
+}

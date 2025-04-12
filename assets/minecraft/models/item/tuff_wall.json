@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/parents/wall_column_inventory",
+	"textures": {
+		"side": "block/tuff",
+		"top": "#side",
+		"bottom": "#side",
+		"pillar": "block/tuff_pillar"
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/enchanting_table/enchanting_table"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/enchanting_table/enchanting_table_book"
+      }
+    ]
+  }
+}

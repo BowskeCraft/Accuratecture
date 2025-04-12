@@ -12,13 +12,14 @@
 			"shade": false,
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [0, 3.5, 8]},
 			"faces": {
-				"north": {"uv": [0, 6, 16, 16], "texture": "#torch"},
-				"east": {"uv": [0, 6, 16, 16], "texture": "#torch"},
-				"south": {"uv": [0, 6, 16, 16], "texture": "#torch"},
-				"west": {"uv": [0, 6, 16, 16], "texture": "#torch"},
-				"up": {"uv": [0, 4, 16, 6], "texture": "#torch"},
-				"down": {"uv": [0, 14, 16, 16], "texture": "#torch"}
-			}
+				"north": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"east": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"south": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"west": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"up": {"uv": [7, 4, 9, 6], "texture": "#torch"},
+				"down": {"uv": [7, 14, 9, 16], "texture": "#torch"}
+			},
+			"light_emission":10
 		},
 		{
 			"from": [4, 11.5, 7],
@@ -26,9 +27,10 @@
 			"shade": false,
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 12.5, 8]},
 			"faces": {
-				"east": {"uv": [0, 0, 16, 5], "texture": "#torch"},
-				"west": {"uv": [0, 0, 16, 5], "texture": "#torch"}
-			}
+				"east": {"uv": [7, 0, 9, 5], "texture": "#torch"},
+				"west": {"uv": [7, 0, 9, 5], "texture": "#torch"}
+			},
+			"light_emission":10
 		},
 		{
 			"from": [2.5, 12.5, 8],
@@ -36,9 +38,10 @@
 			"shade": false,
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 12.5, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 4], "texture": "#torch"},
-				"south": {"uv": [0, 0, 16, 4], "texture": "#torch"}
-			}
+				"north": {"uv": [7, 0, 9, 4], "texture": "#torch"},
+				"south": {"uv": [7, 0, 9, 4], "texture": "#torch"}
+			},
+			"light_emission":10
 		}
 	],
 	"gui_light": "front",

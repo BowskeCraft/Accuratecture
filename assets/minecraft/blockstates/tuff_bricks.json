@@ -1,0 +1,10 @@
+{
+    "variants":{
+        "":[
+            {"model":"minecraft:block/tuff/tuff_bricks_0"},
+            {"model":"minecraft:block/tuff/tuff_bricks_1"},
+            {"model":"minecraft:block/tuff/tuff_bricks_2"},
+            {"model":"minecraft:block/tuff/tuff_bricks_3"}
+        ]
+    }
+}

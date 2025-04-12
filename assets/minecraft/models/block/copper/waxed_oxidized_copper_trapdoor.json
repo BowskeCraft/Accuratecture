@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/copper/waxed_copper_trapdoor",
+	"textures": {
+		"particle": "block/oxidized_copper_trapdoor",
+		"texture": "block/oxidized_copper_trapdoor",
+		"frame": "block/oxidized_copper_trapdoor_back"
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/door_bottom_right_open",
+	"textures": {
+		"knob": "block/door_knobs",
+		"bottom": "block/copper_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 0, 1.5]},
+			"faces": {
+				"north": {"uv": [3, 0, 0, 16], "texture": "#bottom", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [16, 0, 13, 16], "texture": "#bottom", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"down": {"uv": [0, 16, 16, 13], "rotation": 90, "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [-0.5, 10, 10],
+			"to": [3.5, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 0, 1.5]},
+			"faces": {
+				"east": {"uv": [11, 11, 15, 16], "texture": "#knob"},
+				"west": {"uv": [11, 11, 15, 16], "texture": "#knob", "cullface": "west"}
+			}
+		},
+		{
+			"from": [-0.25, 10, 10],
+			"to": [3.25, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 0, 1.5]},
+			"faces": {
+				"east": {"uv": [11, 11, 15, 16], "texture": "#knob"},
+				"west": {"uv": [11, 11, 15, 16], "texture": "#knob", "cullface": "west"}
+			}
+		},
+		{
+			"from": [-0.75, 15, 11],
+			"to": [3.75, 17, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 0, 1.5]},
+			"faces": {
+				"north": {"uv": [14, 9, 12, 11], "texture": "#knob", "cullface": "west"},
+				"east": {"uv": [12, 9, 14, 11], "texture": "#knob"},
+				"south": {"uv": [14, 9, 12, 11], "texture": "#knob", "cullface": "west"},
+				"west": {"uv": [12, 9, 14, 11], "texture": "#knob", "cullface": "west"},
+				"up": {"uv": [12, 10, 14, 8], "texture": "#knob", "cullface": "west"},
+				"down": {"uv": [12, 10, 14, 11], "texture": "#knob", "cullface": "west"}
+			}
+		}
+	]
+}

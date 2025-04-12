@@ -1,0 +1,105 @@
+{
+  "multipart": [
+     {
+    "apply":{
+      "model":"minecraft:block/tuff/tuff_brick_wall_post"
+       },
+    "when" : {
+      "up":"true"
+       }
+     },
+     {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_post_low"
+        },
+        "when": {
+          "north":"low","south":"low","east":"low","west":"low","up":"false"
+        }
+     },
+     {
+      "apply": {
+        "model": "minecraft:block/tuff/tuff_brick_wall_post"
+      },
+      "when": {
+        "north":"tall","south":"tall","east":"tall","west":"tall","up":"false"
+      }
+     },
+      {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_ns",
+          "uvlock": true
+        },
+        "when": {
+          "north": "low"
+        }
+      },
+      {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_ns",
+          "uvlock": true,
+          "y": 180
+        },
+        "when": {
+          "south": "low"
+        }
+      },
+      {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_ew",
+          "uvlock": true
+        },
+        "when": {
+          "east": "low"
+        }
+      },
+      {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_ew",
+          "uvlock": true,
+          "y": 180
+        },
+        "when": {
+          "west": "low"
+        }
+      },
+      {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_ns_tall",
+          "uvlock": true
+        },
+        "when": {
+          "north": "tall"
+        }
+      },
+      {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_ns_tall",
+          "uvlock": true,
+          "y": 180
+        },
+        "when": {
+          "south": "tall"
+        }
+      },
+      {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_ew_tall",
+          "uvlock": true,
+          "y":0
+        },
+        "when": {
+          "east": "tall"
+        }
+      },
+      {
+        "apply": {
+          "model": "minecraft:block/tuff/tuff_brick_wall_ew_tall",
+          "uvlock": true,
+          "y": 180
+        },
+        "when": {
+          "west": "tall"
+        }
+      }
+  ]
+}

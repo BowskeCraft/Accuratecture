@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "half=bottom,open=false": {
+      "model": "minecraft:block/copper/exposed_copper_trapdoor_bottom"
+    },
+    "half=top,open=false": {
+      "model": "minecraft:block/copper/exposed_copper_trapdoor_top"
+    },
+    "facing=east,open=true": {
+      "model": "minecraft:block/copper/exposed_copper_trapdoor_open",
+      "y": 90
+    },
+    "facing=north,open=true": {
+      "model": "minecraft:block/copper/exposed_copper_trapdoor_open",
+      "y": 0
+    },
+    "facing=south,open=true": {
+      "model": "minecraft:block/copper/exposed_copper_trapdoor_open",
+      "y": 180
+    },
+    "facing=west,open=true": {
+      "model": "minecraft:block/copper/exposed_copper_trapdoor_open",
+      "y": 270
+    }
+  }
+}

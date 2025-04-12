@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_stairs_til_nw",
+	"textures": {
+		"ns": "block/tuff_bricks_ns",
+		"ew": "block/tuff_bricks_ew",
+		"particle": "block/tuff_bricks_top_1",
+		"top_1": "block/tuff_bricks_top_1",
+		"top_2": "block/tuff_bricks_top_2"
+	}
+}
