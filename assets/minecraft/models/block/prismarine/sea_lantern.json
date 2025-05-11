@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/parents/cube_all_glowing",
     "textures": {
-      "all": "minecraft:block/redstone_lamp_on"
+        "all":"minecraft:block/sea_lantern"
     }
-  }
+}

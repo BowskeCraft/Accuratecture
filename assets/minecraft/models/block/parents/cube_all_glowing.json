@@ -2,7 +2,7 @@
     "parent":"minecraft:block/cube_all",
     "ambientocclusion": false,
     "gui_light": "front",
-    "elemnets":[
+    "elements":[
         {
             "from":[0,0,0],
             "to":[16,16,16],
@@ -14,7 +14,8 @@
 				"west": {"texture": "#all","cullface":"west"},
 				"up": {"texture": "#all","cullface":"up"},
 				"down": {"texture": "#all","cullface":"down"}
-			}
+			},
+			"light_emission":15
         }
     ]
 }
