@@ -1,0 +1,10 @@
+{
+    "parent":"minecraft:block/parents/cube_bricks",
+    "textures":{
+        "ns":"minecraft:block/resin_bricks_ns",
+        "ew":"minecraft:block/resin_bricks_ew",
+        "top":"minecraft:block/resin_bricks_top",
+        "d":"#top",
+        "particle": "#ns"
+    }
+}

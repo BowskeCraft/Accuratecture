@@ -1,0 +1,25 @@
+{
+    "parent":"minecraft:block/block",
+    "textures":{
+        "ns":"minecraft:block/resin_bricks_ns",
+        "ew":"minecraft:block/resin_bricks_ew",
+        "top":"minecraft:block/resin_bricks_top",
+        "particle": "#ns"
+    },
+    "elements": [
+        {
+            "from": [0,8,0],
+            "to":[16,16,16],
+            "light_emission": 1,
+            "faces": {
+                "north": {"texture": "#ns","cullface": "north"},
+                "south":{"texture": "#ns","cullface": "south"},
+                "east":{"texture": "#ew","cullface": "east"},
+                "west":{"texture": "#ew","cullface": "west"},
+                "up":{"texture": "#top","cullface": "up"},
+                "down":{"texture":"#top"}
+            }
+        }
+    ],
+    "gui_light":"front"
+}
