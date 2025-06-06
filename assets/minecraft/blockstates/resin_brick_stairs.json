@@ -6,14 +6,12 @@
             "y":0
         },
         "half=bottom,facing=south,shape=straight":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bst_n",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bst_s",
+            "y":0
         },
         "half=bottom,facing=west,shape=straight":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bst_e",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bst_w",
+            "y":0
         },
         "half=bottom,facing=east,shape=straight":{
             "model":"minecraft:block/resin/resin_brick_stairs_bst_e",
@@ -30,24 +28,20 @@
             "y":0
         },
         "half=bottom,facing=west,shape=inner_left":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bil_ne",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bil_sw",
+            "y":0
         },
         "half=bottom,facing=south,shape=inner_right":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bil_ne",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bil_sw",
+            "y":0
         },
         "half=bottom,facing=south,shape=inner_left":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bir_nw",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bir_se",
+            "y":0
         },
         "half=bottom,facing=east,shape=inner_right":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bir_nw",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bir_se",
+            "y":0
         },
         "half=bottom,facing=east,shape=inner_left":{
             "model":"minecraft:block/resin/resin_brick_stairs_bil_ne",
@@ -68,24 +62,20 @@
             "y":0
         },
         "half=bottom,facing=west,shape=outer_left":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bol_ne",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bol_sw",
+            "y":0
         },
         "half=bottom,facing=south,shape=outer_right":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bol_ne",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bol_sw",
+            "y":0
         },
         "half=bottom,facing=south,shape=outer_left":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bor_nw",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bor_se",
+            "y":0
         },
         "half=bottom,facing=east,shape=outer_right":{
-            "model":"minecraft:block/resin/resin_brick_stairs_bor_nw",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_bor_se",
+            "y":0
         },
         "half=bottom,facing=east,shape=outer_left":{
             "model":"minecraft:block/resin/resin_brick_stairs_bol_ne",
@@ -102,14 +92,12 @@
             "y":0
         },
         "half=top,facing=south,shape=straight":{
-            "model":"minecraft:block/resin/resin_brick_stairs_tst_n",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_tst_s",
+            "y":0
         },
         "half=top,facing=west,shape=straight":{
-            "model":"minecraft:block/resin/resin_brick_stairs_tst_e",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_tst_w",
+            "y":0
         },
         "half=top,facing=east,shape=straight":{
             "model":"minecraft:block/resin/resin_brick_stairs_tst_e",
@@ -126,24 +114,20 @@
             "y":0
         },
         "half=top,facing=west,shape=inner_left":{
-            "model":"minecraft:block/resin/resin_brick_stairs_til_ne",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_til_sw",
+            "y":0
         },
         "half=top,facing=south,shape=inner_right":{
-            "model":"minecraft:block/resin/resin_brick_stairs_til_ne",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_til_sw",
+            "y":0
         },
         "half=top,facing=south,shape=inner_left":{
-            "model":"minecraft:block/resin/resin_brick_stairs_tir_nw",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_tir_se",
+            "y":0
         },
         "half=top,facing=east,shape=inner_right":{
-            "model":"minecraft:block/resin/resin_brick_stairs_tir_nw",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_tir_se",
+            "y":0
         },
         "half=top,facing=east,shape=inner_left":{
             "model":"minecraft:block/resin/resin_brick_stairs_til_ne",
@@ -164,24 +148,20 @@
             "y":0
         },
         "half=top,facing=west,shape=outer_left":{
-            "model":"minecraft:block/resin/resin_brick_stairs_tol_ne",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_tol_sw",
+            "y":0
         },
         "half=top,facing=south,shape=outer_right":{
-            "model":"minecraft:block/resin/resin_brick_stairs_tol_ne",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_tol_sw",
+            "y":0
         },
         "half=top,facing=south,shape=outer_left":{
-            "model":"minecraft:block/resin/resin_brick_stairs_tor_nw",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_tor_se",
+            "y":0
         },
         "half=top,facing=east,shape=outer_right":{
-            "model":"minecraft:block/resin/resin_brick_stairs_tor_nw",
-            "y":180,
-            "uvlock": true
+            "model":"minecraft:block/resin/resin_brick_stairs_tor_se",
+            "y":0
         },
         "half=top,facing=east,shape=outer_left":{
             "model":"minecraft:block/resin/resin_brick_stairs_tol_ne",
