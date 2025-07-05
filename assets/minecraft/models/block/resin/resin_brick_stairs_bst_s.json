@@ -29,7 +29,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 8], "texture": "#ns"},
-				"east": {"uv": [0, 0, 8, 8], "texture": "#ew", "cullface": "west"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#ew", "cullface": "east"},
 				"south": {"uv": [0, 0, 16, 8], "texture": "#ns", "cullface": "south"},
 				"west": {"uv": [8, 0, 16, 8], "texture": "#ew", "cullface": "west"},
 				"up": {"uv": [0, 0, 16, 8], "texture": "#top_ns", "cullface": "up"}
