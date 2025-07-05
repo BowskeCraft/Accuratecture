@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/resin_bricks_wall",
+		"wall": "block/resin_bricks_wall",
+		"ew": "block/resin_bricks_ew",
+		"ns": "block/resin_bricks_ns"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#ns"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#ew"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#ns"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#ew"}
+			},
+            "light_emission": 1
+		},
+		{
+			"from": [3.99, -0.25, 3.99],
+			"to": [12.01, 4, 12.01],
+			"faces": {
+				"north": {"uv": [4, 12, 12.02, 16], "texture": "#ew", "cullface": "down"},
+				"east": {"uv": [4, 12, 12, 16], "texture": "#ew", "cullface": "down"},
+				"south": {"uv": [4, 12, 12.02, 16], "texture": "#ew", "cullface": "down"},
+				"west": {"uv": [4, 12, 12, 16], "texture": "#ew", "cullface": "down"},
+				"down": {"uv": [0, 0, 8.02, 8.02], "texture": "#wall", "cullface": "down"}
+			},
+            "light_emission": 1
+		},
+		{
+			"from": [3.99, 12, 3.99],
+			"to": [12.01, 16.25, 12.01],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 4], "texture": "#ns", "cullface": "up"},
+				"east": {"uv": [4, 0, 12.02, 4], "texture": "#ns", "cullface": "up"},
+				"south": {"uv": [4, 0, 12, 4], "texture": "#ns", "cullface": "up"},
+				"west": {"uv": [4, 0, 12.02, 4], "texture": "#ns", "cullface": "up"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#wall", "cullface": "up"}
+			},
+            "light_emission": 1
+		}
+	]
+}

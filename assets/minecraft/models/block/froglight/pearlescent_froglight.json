@@ -1,0 +1,7 @@
+{
+    "parent": "block/parents/cube_column_glowing",
+    "textures": {
+        "side":"block/pearlescent_froglight_side",
+        "end": "block/pearlescent_froglight_top"
+    }
+}

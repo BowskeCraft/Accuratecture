@@ -1,0 +1,6 @@
+{
+    "parent":"block/parents/cube_all_glowing",
+    "textures": {
+        "all": "minecraft:block/glowstone"
+    }
+}

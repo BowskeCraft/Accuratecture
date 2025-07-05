@@ -1,0 +1,78 @@
+{
+    "multipart": [
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_post"
+            },
+            "when":{
+                "up":"true"
+            }
+        },
+        
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_low_n"
+            },
+            "when": {
+                "north":"low"
+            }
+        },
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_low_s"
+            },
+            "when": {
+                "south":"low"
+            }
+        },
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_low_e"
+            },
+            "when": {
+                "east":"low"
+            }
+        },
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_low_w"
+            },
+            "when": {
+                "west":"low"
+            }
+        },
+
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_tall_n"
+            },
+            "when": {
+                "north":"tall"
+            }
+        },
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_tall_s"
+            },
+            "when": {
+                "south":"tall"
+            }
+        },
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_tall_e"
+            },
+            "when": {
+                "east":"tall"
+            }
+        },
+        {
+            "apply": {
+                "model": "minecraft:block/resin/resin_brick_wall_tall_w"
+            },
+            "when": {
+                "west":"tall"
+            }
+        }
+    ]
+}

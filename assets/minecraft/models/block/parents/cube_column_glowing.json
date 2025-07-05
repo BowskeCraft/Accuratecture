@@ -1,0 +1,21 @@
+{
+    "parent":"minecraft:block/cube_column",
+    "ambientocclusion": false,
+    "gui_light": "front",
+    "elements":[
+        {
+            "from":[0,0,0],
+            "to":[16,16,16],
+            "shade":false,
+            "faces": {
+				"north": {"texture": "#side", "cullface": "north"},
+				"east": {"texture": "#side","cullface":"east"},
+				"south": {"texture": "#side","cullface":"south"},
+				"west": {"texture": "#side","cullface":"west"},
+				"up": {"texture": "#end","cullface":"up"},
+				"down": {"texture": "#end","cullface":"down"}
+			},
+			"light_emission":15
+        }
+    ]
+}
