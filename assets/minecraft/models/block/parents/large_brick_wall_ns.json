@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/parents/wall_ns_tall",
-	"textures":{
-		"particle":"#top_wall"
+	"textures": {
+		"particle": "#top_wall"
 	},
 	"elements": [
 		{
@@ -12,7 +12,7 @@
 				"north": {"uv": [1, 8, 7, 16], "texture": "#ns", "cullface": "north"},
 				"east": {"uv": [8, 8, 16, 16], "texture": "#ew"},
 				"west": {"uv": [0, 8, 8, 16], "texture": "#ew"},
-				"down": {"uv": [0, 1, 8, 7], "rotation": 90, "texture": "#top_wall", "cullface": "down"}
+				"down": {"uv": [0, 1, 8, 7], "rotation": 270, "texture": "#top_wall", "cullface": "down"}
 			}
 		},
 		{
@@ -22,7 +22,7 @@
 				"north": {"uv": [9, 2, 16, 8], "texture": "#ns"},
 				"east": {"uv": [8, 2, 16, 8], "texture": "#ew"},
 				"west": {"uv": [0, 2, 8, 8], "texture": "#ew"},
-				"up": {"uv": [0, 0, 8, 8], "rotation": 90, "texture": "#top_wall"},
+				"up": {"uv": [0, 0, 8, 8], "rotation": 270, "texture": "#top_wall"},
 				"down": {"uv": [0, 0, 8, 8], "texture": "#top_wall"}
 			}
 		}
