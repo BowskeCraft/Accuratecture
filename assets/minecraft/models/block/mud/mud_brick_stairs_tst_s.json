@@ -2,9 +2,10 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/stairs",
 	"textures": {
+		"particle": "block/mud_bricks",
 		"side": "block/mud_bricks",
 		"top": "block/mud_bricks_top",
-		"bottom_horizontal": "block/mud_bricks_bottom_horizontal"
+		"bottom": "block/mud_bricks_bottom"
 	},
 	"elements": [
 		{
@@ -29,7 +30,7 @@
 				"east": {"uv": [0, 8, 8, 16], "texture": "#side", "cullface": "east"},
 				"south": {"uv": [0, 8, 16, 16], "texture": "#side", "cullface": "south"},
 				"west": {"uv": [8, 8, 16, 16], "texture": "#side", "cullface": "west"},
-				"down": {"uv": [0, 0, 16, 8], "texture": "#bottom_horizontal", "cullface": "down"}
+				"down": {"uv": [0, 4, 16, 12], "texture": "#bottom", "cullface": "down"}
 			}
 		}
 	]

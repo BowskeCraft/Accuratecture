@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:block/stairs",
+	"parent": "minecraft:block/outer_stairs",
 	"textures": {
 		"side": "block/mud_bricks",
 		"top": "block/mud_bricks_top",
-		"bottom_vertical": "block/mud_bricks_bottom_vertical"
+		"bottom_outer": "block/mud_bricks_bottom_outer"
 	},
 	"elements": [
 		{
@@ -21,15 +21,15 @@
 			}
 		},
 		{
-			"from": [8, 0, 0],
+			"from": [8, 0, 8],
 			"to": [16, 8, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 0]},
 			"faces": {
-				"north": {"uv": [0, 8, 8, 16], "texture": "#side", "cullface": "north"},
-				"east": {"uv": [0, 8, 16, 16], "texture": "#side", "cullface": "east"},
+				"north": {"uv": [0, 8, 8, 16], "texture": "#side"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#side", "cullface": "east"},
 				"south": {"uv": [8, 8, 16, 16], "texture": "#side", "cullface": "south"},
-				"west": {"uv": [0, 8, 16, 16], "texture": "#side"},
-				"down": {"uv": [8, 0, 16, 16], "texture": "#bottom_vertical", "cullface": "down"}
+				"west": {"uv": [8, 8, 16, 16], "texture": "#side"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#bottom_outer", "cullface": "down"}
 			}
 		}
 	]

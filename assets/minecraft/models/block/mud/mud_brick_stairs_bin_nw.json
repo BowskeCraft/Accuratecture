@@ -5,7 +5,6 @@
 		"particle": "block/mud_bricks",
 		"side": "block/mud_bricks",
 		"top": "block/mud_bricks_top",
-		"bottom": "block/mud_bricks_bottom",
 		"outer": "block/mud_bricks_bottom_outer"
 	},
 	"elements": [
@@ -23,7 +22,7 @@
 			"faces": {
 				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "down"}
 			}
 		},
 		{

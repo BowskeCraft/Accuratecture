@@ -1,52 +1,52 @@
 {
     "variants": {
-      "facing=east,half=bottom,shape=inner_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
-        "uvlock": true,
-        "y": 270
-      },
-      "facing=east,half=bottom,shape=inner_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
-        "uvlock": true
-      },
-      "facing=east,half=bottom,shape=outer_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bou_ne",
-        "uvlock": true,
-        "y": 180
-      },
-      "facing=east,half=bottom,shape=outer_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bou_nw",
-        "uvlock": true
-      },
       "facing=east,half=bottom,shape=straight": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bst_ew",
-        "uvlock": true
-      },
-      "facing=east,half=top,shape=inner_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tin_ne",
-        "uvlock": true,
-        "y":180
-      },
-      "facing=east,half=top,shape=inner_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tin_nw",
-        "uvlock": true,
-        "y":0
-      },
-      "facing=east,half=top,shape=outer_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
-        "uvlock": true,
-        "y": 270
-      },
-      "facing=east,half=top,shape=outer_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
+        "model": "minecraft:block/mud/mud_brick_stairs_bst_e",
         "uvlock": true,
         "y": 0
       },
-      "facing=east,half=top,shape=straight": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tst_ew",
-        "uvlock": true
+      "facing=north,half=bottom,shape=straight": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bst_n",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=south,half=bottom,shape=straight": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bst_s",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=west,half=bottom,shape=straight": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bst_w",
+        "uvlock": true,
+        "y": 0
+      },
+
+      "facing=east,half=bottom,shape=inner_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=south,half=bottom,shape=inner_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=south,half=bottom,shape=inner_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
+        "uvlock": true,
+        "y": 90
+      },
+      "facing=west,half=bottom,shape=inner_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
+        "uvlock": true,
+        "y": 90
       },
       "facing=north,half=bottom,shape=inner_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
+        "uvlock": true,
+        "y": 180
+      },
+      "facing=west,half=bottom,shape=inner_right": {
         "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
         "uvlock": true,
         "y": 180
@@ -56,142 +56,156 @@
         "uvlock": true,
         "y": 270
       },
-      "facing=north,half=bottom,shape=outer_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bou_nw",
+      "facing=east,half=bottom,shape=inner_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
         "uvlock": true,
-        "y": 180
+        "y": 270
+      },
+
+      "facing=east,half=bottom,shape=outer_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bou_ne",
+        "uvlock": true,
+        "y": 0
       },
       "facing=north,half=bottom,shape=outer_right": {
         "model": "minecraft:block/mud/mud_brick_stairs_bou_ne",
         "uvlock": true,
-        "y": 180
+        "y": 0
       },
-      "facing=north,half=bottom,shape=straight": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bst_ns",
+      "facing=east,half=bottom,shape=outer_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bou_se",
         "uvlock": true,
-        "y": 180
-      },
-      "facing=north,half=top,shape=inner_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tin_nw",
-        "uvlock": true,
-        "y": 180
-      },
-      "facing=north,half=top,shape=inner_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tin_ne",
-        "uvlock": true,
-        "y":180
-      },
-      "facing=north,half=top,shape=outer_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
-        "uvlock": true,
-        "y": 180
-      },
-      "facing=north,half=top,shape=outer_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
-        "uvlock": true,
-        "y":270
-      },
-      "facing=north,half=top,shape=straight": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tst_ns",
-        "uvlock": true,
-        "y": 180
-      },
-      "facing=south,half=bottom,shape=inner_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
-        "uvlock": true
-      },
-      "facing=south,half=bottom,shape=inner_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
-        "uvlock": true,
-        "y": 90
+        "y": 0
       },
       "facing=south,half=bottom,shape=outer_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bou_se",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=north,half=bottom,shape=outer_left": {
         "model": "minecraft:block/mud/mud_brick_stairs_bou_nw",
-        "uvlock": true
-      },
-      "facing=south,half=bottom,shape=outer_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bou_ne",
-        "uvlock": true,
-        "y": 0
-      },
-      "facing=south,half=bottom,shape=straight": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bst_ns",
-        "uvlock": true,
-        "y": 0
-      },
-      "facing=south,half=top,shape=inner_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tin_nw",
-        "uvlock": true,
-        "y": 0
-      },
-      "facing=south,half=top,shape=inner_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tin_ne",
-        "uvlock": true,
-        "y":0
-      },
-      "facing=south,half=top,shape=outer_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
-        "uvlock": true,
-        "y": 0
-      },
-      "facing=south,half=top,shape=outer_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
-        "uvlock": true,
-        "y": 90
-      },
-      "facing=south,half=top,shape=straight": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tst_ns",
-        "uvlock": true
-      },
-      "facing=west,half=bottom,shape=inner_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
-        "uvlock": true,
-        "y": 90
-      },
-      "facing=west,half=bottom,shape=inner_right": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bin_nw",
-        "uvlock": true,
-        "y": 180
-      },
-      "facing=west,half=bottom,shape=outer_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bou_ne",
         "uvlock": true,
         "y": 0
       },
       "facing=west,half=bottom,shape=outer_right": {
         "model": "minecraft:block/mud/mud_brick_stairs_bou_nw",
         "uvlock": true,
-        "y": 180
+        "y": 0
       },
-      "facing=west,half=bottom,shape=straight": {
-        "model": "minecraft:block/mud/mud_brick_stairs_bst_ew",
+      "facing=south,half=bottom,shape=outer_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bou_sw",
         "uvlock": true,
-        "y": 180
+        "y": 0
       },
-      "facing=west,half=top,shape=inner_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tin_ne",
+      "facing=west,half=bottom,shape=outer_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_bou_sw",
+        "uvlock": true,
+        "y": 0
+      },
+
+
+      "facing=east,half=top,shape=straight": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tst_e",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=north,half=top,shape=straight": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tst_n",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=south,half=top,shape=straight": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tst_s",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=west,half=top,shape=straight": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tst_w",
+        "uvlock": true,
+        "y": 0
+      },
+
+      "facing=east,half=top,shape=inner_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tin_se",
         "uvlock": true,
         "y":0
+      },
+      "facing=south,half=top,shape=inner_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tin_se",
+        "uvlock": true,
+        "y": 0
       },
       "facing=west,half=top,shape=inner_right": {
         "model": "minecraft:block/mud/mud_brick_stairs_tin_nw",
         "uvlock": true,
-        "y": 180
+        "y": 0
+      },
+      "facing=north,half=top,shape=inner_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tin_nw",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=south,half=top,shape=inner_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tin_sw",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=west,half=top,shape=inner_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tin_sw",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=north,half=top,shape=inner_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tin_ne",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=east,half=top,shape=inner_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tin_ne",
+        "uvlock": true,
+        "y":0
+      },
+
+
+      "facing=south,half=top,shape=outer_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tou_se",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=east,half=top,shape=outer_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tou_se",
+        "uvlock": true,
+        "y": 0
+      },
+      "facing=south,half=top,shape=outer_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tou_sw",
+        "uvlock": true,
+        "y": 0
       },
       "facing=west,half=top,shape=outer_left": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
+        "model": "minecraft:block/mud/mud_brick_stairs_tou_sw",
         "uvlock": true,
-        "y": 90
+        "y": 0
       },
       "facing=west,half=top,shape=outer_right": {
         "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
         "uvlock": true,
-        "y": 180
+        "y": 0
       },
-      "facing=west,half=top,shape=straight": {
-        "model": "minecraft:block/mud/mud_brick_stairs_tst_ew",
+      "facing=north,half=top,shape=outer_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tou_nw",
         "uvlock": true,
-        "y": 180
+        "y": 0
+      },
+      "facing=east,half=top,shape=outer_left": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tou_ne",
+        "uvlock": true,
+        "y": 0
+      },      
+      "facing=north,half=top,shape=outer_right": {
+        "model": "minecraft:block/mud/mud_brick_stairs_tou_ne",
+        "uvlock": true,
+        "y": 0
       }
     }
   }
