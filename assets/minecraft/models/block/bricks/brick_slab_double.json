@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/parents/cube_column",
 	"textures": {
-		"particle": "block/bricks_top_diagonal",
-		"bottom": "block/bricks_top_diagonal",
+		"particle": "block/bricks_top_0",
+		"bottom": "block/bricks_top_0",
 		"top":"#bottom",
 		"ew": "block/bricks_ew_0",
 		"ns":"block/bricks_ns_0",
