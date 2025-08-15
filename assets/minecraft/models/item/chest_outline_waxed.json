@@ -1,0 +1,6 @@
+{
+	"parent": "block/parents/chest_outline",
+	"textures": {
+		"border": "minecraft:block/border_waxed"
+	}
+}

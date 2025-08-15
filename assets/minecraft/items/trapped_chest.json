@@ -34,7 +34,7 @@
       },
       {
         "type": "minecraft:model",
-        "model": "minecraft:item/trapped_chest_outline"
+        "model": "minecraft:item/chest_outline_trapped"
       }
     ]
   }
