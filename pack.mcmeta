@@ -1,13 +1,14 @@
 {
-	"minecraft_version": "Java edition 1.20.1 ~ 1.21.7",
-	"pack_name": "Accuratecture",
-	"pack_version": "release_3.2.1",
 	"pack": {
+		"name": "Accuratecture",
+		"version": "release 3.2.1",
 		"pack_format": 15,
 		"supported_formats": {
 			"min_inclusive": 12,
-			"max_inclusive": 64
+			"max_inclusive": 69
 		},
+		"min_format": 12,
+		"max_format": 69,
 		"description": [
 			{
 				"text": "Accuratecture ",
@@ -15,7 +16,7 @@
 				"bold": true
 			},
 			{
-				"text": "3.2.0",
+				"text": "3.2.0 ",
 				"color": "dark_gray",
 				"italic": true
 			},
@@ -25,7 +26,7 @@
 				"bold": true
 			},
 			{
-				"text": "\u03b2\u00f8\u026f\u0219\u006b\u0065's CraftRoom\n",
+				"text": "\u03b2\u00f8\u026f\u0219\u006b\u0065's CraftRoom",
 				"color": "#7E7664"
 			}
 		]
@@ -34,9 +35,11 @@
 		"entries": [
 			{
 				"directory": "overlay_35-and-more",
+				"min_format": 35,
+				"max_format": 69,
 				"formats": {
 					"min_inclusive": 35,
-					"max_inclusive": 64
+					"max_inclusive": 69
 				}
 			}
 		]
