@@ -1,0 +1,8 @@
+{
+    "sources":[
+        {
+            "type": "single",
+            "resource":"entity/enchanting_table_book"
+        }
+    ]
+}

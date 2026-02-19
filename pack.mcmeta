@@ -5,10 +5,10 @@
 		"pack_format": 15,
 		"supported_formats": {
 			"min_inclusive": 12,
-			"max_inclusive": 69
+			"max_inclusive": 81
 		},
 		"min_format": 12,
-		"max_format": 69,
+		"max_format": 81,
 		"description": [
 			{
 				"text": "Accuratecture ",
@@ -36,10 +36,19 @@
 			{
 				"directory": "overlay_35-and-more",
 				"min_format": 35,
-				"max_format": 69,
+				"max_format": 81,
 				"formats": {
 					"min_inclusive": 35,
-					"max_inclusive": 69
+					"max_inclusive": 81
+				}
+			},
+			{
+				"directory": "overlay_81-and-more",
+				"min_format": 81,
+				"max_format": 81,
+				"formats": {
+					"min_inclusive": 81,
+					"max_inclusive": 81
 				}
 			}
 		]
