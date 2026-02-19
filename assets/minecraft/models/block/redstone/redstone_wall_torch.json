@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/template_torch",
 	"ambientocclusion": false,
 	"textures": {
@@ -18,7 +17,7 @@
 				"south": {"uv": [7, 6, 9, 16], "texture": "#torch"},
 				"west": {"uv": [7, 6, 9, 16], "texture": "#torch"},
 				"up": {"uv": [7, 2, 9, 4], "texture": "#torch"},
-				"down": {"uv": [7, 17, 9, 16], "texture": "#torch"}
+				"down": {"uv": [7, 14, 9, 16], "texture": "#torch"}
 			},
 			"light_emission":7
 		},
