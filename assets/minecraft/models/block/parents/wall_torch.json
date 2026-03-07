@@ -34,12 +34,12 @@
 		},
 		{
 			"from": [1.5, 9.5, 8],
-			"to": [5.5, 17.5, 8],
+			"to": [5.5, 25.5, 8],
 			"shade": false,
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 12.5, 8]},
 			"faces": {
-				"north": {"uv": [10, 8, 14, 16], "texture": "#torch"},
-				"south": {"uv": [10, 8, 14, 16], "texture": "#torch"}
+				"north": {"uv": [10, 0, 14, 16], "texture": "#torch"},
+				"south": {"uv": [10, 0, 14, 16], "texture": "#torch"}
 			},
 			"light_emission":12
 		}
