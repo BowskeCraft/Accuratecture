@@ -1,10 +1,6 @@
 {
     "sources":[
         {
-            "type": "single",
-            "resource":"entity/enchanting_table_book"
-        },
-        {
             "type": "filter",
             "pattern": {
                 "path": ".*_(n|s)$"

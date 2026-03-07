@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/enchanting_table/enchanting_table"
+      },
+      {
+        "type": "minecraft:special",
+        "base":"block/enchanting_table/enchanting_table_book",
+        "model": {
+          "type": "book",
+          "open_angle": 67.5,
+          "page1": 0.1,
+          "page2": 0.9
+        }
+      }
+    ]
+  }
+}
