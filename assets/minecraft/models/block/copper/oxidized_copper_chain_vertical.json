@@ -1,0 +1,9 @@
+{
+    "parent": "block/parents/chain_vertical",
+	"textures": {
+		"particle": "block/oxidized_copper_chain",
+		"chain": "block/oxidized_copper_chain",
+		"end": "block/oxidized_copper_chain",
+		"ctm": "block/transparent"
+	}
+}

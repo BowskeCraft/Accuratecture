@@ -1,0 +1,9 @@
+{
+    "parent": "block/parents/chain_horizontal",
+	"textures": {
+		"particle": "block/weathered_copper_chain",
+		"chain": "block/weathered_copper_chain",
+		"end": "block/weathered_copper_chain",
+		"ctm": "block/transparent"
+	}
+}

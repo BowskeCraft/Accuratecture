@@ -1,0 +1,14 @@
+{
+    "variants": {
+      "axis=x": {
+        "model": "minecraft:block/copper/copper_chain_horizontal",
+        "y": 90
+      },
+      "axis=y": {
+        "model": "minecraft:block/copper/copper_chain_vertical"
+      },
+      "axis=z": {
+        "model": "minecraft:block/copper/copper_chain_horizontal"
+      }
+    }
+  }
