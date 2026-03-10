@@ -2,12 +2,12 @@
     "multipart": [
       {
         "apply": {
-          "model": "minecraft:block/iron/iron_bars_post"
+          "model": "minecraft:block/copper/oxidized_copper_bars_post"
         }
       },
       {
         "apply": {
-          "model": "minecraft:block/iron/iron_bars_side"
+          "model": "minecraft:block/copper/oxidized_copper_bars_side"
         },
         "when": {
           "north": "true"
@@ -15,7 +15,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/iron/iron_bars_side",
+          "model": "minecraft:block/copper/oxidized_copper_bars_side",
           "y": 90
         },
         "when": {
@@ -24,7 +24,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/iron/iron_bars_side",
+          "model": "minecraft:block/copper/oxidized_copper_bars_side",
           "y":180
         },
         "when": {
@@ -33,7 +33,7 @@
       },
       {
         "apply": {
-          "model": "minecraft:block/iron/iron_bars_side",
+          "model": "minecraft:block/copper/oxidized_copper_bars_side",
           "y": 270
         },
         "when": {

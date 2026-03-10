@@ -1,0 +1,7 @@
+{
+	"parent":"block/parents/metal_bars_side",
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "block/iron_bars"
+	}
+}

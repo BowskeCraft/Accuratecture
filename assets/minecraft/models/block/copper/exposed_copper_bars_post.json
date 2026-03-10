@@ -1,0 +1,7 @@
+{
+	"parent":"block/parents/metal_bars_post",
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "block/exposed_copper_bars"
+	}
+}
