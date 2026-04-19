@@ -1,0 +1,63 @@
+{
+	"parent": "block/template_bed",
+	"textures": {
+		"down": "block/bed_down",
+		"legs": "block/bed_legs",
+		"particle": "block/oak_planks"
+	},
+	"elements": [
+		{
+			"from": [0, 3, 0],
+			"to": [16, 9, 16],
+			"faces": {
+				"east": {"uv": [0, 7, 16, 13], "texture": "#east", "cullface": "east"},
+				"south": {"uv": [0, 7, 16, 13], "texture": "#south", "cullface": "south"},
+				"west": {"uv": [0, 7, 16, 13], "texture": "#west", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down"}
+			}
+		},
+		{
+			"from": [0, 0, 13],
+			"to": [3, 3, 16],
+			"faces": {
+				"north": {"uv": [13, 9, 16, 12], "texture": "#legs"},
+				"east": {"uv": [13, 6, 16, 9], "texture": "#legs"},
+				"south": {"uv": [13, 3, 16, 6], "texture": "#legs", "cullface": "south"},
+				"west": {"uv": [13, 0, 16, 3], "texture": "#legs", "cullface": "west"}
+			}
+		},
+		{
+			"from": [13, 0, 13],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [13, 6, 16, 9], "texture": "#legs"},
+				"east": {"uv": [13, 3, 16, 6], "texture": "#legs", "cullface": "east"},
+				"south": {"uv": [13, 0, 16, 3], "texture": "#legs", "cullface": "south"},
+				"west": {"uv": [13, 9, 16, 12], "texture": "#legs"}
+			}
+		},
+		{
+			"from": [13.025, -16, 13.025],
+			"to": [16.025, 0, 16.025],
+			"faces": {
+				"north": {"uv": [6, 0, 9, 16], "texture": "#legs", "cullface": "down"},
+				"east": {"uv": [3, 0, 6, 16], "texture": "#legs", "cullface": "down"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#legs", "cullface": "down"},
+				"west": {"uv": [9, 0, 12, 16], "texture": "#legs", "cullface": "down"},
+				"down": {"uv": [6, 13, 9, 16], "texture": "#east", "cullface": "down"}
+			}
+		},
+		{
+			"from": [-0.025, -16, 13.025],
+			"to": [2.975, 0, 16.025],
+			"faces": {
+				"north": {"uv": [9, 0, 12, 16], "texture": "#legs", "cullface": "down"},
+				"east": {"uv": [6, 0, 9, 16], "texture": "#legs", "cullface": "down"},
+				"south": {"uv": [3, 0, 6, 16], "texture": "#legs", "cullface": "down"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#legs", "cullface": "down"},
+				"down": {"uv": [6, 13, 9, 16], "texture": "#east", "cullface": "down"}
+			}
+		}
+	]
+}
