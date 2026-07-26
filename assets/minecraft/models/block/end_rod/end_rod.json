@@ -33,6 +33,7 @@
             "from": [ 7, 1, 7 ],
             "to": [ 9, 16, 9 ],
             "shade": false,
+			"shade_direction_override": "up",
             "faces": {
                 "up":    { "uv": [ 2, 0, 4, 2 ], "texture": "#end_rod", "cullface": "up" },
                 "north": { "uv": [ 0, 0, 2, 15 ], "texture": "#end_rod" },

@@ -5,10 +5,10 @@
 		"pack_format": 15,
 		"supported_formats": {
 			"min_inclusive": 12,
-			"max_inclusive": 86
+			"max_inclusive": 93
 		},
 		"min_format": 12,
-		"max_format": 86,
+		"max_format": 93,
 		"description": [
 			{
 				"text": "Accuratecture ",
