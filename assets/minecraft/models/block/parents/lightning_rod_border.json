@@ -1,0 +1,36 @@
+{
+	"parent": "minecraft:block/template_lightning_rod",
+	"ambientocclusion": false,
+    "gui_light": "front",
+	"textures": {
+		"border": "block/border_waxed",
+		"particle": "block/border_waxed"
+	},
+	"elements": [
+		{
+			"from": [6.5, 11.5, 6.5],
+			"to": [9.5, -0.5, 9.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.5, -0.5, 8.5]},
+			"faces": {
+				"north": {"uv": [6.5, 4, 9.5, 16], "texture": "#border"},
+				"east": {"uv": [6.5, 4, 9.5, 16], "texture": "#border"},
+				"south": {"uv": [6.5, 4, 9.5, 16], "texture": "#border"},
+				"west": {"uv": [6.5, 4, 9.5, 16], "texture": "#border"},
+				"up": {"uv": [6.5, 6.5, 9.5, 9.5], "texture": "#border"}
+			}
+		},
+		{
+			"from": [5.5, 16.5, 5.5],
+			"to": [10.5, 11.5, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 13.5, 6.5]},
+			"faces": {
+				"north": {"uv": [5.25, 5.25, 10.25, 10.25], "texture": "#border"},
+				"east": {"uv": [5.25, 5.25, 10.25, 10.25], "texture": "#border"},
+				"south": {"uv": [5.25, 5.25, 10.25, 10.25], "texture": "#border"},
+				"west": {"uv": [5.25, 5.25, 10.25, 10.25], "texture": "#border"},
+				"up": {"uv": [5.25, 5.25, 10.25, 10.25], "texture": "#border"},
+				"down": {"uv": [5.25, 5.25, 10.25, 10.25], "texture": "#border"}
+			}
+		}
+	]
+}

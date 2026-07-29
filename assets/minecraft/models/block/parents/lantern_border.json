@@ -1,0 +1,78 @@
+{
+	"parent": "minecraft:block/parents/lantern",
+    "gui_light": "front",
+	"textures": {
+		"particle": "block/border_waxed",
+		"borderr": "block/border_waxed"
+	},
+	"elements": [
+		{
+			"from": [4.5, 7.5, 4.5],
+			"to": [11.5, -0.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 8, 11, 16], "texture": "#borderr"},
+				"east": {"uv": [4, 8, 11, 16], "texture": "#borderr"},
+				"south": {"uv": [4, 8, 11, 16], "texture": "#borderr"},
+				"west": {"uv": [4, 8, 11, 16], "texture": "#borderr"},
+				"up": {"uv": [4, 5, 11, 12], "texture": "#borderr"}
+			}
+		},
+		{
+			"from": [4.5, 7.5, 4.5],
+			"to": [5.5, 7.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"down": {"uv": [4.5, 4.5, 5.5, 11.5], "texture": "#borderr"}
+			}
+		},
+		{
+			"from": [10.5, 7.5, 4.5],
+			"to": [11.5, 7.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"down": {"uv": [10.5, 4.5, 11.5, 11.5], "texture": "#borderr"}
+			}
+		},
+		{
+			"from": [5.5, 7.5, 10.5],
+			"to": [10.5, 7.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"down": {"uv": [5.5, 4.5, 10.5, 5.5], "texture": "#borderr"}
+			}
+		},
+		{
+			"from": [5.5, 7.5, 4.5],
+			"to": [10.5, 7.5, 5.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"down": {"uv": [5.5, 10.5, 10.5, 11.5], "texture": "#borderr"}
+			}
+		},
+		{
+			"from": [5.5, 9.5, 5.5],
+			"to": [10.5, 7.5, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 9.5, 5.5]},
+			"faces": {
+				"north": {"uv": [5.5, 6, 10.5, 8], "texture": "#borderr"},
+				"east": {"uv": [5.5, 6, 10.5, 8], "texture": "#borderr"},
+				"south": {"uv": [5.5, 6, 10.5, 8], "texture": "#borderr"},
+				"west": {"uv": [5.5, 6, 10.5, 8], "texture": "#borderr"},
+				"down": {"uv": [5.5, 5.5, 10.5, 10.5], "texture": "#borderr"}
+			}
+		},
+		{
+			"from": [6.5, 11.5, 6.5],
+			"to": [9.5, 9.5, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 11.5, 5.5]},
+			"faces": {
+				"north": {"uv": [5.5, 6, 10.5, 8], "texture": "#borderr"},
+				"east": {"uv": [5.5, 6, 10.5, 8], "texture": "#borderr"},
+				"south": {"uv": [5.5, 6, 10.5, 8], "texture": "#borderr"},
+				"west": {"uv": [5.5, 6, 10.5, 8], "texture": "#borderr"},
+				"down": {"uv": [5.5, 5.5, 10.5, 10.5], "texture": "#borderr"}
+			}
+		}
+	]
+}
