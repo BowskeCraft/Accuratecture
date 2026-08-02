@@ -1,7 +1,19 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "block/parents/chiseled_bookshelf_book_3_low",
+	"parent": "block/block",
 	"textures": {
-		"book": "block/chiseled_bookshelf_book_4"
-	}
+		"book": "block/chiseled_bookshelf_occupied"
+	},
+	"ambientocclusion":false,
+	"elements": [
+		{
+			"from": [11, 1, 0.5],
+			"to":   [15, 6, 6.5],
+			"shade_direction_override":"north",
+			"faces": {
+				"north": {"uv": [ 6, 10, 10, 15], "texture": "#book", "cullface":"north"},
+				"west":  {"uv": [ 9, 10, 10, 15], "texture": "#book", "cullface":"north"},
+				"up":    {"uv": [ 6, 10, 10, 11], "texture": "#book", "cullface":"north"}
+			}
+		}
+	]
 }
