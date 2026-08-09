@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/parents/slab_bricks",
+    "textures":{
+        "top":"minecraft:block/polished_sulfur",
+        "d":"minecraft:block/polished_sulfur",
+        "ns":"minecraft:block/polished_sulfur_slab",
+        "ew":"minecraft:block/polished_sulfur_slab"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent":"minecraft:block/parents/slab_bricks",
+    "textures":{
+        "top":"minecraft:block/polished_cinnabar",
+        "d":"minecraft:block/polished_cinnabar",
+        "ns":"minecraft:block/polished_cinnabar_slab",
+        "ew":"minecraft:block/polished_cinnabar_slab"
+    }
+}
