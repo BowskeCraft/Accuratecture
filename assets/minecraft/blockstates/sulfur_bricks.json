@@ -1,0 +1,10 @@
+{
+    "variants":{
+        "":[
+            {"model":"minecraft:block/sulfur/sulfur_bricks_0"},
+            {"model":"minecraft:block/sulfur/sulfur_bricks_1"},
+            {"model":"minecraft:block/sulfur/sulfur_bricks_2"},
+            {"model":"minecraft:block/sulfur/sulfur_bricks_3"}
+        ]
+    }
+}

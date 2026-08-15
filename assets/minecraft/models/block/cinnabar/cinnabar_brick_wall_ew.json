@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_wall_ew",
+	"textures": {
+		"ew": "block/cinnabar_bricks_ew",
+		"ns": "block/cinnabar_bricks_ns",
+		"top_wall": "block/cinnabar_bricks_top_wall",
+		"particle": "block/cinnabar_bricks_ew"
+	}
+}

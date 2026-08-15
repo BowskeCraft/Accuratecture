@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/parents/large_brick_wall_ns",
+	"textures": {
+		"particle": "block/sulfur_bricks_ew",
+		"ew": "block/sulfur_bricks_ew",
+		"ns": "block/sulfur_bricks_ns",
+		"top_wall": "block/sulfur_bricks_top_wall"
+	}
+}

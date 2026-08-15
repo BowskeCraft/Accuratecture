@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_wall_post",
+	"textures": {
+		"top_2": "block/cinnabar_bricks_ew",
+		"top_3": "block/cinnabar_bricks_ns",
+		"top_wall": "block/cinnabar_bricks_top_wall"
+	}
+}

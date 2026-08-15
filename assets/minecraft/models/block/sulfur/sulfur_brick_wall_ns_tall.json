@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/parents/wall_ns_tall",
+	"textures": {
+		"ew": "block/sulfur_bricks_ew",
+		"ns": "block/sulfur_bricks_ns",
+		"top": "block/sulfur_bricks_top_wall",
+		"particle": "block/sulfur_bricks_ew"
+	}
+}

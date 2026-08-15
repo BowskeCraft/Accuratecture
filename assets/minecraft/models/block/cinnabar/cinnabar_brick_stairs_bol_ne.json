@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/parents/large_brick_stairs_bol_ne",
+	"textures": {
+		"ns": "block/cinnabar_bricks_ns",
+		"ew": "block/cinnabar_bricks_ew",
+		"particle": "block/cinnabar_bricks_top_2",
+		"top_1": "block/cinnabar_bricks_top_1",
+		"top_2": "block/cinnabar_bricks_top_2"
+	}
+}

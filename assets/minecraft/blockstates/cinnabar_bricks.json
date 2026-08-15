@@ -1,0 +1,10 @@
+{
+    "variants":{
+        "":[
+            {"model":"minecraft:block/cinnabar/cinnabar_bricks_0"},
+            {"model":"minecraft:block/cinnabar/cinnabar_bricks_1"},
+            {"model":"minecraft:block/cinnabar/cinnabar_bricks_2"},
+            {"model":"minecraft:block/cinnabar/cinnabar_bricks_3"}
+        ]
+    }
+}

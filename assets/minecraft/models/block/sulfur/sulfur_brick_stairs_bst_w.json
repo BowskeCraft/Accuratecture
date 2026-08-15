@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/parents/large_brick_stairs_bst_w",
+	"textures": {
+		"ns": "block/sulfur_bricks_ns",
+		"ew": "block/sulfur_bricks_ew",
+		"particle": "block/sulfur_bricks_top_3",
+		"top_3": "block/sulfur_bricks_top_3"
+	}
+}

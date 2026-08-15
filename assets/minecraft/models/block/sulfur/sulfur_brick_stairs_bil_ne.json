@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/parents/large_brick_stairs_bil_ne",
+	"textures": {
+		"ns": "block/sulfur_bricks_ns",
+		"ew": "block/sulfur_bricks_ew",
+		"particle": "block/sulfur_bricks_top_1",
+		"top_1": "block/sulfur_bricks_top_1",
+		"top_2": "block/sulfur_bricks_top_2",
+		"top_3": "block/sulfur_bricks_top_3"
+	}
+}
