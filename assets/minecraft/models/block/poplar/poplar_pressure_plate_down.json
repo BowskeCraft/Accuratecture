@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/parents/pressure_plate_down",
+    "textures": {
+      "texture": "minecraft:block/poplar_pressure_plate"
+    }
+  }

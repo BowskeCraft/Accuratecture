@@ -1,0 +1,8 @@
+{
+    "variants":{
+        "":[
+            {"model":"minecraft:block/poplar/poplar_planks_0"},
+            {"model":"minecraft:block/poplar/poplar_planks_1"}
+        ]
+    }
+}
