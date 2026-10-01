@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/chain",
+  "textures": {
+    "layer0": "minecraft:item/exposed_copper_chain"
+  }
+}
