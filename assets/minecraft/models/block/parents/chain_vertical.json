@@ -2,11 +2,13 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/chain",
+	"ambientocclusion": false,
 	"elements": [
 		{
 			"from": [6.5, 0, 8],
 			"to": [9.5, 16, 8],
 			"shade": false,
+			"shade_direction_override":"up",
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [3, 0, 0, 16], "texture": "#chain"},
@@ -17,6 +19,7 @@
 			"from": [8, 0, 6.5],
 			"to": [8, 16, 9.5],
 			"shade": false,
+			"shade_direction_override":"up",
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"east": {"uv": [3, 0, 6, 16], "texture": "#chain"},
@@ -27,6 +30,7 @@
 			"from": [8.025, -8, 6.5],
 			"to": [7.975, 0, 9.5],
 			"shade": false,
+			"shade_direction_override":"up",
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, -8, 8]},
 			"faces": {
 				"east": {"uv": [3, 0, 6, 8], "texture": "#end", "cullface": "down"},
@@ -37,6 +41,7 @@
 			"from": [6.5, -4, 8.025],
 			"to": [9.5, 0, 7.975],
 			"shade": false,
+			"shade_direction_override":"up",
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, -8, 8]},
 			"faces": {
 				"north": {"uv": [3, 0, 0, 4], "texture": "#end", "cullface": "down"},
@@ -47,6 +52,7 @@
 			"from": [6.5, 16, 8.025],
 			"to": [9.5, 26, 7.975],
 			"shade": false,
+			"shade_direction_override":"up",
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 16, 8]},
 			"faces": {
 				"north": {"uv": [3, 6, 0, 16], "texture": "#end", "cullface": "up"},
@@ -57,6 +63,7 @@
 			"from": [8.025, 16, 6.5],
 			"to": [7.975, 24, 9.5],
 			"shade": false,
+			"shade_direction_override":"up",
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 16, 8]},
 			"faces": {
 				"east": {"uv": [3, 8, 6, 16], "texture": "#end", "cullface": "up"},
