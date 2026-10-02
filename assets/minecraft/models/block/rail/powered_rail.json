@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/parents/rail_flat",
 	"textures": {
 		"sleeper": "block/rail_sleeper_redstone",
@@ -11,6 +10,7 @@
 			"from": [12, 0.5, 0],
 			"to": [14, 1.5, 16],
 			"shade": false,
+			"shade_direction_override":"up",
 			"faces": {
 				"north": {"uv": [15, 4, 16, 6], "rotation": 90, "texture": "#rail", "cullface": "north"},
 				"east": {"uv": [0, 0, 16, 1], "texture": "#rail"},
@@ -24,6 +24,7 @@
 			"from": [2, 0.5, 0],
 			"to": [4, 1.5, 16],
 			"shade": false,
+			"shade_direction_override":"up",
 			"faces": {
 				"north": {"uv": [0, 4, 1, 6], "rotation": 270, "texture": "#rail", "cullface": "north"},
 				"east": {"uv": [0, 3, 16, 4], "texture": "#rail"},
@@ -37,6 +38,7 @@
 			"from": [1, 0, 1],
 			"to": [15, 0.075, 15],
 			"shade": false,
+			"shade_direction_override":"up",
 			"faces": {
 				"up": {"uv": [1, 1, 15, 15], "texture": "#sleeper"},
 				"down": {"uv": [1, 1, 15, 15], "texture": "#sleeper", "cullface": "down"}
@@ -46,6 +48,7 @@
 			"from": [1, 0.25, 1],
 			"to": [15, 0.25, 15],
 			"shade": false,
+			"shade_direction_override":"up",
 			"faces": {
 				"up": {"uv": [1, 1, 15, 15], "texture": "#sleeper"},
 				"down": {"uv": [1, 1, 15, 15], "texture": "#sleeper", "cullface": "down"}
@@ -55,6 +58,7 @@
 			"from": [1, 0.475, 1],
 			"to": [15, 0.5, 15],
 			"shade": false,
+			"shade_direction_override":"up",
 			"faces": {
 				"up": {"uv": [1, 1, 15, 15], "texture": "#sleeper"},
 				"down": {"uv": [1, 1, 15, 15], "texture": "#sleeper", "cullface": "down"}
